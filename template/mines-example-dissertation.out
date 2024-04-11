@@ -1,0 +1,48 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{toc.1}{Table of Contents}{}% 2
+\BOOKMARK [1][-]{section*.2}{List of Figures}{}% 3
+\BOOKMARK [1][-]{section*.3}{List of Tables}{}% 4
+\BOOKMARK [1][-]{section*.4}{List of Symbols}{}% 5
+\BOOKMARK [1][-]{section*.5}{List of Abbreviations}{}% 6
+\BOOKMARK [1][-]{section*.6}{Acknowledgments}{}% 7
+\BOOKMARK [1][-]{section*.7}{Dedication}{}% 8
+\BOOKMARK [1][-]{section*.8}{Introduction}{}% 9
+\BOOKMARK [1][-]{section*.9}{My first chapter with some good content}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{Level 1}{section*.9}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Level 2}{subsection.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.2}{Here is an example of placing a subsub-section right after the sub-section}{section*.9}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Here is the title of my subsub-section. I will be referencing the current chapter number}{subsection.2.2}% 14
+\BOOKMARK [1][-]{section*.10}{This is a long title to check the proper spacing in the Table of Contents and inverse pyramid on the chapter page. Lets see if it works properly. What if I add enough text so that there are like three or four lines here, does it change the way it looks.}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{A Figure}{section*.10}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Citing and referencing things}{section*.10}% 17
+\BOOKMARK [2][-]{subsection.3.3}{Here is a test of a really long sub-header title that should automatically follow the rules for set for the Temple Guidelines and check if it properly shows up in the table of content. }{section*.10}% 18
+\BOOKMARK [1][-]{section*.13}{Your Journal Paper Title Goes Here }{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Abstract}{section*.13}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Introduction}{section*.13}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Permissions}{section*.13}% 22
+\BOOKMARK [2][-]{subsection.4.4}{The next section of the paper}{section*.13}% 23
+\BOOKMARK [1][-]{section*.14}{This is the title of a paper included in a thesis}{}% 24
+\BOOKMARK [2][-]{subsection.5.1}{Abstract}{section*.14}% 25
+\BOOKMARK [2][-]{subsection.5.2}{Introduction}{section*.14}% 26
+\BOOKMARK [1][-]{section*.15}{Examples of Figures}{}% 27
+\BOOKMARK [2][-]{subsection.6.1}{Just a figure}{section*.15}% 28
+\BOOKMARK [2][-]{subsection.6.2}{Sub-figures}{section*.15}% 29
+\BOOKMARK [2][-]{subsection.6.3}{Landscape Figure}{section*.15}% 30
+\BOOKMARK [2][-]{subsection.6.4}{Here is an example that does not always work}{section*.15}% 31
+\BOOKMARK [1][-]{section*.23}{Examples of Tables}{}% 32
+\BOOKMARK [2][-]{subsection.7.1}{Just a Table}{section*.23}% 33
+\BOOKMARK [2][-]{subsection.7.2}{Big table check}{section*.23}% 34
+\BOOKMARK [2][-]{subsection.7.3}{Table That Spans Two Pages}{section*.23}% 35
+\BOOKMARK [2][-]{subsection.7.4}{Long portrait table that spans multiple pages}{section*.23}% 36
+\BOOKMARK [1][-]{section*.26}{Equations: simple and more complicated examples.}{}% 37
+\BOOKMARK [2][-]{subsection.8.1}{Equations}{section*.26}% 38
+\BOOKMARK [2][-]{subsection.8.2}{Long Equation on Two Lines}{section*.26}% 39
+\BOOKMARK [1][-]{section*.27}{Selected Bibliography}{}% 40
+\BOOKMARK [1][-]{section*.28}{Magical Encoding Awesomeness}{}% 41
+\BOOKMARK [2][-]{subsection.A.1}{Test Appendix Sub-Section}{section*.28}% 42
+\BOOKMARK [2][-]{subsection.A.2}{This subsection will follow on a new page that is portrait}{section*.28}% 43
+\BOOKMARK [1][-]{section*.30}{Special Coolness.}{}% 44
+\BOOKMARK [1][-]{section*.31}{Copyright Permissions}{}% 45
+\BOOKMARK [2][-]{subsection.C.1}{XKCD}{section*.31}% 46
+\BOOKMARK [2][-]{subsection.C.2}{Phdcomics}{section*.31}% 47
+\BOOKMARK [2][-]{subsection.C.3}{Journal Article 1}{section*.31}% 48

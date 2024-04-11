@@ -1,0 +1,477 @@
+\begin{thebibliography}{66}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Miller(2003{\natexlab{a}})]{11124/170545}
+Benjamin~Hopkins Miller.
+\newblock Smartbit: in-situ bit/rock interface monitoring device,
+  2003{\natexlab{a}}.
+\newblock URL \url{http://hdl.handle.net/11124/170545}.
+
+\bibitem[Selcuk(1981)]{11124/14359}
+Sakir Selcuk.
+\newblock Analysis of coefficient of rock strength and measurement of
+  percussive penetration rates and bit wear, 1981.
+\newblock URL \url{http://hdl.handle.net/11124/14359}.
+
+\bibitem[Gray(1952)]{11124/13192}
+Allen~D. Gray.
+\newblock New types of drill rounds for development openings, 1952.
+\newblock URL \url{http://hdl.handle.net/11124/13192}.
+
+\bibitem[Moore(1946)]{11124/16423}
+Augustus~L. Moore.
+\newblock Investigation of rock drill bits, an, 1946.
+\newblock URL \url{http://hdl.handle.net/11124/16423}.
+
+\bibitem[Singh(1948)]{11124/176345}
+Param~Jit Singh.
+\newblock Study of the development of rock drill bits with special reference to
+  the calumet and hecla copper company bits, a, 1948.
+\newblock URL \url{https://hdl.handle.net/11124/176345}.
+
+\bibitem[{Jobes} et~al.(2012){Jobes}, {Carr}, and {Ducarme}]{jobes12}
+C.~{Jobes}, J.~{Carr}, and J.~{Ducarme}.
+\newblock Evaluation of an advanced proximity detection system for continous
+  mining machines.
+\newblock \emph{International Journal of Applied Engineering Reseach},
+  7\penalty0 (6):\penalty0 649--671, 2012.
+
+\bibitem[Bartels et~al.(2009{\natexlab{a}})Bartels, Jobes, Lutz, and
+  Ducarme]{sanders81}
+J.~Bartels, Christopher Jobes, Tim Lutz, and J.~Ducarme.
+\newblock Evaluation of work positions used by continuous miner operators in
+  underground coal mines.
+\newblock volume~53, 10 2009{\natexlab{a}}.
+\newblock \doi{10.1518/107118109X12524444080792}.
+
+\bibitem[Jiang et~al.(2017)Jiang, Zhao, Wang, and Zhu]{JiangYaodong2017Arom}
+Yaodong Jiang, Yixin Zhao, Hongwei Wang, and Jie Zhu.
+\newblock A review of mechanism and prevention technologies of coal bumps in
+  china.
+\newblock \emph{Journal of rock mechanics and geotechnical engineering
+  (Online)}, 9\penalty0 (1):\penalty0 180--194, 2017.
+\newblock ISSN 1674-7755.
+
+\bibitem[{Mine Safety and Health Administration (MSHA)}(2021)]{nioshdata}
+{Mine Safety and Health Administration (MSHA)}.
+\newblock Niosh mine and mine worker charts.
+\newblock Online, 10 2021.
+\newblock Available: https://wwwn.cdc.gov/NIOSH-Mining/MMWC.
+
+\bibitem[NIOSH(2015)]{niosh_2015}
+NIOSH.
+\newblock Hierarchy of controls, Jan 2015.
+\newblock URL \url{https://www.cdc.gov/niosh/topics/hierarchy/default.html}.
+
+\bibitem[Bartels et~al.(2009{\natexlab{b}})Bartels, Jobes, DuCarme, and
+  Lutz]{bartels09}
+JR~Bartels, CC~Jobes, JP~DuCarme, and TJ~Lutz.
+\newblock Evaluation of work positions used by continous miner operations in
+  underground coal mines.
+\newblock In \emph{Proceedings of the Human Factors and Ergonomics Society},
+  pages 1622--1626. Human Factors and Ergonomics Society, 2009{\natexlab{b}}.
+
+\bibitem[Mitchell(1991)]{mitchell91}
+J.~Mitchell.
+\newblock Research into a sensor-based diagnostic maintenance expert system for
+  the hydraulics of a continuous mining machine.
+\newblock In \emph{Conference Record of the 1991 IEEE Industry Applications
+  Society Annual Meeting}, pages 1192--1199 vol.2, 1991.
+\newblock \doi{10.1109/IAS.1991.178014}.
+
+\bibitem[{Bissert} et~al.(2016){Bissert}, {Carr}, and {Ducarme}]{bissert16}
+P.~T. {Bissert}, JL~{Carr}, and JP~{Ducarme}.
+\newblock Proximity detection zones: Deisigns to prevent fatalities around
+  continous mining machines.
+\newblock \emph{Professional safety}, 61\penalty0 (6):\penalty0 72--77, 2016.
+
+\bibitem[Sundae(1985)]{sundae85}
+Laxman~S Sundae.
+\newblock \emph{Measurement of coal-cutting forces underground with the in-seam
+  tester}, volume 9033.
+\newblock US Department of the Interior, Bureau of Mines, Wachington, DC, 1985.
+
+\bibitem[Anderson(1990)]{donna90}
+Donna~L. Anderson.
+\newblock Laser tracking and tram control of a continuous mining machine.
+\newblock \emph{Report of investigations (United States. Bureau of Mines)},
+  9319, 1990.
+\newblock URL \url{https://stacks.cdc.gov/view/cdc/10570}.
+
+\bibitem[Pazuchanics and Mowrey(1993)]{gary93}
+M.~J. Pazuchanics and Gary~L. Mowrey.
+\newblock Recent progress in discriminating between coal cutting and rock
+  cutting with adaptive signal processing techniques.
+\newblock \emph{Report of investigations (United States. Bureau of Mines)},
+  9475, 1993.
+\newblock URL \url{https://stacks.cdc.gov/view/cdc/10218}.
+
+\bibitem[Myers(1999)]{potashMeyersThesis}
+David Myers.
+\newblock Predicting mining machine cutting tool wear using neural networks,
+  1999.
+\newblock URL \url{http://hdl.handle.net/10388/11756}.
+
+\bibitem[Shen(1996)]{shen1996acoustic}
+Hou-Lun~Warren Shen.
+\newblock \emph{Acoustic emission potential for monitoring cutting and breakage
+  characteristics of coal}.
+\newblock The Pennsylvania State University, 1996.
+
+\bibitem[Miller(2003{\natexlab{b}})]{smartbitMillerThesis}
+Benjamin~Hopkins Miller.
+\newblock Smartbit: in-situ bit/rock interface monitoring device,
+  2003{\natexlab{b}}.
+\newblock URL \url{http://hdl.handle.net/11124/170545}.
+
+\bibitem[Biały et~al.(2021)Biały, Fries, and Galecki]{fries21}
+Witold Biały, Jiri Fries, and Greg Galecki.
+\newblock Determination of coal cutting forces using the cutting head of
+  pou-bw/01-wap device.
+\newblock \emph{Multidisciplinary Aspects of Production Engineering},
+  4\penalty0 (1):\penalty0 281--289, 2021.
+\newblock \doi{doi:10.2478/mape-2021-0025}.
+\newblock URL \url{https://doi.org/10.2478/mape-2021-0025}.
+
+\bibitem[ros(2021)]{rostami21}
+\emph{Utilizing Linear Cutting Machine Test for Estimating Cutting Force via
+  Intact Rock Properties}, volume All Days of \emph{U.S. Rock
+  Mechanics/Geomechanics Symposium}, 06 2021.
+\newblock ARMA-2021-1108.
+
+\bibitem[Sasaki et~al.(2007)]{sasaki2007truth}
+Yutaka Sasaki et~al.
+\newblock The truth of the f-measure.
+\newblock \emph{Teach tutor mater}, 1\penalty0 (5):\penalty0 1--5, 2007.
+
+\bibitem[Powers(2020)]{powers2020evaluation}
+David~MW Powers.
+\newblock Evaluation: from precision, recall and f-measure to roc,
+  informedness, markedness and correlation.
+\newblock \emph{arXiv preprint arXiv:2010.16061}, 2020.
+
+\bibitem[Teale(1965)]{teale65}
+Robert Teale.
+\newblock The concept of specific energy in rock drilling.
+\newblock In \emph{International journal of rock mechanics and mining sciences
+  \& geomechanics abstracts}, volume~2, pages 57--73. Elsevier, 1965.
+
+\bibitem[Klyuchnikov et~al.(2019)Klyuchnikov, Zaytsev, Gruzdev, Ovchinnikov,
+  Antipova, Ismailova, Muravleva, Burnaev, Semenikhin, Cherepanov,
+  et~al.]{klyuchnikov19}
+Nikita Klyuchnikov, Alexey Zaytsev, Arseniy Gruzdev, Georgiy Ovchinnikov,
+  Ksenia Antipova, Leyla Ismailova, Ekaterina Muravleva, Evgeny Burnaev, Artyom
+  Semenikhin, Alexey Cherepanov, et~al.
+\newblock Data-driven model for the identification of the rock type at a
+  drilling bit.
+\newblock \emph{Journal of Petroleum science and Engineering}, 178:\penalty0
+  506--516, 2019.
+
+\bibitem[Klaic et~al.(2018)Klaic, Murat, Staroveski, and Brezak]{klaic18}
+Miho Klaic, Zrinka Murat, Tomislav Staroveski, and Danko Brezak.
+\newblock Tool wear monitoring in rock drilling applications using vibration
+  signals.
+\newblock \emph{Wear}, 408:\penalty0 222--227, 2018.
+
+\bibitem[Abu-Mahfouz(2003)]{abu03}
+Issam Abu-Mahfouz.
+\newblock Drilling wear detection and classification using vibration signals
+  and artificial neural network.
+\newblock \emph{International Journal of Machine Tools and Manufacture},
+  43\penalty0 (7):\penalty0 707--720, 2003.
+
+\bibitem[Tao and Zhigang(2009)]{tao09}
+Xu~Tao and Feng Zhigang.
+\newblock Tool wear identifying based on emd and svm with ae sensor.
+\newblock In \emph{2009 9th International Conference on Electronic Measurement
+  \& Instruments}, pages 2--948. IEEE, 2009.
+
+\bibitem[Tao and Tao(2010)]{tao10}
+Xu~Tao and Wang Tao.
+\newblock Cutting tool wear identification based on wavelet package and svm.
+\newblock In \emph{2010 8th World Congress on Intelligent Control and
+  Automation}, pages 5953--5957. IEEE, 2010.
+
+\bibitem[Liu et~al.(2018)Liu, Wu, Qi, Liu, and Tian]{liu18}
+Liping Liu, Feng Wu, Chunliang Qi, Tianshu Liu, and Jing Tian.
+\newblock High frequency vibration analysis in drilling of gfrp laminates using
+  candlestick drills.
+\newblock \emph{Composite Structures}, 184:\penalty0 742--758, 2018.
+
+\bibitem[Nie et~al.(2011)Nie, Li, Liu, Liu, and Xu]{peng11}
+Peng Nie, Zhengqiang Li, Yanchun Liu, Xinyu Liu, and Hongyao Xu.
+\newblock Study on identification method of tool wear based on singular
+  spectrum analysis and support vector machine.
+\newblock In \emph{2011 Second International Conference on Digital
+  Manufacturing \& Automation}, pages 1164--1167. IEEE, 2011.
+
+\bibitem[Qian et~al.(2010)Qian, Tian, Liu, Zhang, and Chen]{qian10}
+Yiqiu Qian, Jia Tian, Libing Liu, Yu~Zhang, and Yingshu Chen.
+\newblock A tool wear predictive model based on svm.
+\newblock In \emph{2010 Chinese control and decision conference}, pages
+  1213--1217. IEEE, 2010.
+
+\bibitem[Ram{\'o}n et~al.(2009)Ram{\'o}n, Atwood, Barbin, and
+  Christodoulou]{ram09}
+Manel~Mart{\'\i}nez Ram{\'o}n, Thomas Atwood, Silvio Barbin, and Christos~G
+  Christodoulou.
+\newblock Signal classification with an svm-fft approach for feature extraction
+  in cognitive radio.
+\newblock In \emph{2009 SBMO/IEEE MTT-S International Microwave and
+  Optoelectronics Conference (IMOC)}, pages 286--289. IEEE, 2009.
+
+\bibitem[Chang and Lin(2011)]{chang11}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock Libsvm: a library for support vector machines.
+\newblock \emph{ACM transactions on intelligent systems and technology (TIST)},
+  2\penalty0 (3):\penalty0 1--27, 2011.
+
+\bibitem[Platt(1999)]{platt99}
+John~C. Platt.
+\newblock Probabilistic outputs for support vector machines and comparisons to
+  regularized likelihood methods.
+\newblock In \emph{ADVANCES IN LARGE MARGIN CLASSIFIERS}, pages 61--74. MIT
+  Press, 1999.
+
+\bibitem[Mukherjee et~al.(1997)Mukherjee, Osuna, and Girosi]{mukh97}
+Sayan Mukherjee, Edgar Osuna, and Federico Girosi.
+\newblock Nonlinear prediction of chaotic time series using support vector
+  machines.
+\newblock In \emph{Neural Networks for Signal Processing VII. Proceedings of
+  the 1997 IEEE Signal Processing Society Workshop}, pages 511--520. IEEE,
+  1997.
+
+\bibitem[Sun et~al.(2004)Sun, Hong, Rahman, and Wong]{sun04}
+Jie Sun, Geok~Soon Hong, Mustafizur Rahman, and YS~Wong.
+\newblock The application of nonstandard support vector machine in tool
+  condition monitoring system.
+\newblock In \emph{Proceedings. DELTA 2004. Second IEEE International Workshop
+  on Electronic Design, Test and Applications}, pages 295--300. IEEE, 2004.
+
+\bibitem[Hu et~al.(2021)Hu, Qin, Guan, and Su]{hu21}
+Hongzhi Hu, Chang Qin, Fang Guan, and Haitao Su.
+\newblock A tool wear monitoring method based on woa and knn for small-deep
+  hole drilling.
+\newblock In \emph{2021 International Symposium on Computer Technology and
+  Information Science (ISCTIS)}, pages 284--287, 2021.
+\newblock \doi{10.1109/ISCTIS51085.2021.00065}.
+
+\bibitem[Chen et~al.(2016)Chen, Lo, and Do]{chen16}
+Jeng-Fung Chen, Shih-Kuei Lo, and Quang~Hung Do.
+\newblock An approach to the classification of cutting vibration on machine
+  tools.
+\newblock \emph{Information}, 7\penalty0 (1), 2016.
+\newblock ISSN 2078-2489.
+\newblock \doi{10.3390/info7010007}.
+\newblock URL \url{https://www.mdpi.com/2078-2489/7/1/7}.
+
+\bibitem[Smola and Sch{\"o}lkopf(2004)]{smola2004tutorial}
+Alex~J Smola and Bernhard Sch{\"o}lkopf.
+\newblock A tutorial on support vector regression.
+\newblock \emph{Statistics and computing}, 14\penalty0 (3):\penalty0 199--222,
+  2004.
+
+\bibitem[Kong and Zhang(2007)]{kong2007autocorrelation}
+Rui Kong and Bing Zhang.
+\newblock Autocorrelation kernel functions for support vector machines.
+\newblock In \emph{Third International Conference on Natural Computation (ICNC
+  2007)}, volume~1, pages 512--516. IEEE, 2007.
+
+\bibitem[Tamhane and Dunlop(2000)]{tamhane2000statistics}
+Ajit Tamhane and Dunlop Dunlop.
+\newblock Statistics and data analysis: from elementary to intermediate.
+\newblock page 280, 2000.
+
+\bibitem[Lee et~al.(2016)Lee, Kim, Jung, and Choi]{lee16}
+Dong-Hyuk Lee, Uikyum Kim, Hosang Jung, and Hyouk~Ryeol Choi.
+\newblock A capacitive-type novel six-axis force/torque sensor for robotic
+  applications.
+\newblock \emph{IEEE Sensors Journal}, 16\penalty0 (8):\penalty0 2290--2299,
+  2016.
+\newblock \doi{10.1109/JSEN.2015.2504267}.
+
+\bibitem[Bodini et~al.(2018{\natexlab{a}})Bodini, Pandini, Sardini, and
+  Serpelloni]{bodini18}
+Andrea Bodini, Stefano Pandini, Emilio Sardini, and Mauro Serpelloni.
+\newblock Design and fabrication of a flexible capacitive coplanar force sensor
+  for biomedical applications.
+\newblock In \emph{2018 IEEE Sensors Applications Symposium (SAS)}, pages 1--5,
+  2018{\natexlab{a}}.
+\newblock \doi{10.1109/SAS.2018.8336775}.
+
+\bibitem[Lee et~al.(2008)Lee, Chung, Chang, and Yoon]{lee08}
+Hyung-Kew Lee, Jaehoon Chung, Sun-Il Chang, and Euisik Yoon.
+\newblock Normal and shear force measurement using a flexible polymer tactile
+  sensor with embedded multiple capacitors.
+\newblock \emph{Journal of Microelectromechanical Systems}, 17\penalty0
+  (4):\penalty0 934--942, 2008.
+\newblock \doi{10.1109/JMEMS.2008.921727}.
+
+\bibitem[Willam(2002)]{willam02}
+Kaspar Willam.
+\newblock Constitutive models for engineering materials.
+\newblock \emph{Encyclopedia of physical science and technology}, 3:\penalty0
+  603--633, 2002.
+
+\bibitem[Barile et~al.(2019)Barile, Leoni, and Fern]{barile19}
+Gianluca Barile, Alfiero Leoni, and Giuseppe Fern.
+\newblock A differential capacitive multi-material 3d printed sensor for
+  portable anemometric applications.
+\newblock In \emph{2019 IEEE 8th International Workshop on Advances in Sensors
+  and Interfaces (IWASI)}, pages 234--238, 2019.
+\newblock \doi{10.1109/IWASI.2019.8791283}.
+
+\bibitem[Lu et~al.(2016)Lu, Bai, Zeng, Li, Zhang, and Tan]{Lu16}
+Yunfeng Lu, Yang Bai, Tao Zeng, Zhengkun Li, Zhonghua Zhang, and Jiubin Tan.
+\newblock Coplanar capacitive sensor for measuring horizontal displacement in
+  joule balance.
+\newblock In \emph{2016 Conference on Precision Electromagnetic Measurements
+  (CPEM 2016)}, pages 1--2, 2016.
+\newblock \doi{10.1109/CPEM.2016.7540791}.
+
+\bibitem[Zaitsev and Levytskyi(2017)]{Zaitsev17}
+Ievgen~O. Zaitsev and Anatolii~S. Levytskyi.
+\newblock Determination of response characteristic of capacitive coplanar air
+  gap sensor.
+\newblock In \emph{2017 IEEE Microwaves, Radar and Remote Sensing Symposium
+  (MRRS)}, pages 85--88, 2017.
+\newblock \doi{10.1109/MRRS.2017.8075034}.
+
+\bibitem[Prit et~al.(2019)Prit, Goyal, and Islam]{Prit19}
+Gaurav Prit, Prateek Goyal, and Tarikul Islam.
+\newblock A novel design of the parallel plate capacitive sensor for
+  displacement measurement.
+\newblock In \emph{2019 IEEE 16th India Council International Conference
+  (INDICON)}, pages 1--4, 2019.
+\newblock \doi{10.1109/INDICON47234.2019.9029007}.
+
+\bibitem[Liu et~al.(2016)Liu, Peng, Chen, Pu, and Yu]{Liu16}
+Xiaokang Liu, Kai Peng, Ziran Chen, Hongji Pu, and Zhicheng Yu.
+\newblock A new capacitive displacement sensor with nanometer accuracy and long
+  range.
+\newblock \emph{IEEE Sensors Journal}, 16\penalty0 (8):\penalty0 2306--2316,
+  2016.
+\newblock \doi{10.1109/JSEN.2016.2521681}.
+
+\bibitem[Schouten et~al.(2017)Schouten, Sanders, and Krijnen]{Shouten17}
+Martijn Schouten, Remco Sanders, and Gijs Krijnen.
+\newblock 3d printed flexible capacitive force sensor with a simple
+  micro-controller based readout.
+\newblock In \emph{2017 IEEE SENSORS}, pages 1--3, 2017.
+\newblock \doi{10.1109/ICSENS.2017.8233949}.
+
+\bibitem[Wolterink et~al.(2018)Wolterink, Sanders, and Krijnen]{Wolter18}
+Gerjan Wolterink, Remco Sanders, and Gijs Krijnen.
+\newblock Thin, flexible, capacitive force sensors based on anisotropy in
+  3d-printed structures.
+\newblock In \emph{2018 IEEE SENSORS}, pages 1--4, 2018.
+\newblock \doi{10.1109/ICSENS.2018.8589584}.
+
+\bibitem[van Dommelen et~al.(2020)van Dommelen, Berger, Haque, Binelli,
+  de~Freitas~Siqueira, Studart, and Briand]{Dommelen20}
+Ryan van Dommelen, Julien Berger, Rubaiyet~I. Haque, Marco~R. Binelli, Gilberto
+  de~Freitas~Siqueira, André~R. Studart, and Danick Briand.
+\newblock Fully 3d printed mechanical pressure sensors: A comparison of sensing
+  mechanisms.
+\newblock In \emph{2020 IEEE SENSORS}, pages 1--4, 2020.
+\newblock \doi{10.1109/SENSORS47125.2020.9278862}.
+
+\bibitem[Kisić et~al.(2019)Kisić, Blaž, Živanov, and Damnjanović]{Kisic19}
+Milica Kisić, Nelu Blaž, Ljiljana Živanov, and Mirjana Damnjanović.
+\newblock Capacitive force sensor fabricated in additive technology.
+\newblock In \emph{2019 42nd International Spring Seminar on Electronics
+  Technology (ISSE)}, pages 1--5, 2019.
+\newblock \doi{10.1109/ISSE.2019.8810154}.
+
+\bibitem[Khan et~al.(2015)Khan, Lorenzelli, and Dahiya]{Khan14}
+Saleem Khan, Leandro Lorenzelli, and Ravinder~S. Dahiya.
+\newblock Technologies for printing sensors and electronics over large flexible
+  substrates: A review.
+\newblock \emph{IEEE Sensors Journal}, 15\penalty0 (6):\penalty0 3164--3185,
+  2015.
+\newblock \doi{10.1109/JSEN.2014.2375203}.
+
+\bibitem[Valavala et~al.(2007)Valavala, Clancy, Odegard, and
+  Gates]{VALAVALA20071161}
+P.K. Valavala, T.C. Clancy, G.M. Odegard, and T.S. Gates.
+\newblock Nonlinear multiscale modeling of polymer materials.
+\newblock \emph{International Journal of Solids and Structures}, 44\penalty0
+  (3):\penalty0 1161--1179, 2007.
+\newblock ISSN 0020-7683.
+\newblock \doi{https://doi.org/10.1016/j.ijsolstr.2006.06.011}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0020768306002198}.
+
+\bibitem[Dharmadasa et~al.()Dharmadasa, McCallum, and Jimenez]{dharmadasa20}
+Buwaneth~Y. Dharmadasa, Matthew McCallum, and Francisco~Lopez Jimenez.
+\newblock \emph{Characterizing and modeling the viscoplastic behavior of
+  creases in Kapton polyimide films}.
+\newblock \doi{10.2514/6.2020-2165}.
+\newblock URL \url{https://arc.aiaa.org/doi/abs/10.2514/6.2020-2165}.
+
+\bibitem[Li et~al.(2021)Li, Chen, Chen, and Liu]{li21}
+Hongzhou Li, Jialian Chen, Qinghua Chen, and Ming Liu.
+\newblock Determining the constitutive behavior of nonlinear
+  visco-elastic-plastic pmma thin films using nanoindentation and finite
+  element simulation.
+\newblock \emph{Materials \& Design}, 197:\penalty0 109239, 2021.
+
+\bibitem[He et~al.(2016)He, Goudeau, Le~Bourhis, Renault, Dupr{\'e}, Doumalin,
+  and Wang]{he16}
+Wei He, Philippe Goudeau, Eric Le~Bourhis, Pierre-Olivier Renault,
+  Jean~Christophe Dupr{\'e}, Pascal Doumalin, and Shibin Wang.
+\newblock Study on young's modulus of thin films on kapton by microtensile
+  testing combined with dual dic system.
+\newblock \emph{Surface and Coatings Technology}, 308:\penalty0 273--279, 2016.
+
+\bibitem[Wang et~al.(2020)Wang, Shang, Zhang, Yan, Zhang, Dou, Zhao, and
+  Li]{wang20}
+Yuemin Wang, Lei Shang, Panpan Zhang, Xiangqiao Yan, Ke~Zhang, Shuliang Dou,
+  Jiupeng Zhao, and Yao Li.
+\newblock Measurement of viscoelastic properties for polymers by
+  nanoindentation.
+\newblock \emph{Polymer Testing}, 83:\penalty0 106353, 2020.
+
+\bibitem[Chang et~al.(2008)Chang, Fang, and Lin]{chang08}
+Wen-Yang Chang, Te-Hua Fang, and Yu-Cheng Lin.
+\newblock Physical characteristics of polyimide films for flexible sensors.
+\newblock \emph{Applied Physics A}, 92\penalty0 (3):\penalty0 693--701, 2008.
+
+\bibitem[Wei et~al.(2008)Wei, Shen, and Lin]{wei08}
+Pal~Jen Wei, Wei~Xin Shen, and Jen~Fin Lin.
+\newblock Analysis and modeling for time-dependent behavior of polymers
+  exhibited in nanoindentation tests.
+\newblock \emph{Journal of non-crystalline solids}, 354\penalty0 (33):\penalty0
+  3911--3918, 2008.
+
+\bibitem[Zhu et~al.(2020)Zhu, Wu, Wang, Wang, Tan, Zhao, and Wu]{zhu20}
+Yuchao Zhu, Yigen Wu, Guangshun Wang, Zhongbao Wang, Qiulin Tan, Libo Zhao, and
+  Dezhi Wu.
+\newblock A flexible capacitive pressure sensor based on an electrospun
+  polyimide nanofiber membrane.
+\newblock \emph{Organic Electronics}, 84:\penalty0 105759, 2020.
+\newblock ISSN 1566-1199.
+\newblock \doi{https://doi.org/10.1016/j.orgel.2020.105759}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1566119920301452}.
+
+\bibitem[Dobrzynska and Gijs(2012)]{dobrzynska12}
+Jagoda~A Dobrzynska and Martin~AM Gijs.
+\newblock Flexible polyimide-based force sensor.
+\newblock \emph{Sensors and Actuators A: Physical}, 173\penalty0 (1):\penalty0
+  127--135, 2012.
+
+\bibitem[Bodini et~al.(2018{\natexlab{b}})Bodini, Pandini, Sardini, and
+  Serpelloni]{Bodini19}
+Andrea Bodini, Stefano Pandini, Emilio Sardini, and Mauro Serpelloni.
+\newblock Design and fabrication of a flexible capacitive coplanar force sensor
+  for biomedical applications.
+\newblock In \emph{2018 IEEE Sensors Applications Symposium (SAS)}, pages 1--5,
+  2018{\natexlab{b}}.
+\newblock \doi{10.1109/SAS.2018.8336775}.
+
+\end{thebibliography}

@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: austin-frank-oltmanns-dissertation.aux
+The style file: unsrtnat.bst
+Database file #1: supporting-files/sources_flexpcb.bib
+Database file #2: supporting-files/thesis.bib
+Warning--empty booktitle in sanders81
+Warning--can't use both volume and number fields in teale65
+Warning--empty journal in tamhane2000statistics
+Warning--empty chapter and pages in dharmadasa20
+Warning--empty publisher in dharmadasa20
+Warning--empty year in dharmadasa20
+Warning--empty year in dharmadasa20
+You've used 66 entries,
+            2481 wiz_defined-function locations,
+            971 strings with 18049 characters,
+and the built_in function-call counts, 28028 in all, are:
+= -- 2412
+> -- 1353
+< -- 57
++ -- 533
+- -- 398
+* -- 2099
+:= -- 4282
+add.period$ -- 241
+call.type$ -- 66
+change.case$ -- 128
+chr.to.int$ -- 63
+cite$ -- 74
+duplicate$ -- 1462
+empty$ -- 2616
+format.name$ -- 482
+if$ -- 6180
+int.to.chr$ -- 4
+int.to.str$ -- 67
+missing$ -- 59
+newline$ -- 370
+num.names$ -- 195
+pop$ -- 624
+preamble$ -- 1
+purify$ -- 66
+quote$ -- 0
+skip$ -- 929
+stack$ -- 0
+substring$ -- 1273
+swap$ -- 353
+text.length$ -- 29
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 452
+warning$ -- 7
+while$ -- 225
+width$ -- 0
+write$ -- 928
+(There were 7 warnings)
