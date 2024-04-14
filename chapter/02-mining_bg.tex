@@ -1,6 +1,6 @@
 \chapter{
 Mining Safety Background
-\label{chapTwo}}
+\label{chap:2}}
 
 In the thesis by Moore \cite{11124/16423}, the author outlines history of mining tools
 dating back to the 1600s. This is when blasting was introduced to the mining process.
@@ -10,29 +10,73 @@ were the most popular implement. These techniques and the mining drill bits that
 evolved with each other over time.
 
 The introduction of the continous mining machine increased productivity and 
-were generally regarded as safe since the operator was enclosed in a shielded cab.
+was generally regarded as safe since the operator was enclosed in a shielded cab.
 Around the 1980s, the remote control for the continous mining machine led to 
-further increases in productivity. 
+further increases in productivity, but with differing results for safety \cite{KONONOV199521}.
 The remote control provides the operator greater visibility of the operation, 
 but at increased risk of injury from the machine or tunnel collapse.
 The crush hazards from the machine were not mitigated until the introduction of the
-personelle proximity detector, which prevents the machine from advancing into 
-workers which are wearing the device.
+personelle proximity detector, around the turn of the milenium.
+The detector prevents the machine from advancing into 
+workers which are wearing the device \cite{schiffbauer2001active}.
 
 Safety in underground coal mines has not improved over that last decade.
-Other technologies that have been introduced tend to focus on measuring
-indicators for collapse after the rock has been damaged such as ...
-These technologies are reactionary rather than preventative.
-To prevent hazardous situations from developing, rock cutting must be done with care.
+Statistics from 2011 to 2022, shown in \ref{tab:deaths},
+show that coal mining has remained a dangerous industry,
+especcialy for underground coal mine operators.
+Mine technology has been the subject of extensive review 
+\cite{ijerph19042334, 7784796, RALSTON2014305, molaei:hal-02940030}.
+Different areas of research include process control and hazard detection.
+Process control improvements can avoid hazardous conditions from being created,
+making them proactive rather than reactive.
 
-Previous efforts to improve efficiency have tried automating the continous mining process,
-but fell short on being able to totally take over for human operators. 
-Experienced operators are an invaluable resource. They have expert knowledge gained
-through years of working in difficult conditions. 
-Augmenting their expertise with objective feedback and machine precision stands to 
-improve outcomes beyond fully human or fully autonomous control.
+\begin{table}[]
+\centering
+\caption{Selected statistics from \url{cdc.gov/NIOSH-Mining/MMWC/}.}
+\label{tab:deaths}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Year & Coal Injury Rate & All Injury Rate & Underground Coal Mine & All Mining Deaths \\
+     & (Per 100 FTE)    & (Per 100 FTE)   & Operator Deaths       & (Coal included)   \\ \hline
+2011 & 2.49             & 1.94            & 9                     & 37                \\ \hline
+2012 & 2.40             & 1.86            & 12                    & 35                \\ \hline
+2013 & 2.42             & 1.82            & 14                    & 41                \\ \hline
+2014 & 2.48             & 1.83            & 10                    & 43                \\ \hline
+2015 & 2.33             & 1.70            & 8                     & 26                \\ \hline
+2016 & 2.40             & 1.64            & 7                     & 24                \\ \hline
+2017 & 2.56             & 1.64            & 8                     & 27                \\ \hline
+2018 & 2.22             & 1.52            & 6                     & 27                \\ \hline
+2019 & 2.23             & 1.53            & 7                     & 27                \\ \hline
+2020 & 2.30             & 1.42            & 3                     & 29                \\ \hline
+2021 & 2.37             & 1.49            & 6                     & 37                \\ \hline
+2022 & 2.24             & 1.42            & 6                     & 29                \\ \hline
+\end{tabular}
+\end{table}
 
-Mining safety is really bad and could be improved by moving operators further from the cutting interface.
+In the cited reviews, examples of sensors in mining include
+gas detectors, tunnel mapping, personelle detection, material composition measurement and more.
+In the work by Ralston \cite{RALSTON2014305}, goals for autonomous mining systems are outlined in stages
+from local manual control to full automation.
+Current remote controls allow operators more mobility during cutting, and addition of 
+more process feedback can allow them to be further from the cutting interface.
+The sensor developed in this work could allow operators to perform tele-operation or tele-supervision,
+whereby they are providing higher level commands to the machine using remote sensors for feedback, 
+possibly augmented with feedback collected with their own senses.
+
+Previous efforts to improve safety and efficiency have tried automating the continous mining process,
+but fell short on being able to totally take over for human operators \cite{11124/170545, schiffbauer1988testbed}. 
+Experienced operators are an invaluable resource. 
+They have expert knowledge gained through years of working in difficult conditions,
+frequently putting themselves in hazardous locations to collect the feedback they need.
+Augmenting their expertise with objective feedback and allowing them to stay at a safer distance
+stands to improve outcomes beyond fully human or fully autonomous control.
+
+Improving both safety and efficiency is the optimal path for new technologies in an underground mine \cite{Sider1983}.
+Mining safety has improved gradually over time and could currently 
+be improved by moving operators further from the cutting interface.
 Efficiency can be improved by implementing autonomous process control and feedback mechanisms.
+These kind of process sensors could measure tool wear and material conditions for optimal scheduling.
 To enable these outcomes, we seek feedback mechanisms which can determine quantities of interest for the process.
-The next chapter discusses sensor technologies that were considered for underground mining.
+The next chapter discusses sensor technologies that were considered for 
+determining tool wear, material type, and cutting forces in underground coal mining.
+

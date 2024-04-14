@@ -4,6 +4,7 @@ The top-level auxiliary file: austin-frank-oltmanns-dissertation.aux
 The style file: unsrtnat.bst
 Database file #1: supporting-files/sources_flexpcb.bib
 Database file #2: supporting-files/thesis.bib
+Warning--empty journal in schiffbauer2001active
 Warning--empty booktitle in sanders81
 Warning--can't use both volume and number fields in teale65
 Warning--empty journal in tamhane2000statistics
@@ -11,45 +12,45 @@ Warning--empty chapter and pages in dharmadasa20
 Warning--empty publisher in dharmadasa20
 Warning--empty year in dharmadasa20
 Warning--empty year in dharmadasa20
-You've used 66 entries,
+You've used 74 entries,
             2481 wiz_defined-function locations,
-            971 strings with 18049 characters,
-and the built_in function-call counts, 28028 in all, are:
-= -- 2412
-> -- 1353
-< -- 57
-+ -- 533
-- -- 398
-* -- 2099
-:= -- 4282
-add.period$ -- 241
-call.type$ -- 66
-change.case$ -- 128
-chr.to.int$ -- 63
-cite$ -- 74
-duplicate$ -- 1462
-empty$ -- 2616
-format.name$ -- 482
-if$ -- 6180
+            1036 strings with 20079 characters,
+and the built_in function-call counts, 31050 in all, are:
+= -- 2681
+> -- 1489
+< -- 62
++ -- 589
+- -- 438
+* -- 2343
+:= -- 4784
+add.period$ -- 280
+call.type$ -- 74
+change.case$ -- 143
+chr.to.int$ -- 71
+cite$ -- 83
+duplicate$ -- 1612
+empty$ -- 2890
+format.name$ -- 530
+if$ -- 6822
 int.to.chr$ -- 4
-int.to.str$ -- 67
-missing$ -- 59
-newline$ -- 370
-num.names$ -- 195
-pop$ -- 624
+int.to.str$ -- 75
+missing$ -- 68
+newline$ -- 425
+num.names$ -- 219
+pop$ -- 673
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 74
 quote$ -- 0
-skip$ -- 929
+skip$ -- 1013
 stack$ -- 0
-substring$ -- 1273
-swap$ -- 353
-text.length$ -- 29
+substring$ -- 1388
+swap$ -- 370
+text.length$ -- 30
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 452
-warning$ -- 7
-while$ -- 225
+type$ -- 505
+warning$ -- 8
+while$ -- 246
 width$ -- 0
-write$ -- 928
-(There were 7 warnings)
+write$ -- 1060
+(There were 8 warnings)

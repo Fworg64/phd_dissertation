@@ -23,6 +23,11 @@
 % For using row-spanning and column-spanning in tables:
 \usepackage{multirow}
 
+% Austin's editing marks
+\usepackage{xcolor, soul}
+\DeclareRobustCommand{\hlgr}[1]{{\sethlcolor{green}\hl{#1}}} % Highlight green text \hlgr{text}
+\DeclareRobustCommand{\hlor}[1]{{\sethlcolor{orange}\hl{#1}}} % Highlight orange text \hlor{text}
+\DeclareRobustCommand{\hlre}[1]{{\sethlcolor{red}\hl{#1}}} % Highlight red text \hlre{text}
 
 % For using helvetica instead of Computer Modern
 % \usepackage{helvet}

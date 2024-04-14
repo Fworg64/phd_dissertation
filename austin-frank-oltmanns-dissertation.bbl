@@ -1,4 +1,4 @@
-\begin{thebibliography}{66}
+\begin{thebibliography}{74}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -32,6 +32,80 @@ Param~Jit Singh.
 \newblock Study of the development of rock drill bits with special reference to
   the calumet and hecla copper company bits, a, 1948.
 \newblock URL \url{https://hdl.handle.net/11124/176345}.
+
+\bibitem[Kononov(1995)]{KONONOV199521}
+Valery~A. Kononov.
+\newblock Telecontrol for mining machinery.
+\newblock \emph{IFAC Proceedings Volumes}, 28\penalty0 (17):\penalty0 21--27,
+  1995.
+\newblock ISSN 1474-6670.
+\newblock \doi{https://doi.org/10.1016/S1474-6670(17)46740-1}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1474667017467401}.
+\newblock 8th IFAC Symposium on Automation in Mining, Mineral and Metal
+  Processing 1995 (MMM'95), Sun City, South Africa, 29-31 August.
+
+\bibitem[Schiffbauer(2001)]{schiffbauer2001active}
+William~H Schiffbauer.
+\newblock An active proximity warning system for surface and underground mining
+  applications.
+\newblock 2001.
+
+\bibitem[Duarte et~al.(2022)Duarte, Rodrigues, and
+  Castelo~Branco]{ijerph19042334}
+Joana Duarte, Fernanda Rodrigues, and Jacqueline Castelo~Branco.
+\newblock Sensing technology applications in the mining industry—a systematic
+  review.
+\newblock \emph{International Journal of Environmental Research and Public
+  Health}, 19\penalty0 (4), 2022.
+\newblock ISSN 1660-4601.
+\newblock \doi{10.3390/ijerph19042334}.
+\newblock URL \url{https://www.mdpi.com/1660-4601/19/4/2334}.
+
+\bibitem[Kiziroglou et~al.(2017)Kiziroglou, Boyle, Yeatman, and
+  Cilliers]{7784796}
+Michail~E. Kiziroglou, David~E. Boyle, Eric~M. Yeatman, and Jan~J. Cilliers.
+\newblock Opportunities for sensing systems in mining.
+\newblock \emph{IEEE Transactions on Industrial Informatics}, 13\penalty0
+  (1):\penalty0 278--286, 2017.
+\newblock \doi{10.1109/TII.2016.2636131}.
+
+\bibitem[Ralston et~al.(2014)Ralston, Reid, Hargrave, and
+  Hainsworth]{RALSTON2014305}
+Jonathon Ralston, David Reid, Chad Hargrave, and David Hainsworth.
+\newblock Sensing for advancing mining automation capability: A review of
+  underground automation technology development.
+\newblock \emph{International Journal of Mining Science and Technology},
+  24\penalty0 (3):\penalty0 305--310, 2014.
+\newblock ISSN 2095-2686.
+\newblock \doi{https://doi.org/10.1016/j.ijmst.2014.03.003}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2095268614000469}.
+\newblock Special Issue on Green Mining.
+
+\bibitem[Molaei et~al.(2020)Molaei, Rahimi, Siavoshi, Ghaychi~Afrouz, and
+  Tenorio]{molaei:hal-02940030}
+Fatemeh Molaei, Elham Rahimi, Hossein Siavoshi, Setareh Ghaychi~Afrouz, and
+  Victor Tenorio.
+\newblock {A Comprehensive Review on Internet of Things (IoT) and its
+  Implications in the Mining Industry}.
+\newblock \emph{{American Journal of Engineering and Applied Sciences}},
+  13\penalty0 (3):\penalty0 499--515, September 2020.
+\newblock \doi{10.3844/ajeassp.2020.499.515}.
+\newblock URL \url{https://hal.science/hal-02940030}.
+
+\bibitem[Schiffbauer(1988)]{schiffbauer1988testbed}
+William~H Schiffbauer.
+\newblock \emph{A testbed for autonomous mining machine experiments}, volume
+  9198.
+\newblock US Department of the Interior, Bureau of Mines, 1988.
+
+\bibitem[Sider(1983)]{Sider1983}
+Hal Sider.
+\newblock Safety and productivity in underground coal mining.
+\newblock \emph{Source: The Review of Economics and Statistics}, 65:\penalty0
+  225--233, 1983.
+\newblock URL \url{https://www.jstor.org/stable/1924488}.
 
 \bibitem[{Jobes} et~al.(2012){Jobes}, {Carr}, and {Ducarme}]{jobes12}
 C.~{Jobes}, J.~{Carr}, and J.~{Ducarme}.

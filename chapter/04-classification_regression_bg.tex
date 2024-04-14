@@ -1,15 +1,47 @@
-\chapter{Classification and regression techniques}
+\chapter{Method Selection}
 
-Nonlinear deformation of polyimide films
+Motivated by the selection of thin film polyimide sensors, 
+models for their deformation were studied for this work.
+The deformation of polyimide is linear for thick films
+and small deformations, but for thin films, 
+on the mesoscale of hundreds of micrometers,
+polyimide films have nonlinear deformation.
+These characteristics are manefested as creep, hystersis, 
+and temperature dependence.
 
-Motivation for Fourier transform
+Thin film deformation can be modelled using viscous elements such as
+\hlre{Maxwell... add figure}.
+The system overall is nonlinear, and with a material this viscous,
+cycling the film rapidly will result in changes to the vibrational modes.
 
-Dynamic sensor -> chaning modees
+Other items which govern the vibrational forces during cutting include
+the material type and the tool wear. 
+Different rock types have different fracture mechanics, 
+and these differences can be measured and classified.
+Different tool wear levels require different amounts of cutting force,
+and will result in changing fracture mechanics depedent of the tool's geometry.
 
+All of these changes in vibrational modes and forces can be tracked in the
+frequency domain as changes to the emitted spectra. For this research,
+it is known that energy is moving from certain vibrational
+modes to other vibrational modes across the categories of material type
+and tool wear. This shift in energy over the spectra can be measured
+by using the magnitude of the Fourier transform coefficients for a 
+short duration sample.
 
-How classification is done in other domains
+As the Fourier spectra magnitude coefficients change, these changes 
+can be used to classify the conditions that caused them.
+We use data-driven classification techniques to identify these differences and 
+predict the cutting conditions.
+Doing so with a capacitive sensor and an acoustic sensor
+is discussed in \ref{chap:P1} and \ref{chap:P2}, respectively.
+Additional transforms and variations of the technique are discussed in \ref{chap:9}.
 
-physical model for sensors? - described in chaper 10
-
-Linear, Neural Network, SVM... Use an empirical model instead!
+A linear sensor for force sensing is also designed for the purposes of this project.
+The model of the sensor is derived using regression techniques to develop a linear model 
+as well as higher order models.
+\ref{chap:P3} discusses the development of the sensor with these models, 
+while \ref{chap:8} compares the different capacitive load cell designs for this project.
+The last chaper, \ref{chap:10} describes the fit of the linear model and 
+further characterization data.
 
