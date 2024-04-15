@@ -13,38 +13,104 @@ Each sensing technolgy has different pros and cons, and are discussed in the fol
 \centering
 \caption{Summary of technology review, `X' indicates requirement is met.}
 \label{tab:sense_review}
-\begin{tabular}{|l|l|l|l|l|}
+\begin{tabular}{|c|c|c|c|c|}
 \hline
-Sensor        & Robust & Low Cost & Low Power & Used Here \\ \hline
-IMU           &        & X        &           &           \\ \hline
-Custom MEMs   &        &          & X         &           \\ \hline
-Photo         &        &          &           &           \\ \hline
-Piezo         &        & X        & X         &           \\ \hline
-Radio Antenna &        & X        & X         &           \\ \hline
-Thermal       & X      & X        & X         &           \\ \hline
-Strain Gauge  &        & X        &           & X         \\ \hline
-Acoustic      &        & X        & X         & X         \\ \hline
-Capacitive    & X      & X        & X         & X         \\ \hline
+Sensor         & Robust & Low Cost & Low Power & Used Here \\ \hline
+IMU            &        & X        &           &           \\ \hline
+Custom MEMS    &        &          & X         &           \\ \hline
+Photo \& Video &        &          &           &           \\ \hline
+Piezo          &        & X        & X         &           \\ \hline
+Radio Antenna  & X      & X        & X         &           \\ \hline
+Thermal        & X      & X        & X         &           \\ \hline
+Strain Gauge   &        & X        &           & X         \\ \hline
+Acoustic       &        & X        & X         & X         \\ \hline
+Capacitive     & X      & X        & X         & X         \\ \hline
 \end{tabular}
 \end{table}
 
 \subsection{IMU}
+The IMU, or inertial measurement unit, is a type of device which uses a deflecting element
+to determine inertial and gryscopic measurements. They range in price and performance, but
+in generall, they are sensitive and can be easily damaged by excessive forces or vibrations.
+IMUs also require active power to operate, typically using electromagnetic fields to deduce the 
+position of their test mass. For these reasons, IMUs were not used for this study.
 
-\subsection{Custom MEMs}
+\subsection{Custom MEMS}
+Beyond IMUs, custom micro-electro-mechanical sensors (MEMS), are designed to be very low scale
+sensors which can operate at low power points from their reduced size. The construction of these
+devices can be labor intensive and require expensive materials. Additionally, their delecate elements
+can easisly be damaged by excessive forces. For these reasons, custom MEMS were not used for this study.
 
-\subsection{Photo}
+\subsection{Photo \& Video}
+Photo sensors use precision cameras to monitor the rock face for changing conditions.
+Sensors today that use this technology monitor the rock face to anticipate fall or fracture.
+Use of these sensors for autonomous control is inhibited by the dark and dusty conditions in the mine.
+Cameras generally cannot be dropped or hit repeadetly, and require the most power out of the considered categories,
+and are the most expensive. For these reasons, photo and video sensors were not used for this study.
 
 \subsection{Piezo}
+Piezo sensors use material which produce charge when compressed. 
+These materials are very efficient, producing charge due to their innate composition.
+Piezo sensors are generally brittle, and too much force can damage them.
+Generally low in cost, these sensors have been used for 
+previous iterations of the smart bit study \cite{11124/170545}, but not this study.
 
 \subsection{Radio Antenna}
+Did you know that rocks make radio waves when they break apart? 
+The destruction of mollecular bonds releases lots of energy
+ and some of this energy is sent to the electromagnetic spectrum.
+This is a more recent area of study, but presents potential benefits like
+passive operation and low cost fabrication. 
+Depending on construction, these types of sensors can be made robust.
+Processing of these types of measurements is a new area of research,
+so radio antennas are not used for this study, 
+but would be a good topic for future research.
+
 
 \subsection{Thermal}
+Increasing tool tip temperature tends to tribulate rock cutting tools at a faster rate.
+There have been efforts to embed thermocouples into cutting tools 
+to track bit health via temperature measurements \hlgr{[]}.
+These types of sensors are robust, low cost, and low power, but they are also very low bandwidth.
+Tracking material type and cutting forces could be difficult using thermal measurements alone.
+However, thermal measurements augmented with force measurements stands to improve accuracy for 
+tracking tool wear conditions. For these reasons, thermal sensors are not used in this study.
 
 \subsection{Strain gauges}
+Strain gauges are the classic method for measuring forces with precision and accuracy.
+These sensors are small segments of resitive wire, typically superglued to a metal fixture, 
+which measure the small deflections of the material by changing length and resistance.
+Using a resistive segment of wire is a low cost method, but the accuracy depends on the power input.
+The sensors can be delicate to being scratched, but must be somewhere the cutting tool is deflecting.
+The cutting tool is generally very stiff, and so deflection away from the point of contact between the rock
+and tool is very small, making strain gauge placement difficult.
+Strain gauges are used as the baseline sensing technology for the load cell and rock cutting laboratory equipment.
+They are not investigated for use in an underground mine for this study.
 
 \subsection{Acoustic}
+Underground coal miners use acoustic cues as part of machine operation \hlgr{[]}.
+Acoustic sensors are typically piezo based, but seperated from the source of vibration by a medium like air.
+These types of sensors are very low cost and can be given an enclosure to make them robust. 
+Being piezo based, they are also low power. 
+Operators use acoustic cues to determine material type and tool wear.
+This study investigates the use of acoustic sensors for tool wear classification. 
 
 \subsection{Capacitive}
 
+The capacitive sensor is a technology that has been made more and more practical over the last 20-30 years.
+These sensors come in many forms, using changes in distance, area, or dielectric permittivity of the sensing element
+to make measurements. These sensors are robust to changing envirnmental conditions and noise, 
+while also being low cost and low power.
+Capacitive sensors are used in this study, and a prototype is shown in \ref{fig:flexcell}.
 
-
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.7\textwidth]{sensorpic.jpg}
+\caption{The dynamic flexible PCB capacitive load cell. 
+This sensor is used for the first branch of this research.
+It has a thin film layer between the electrodes made of polyimide 
+that deforms when pressure is applied. The sensor is housed in a steel case for
+protection and additional stiffness and protection from electro-magnetic interference.
+}
+\label{fig:flexcell}
+\end{figure}
