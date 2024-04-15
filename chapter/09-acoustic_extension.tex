@@ -1,9 +1,43 @@
 \chapter{Longer downsampling rates for acoustic classification
 \label{chap:9}}
 
-The effect of increased sample length and downsampling
+During the study of tool wear classification via acoustic spectra, 
+different preprocessing methods were tested. 
+One metric that was used to asess preprocessor performance was
+the fraction of dimensions that showed significant differences 
+across wear categories.
+For example, the time domain data does not generally have specific 
+time offsets whose sample value correlates to the wear category.
+In comparison, the frequency domain data at different frequencies
+is likely to change between wear categories due to the changing tool geometry
+and increased cutting forces that accompany tool wear.
 
-The effect of different frequency preprocessing methods
+Efforts to maximize the fraction of dimensions which correlate with tool wear,
+filtering in the frequency domain was applied.
+By smoothing the frequency response over the sampled domain,
+bands of irrelavent frequencies can be brought closer to the
+values of neighboring bands that are significant. 
+Also, by boosting trends in the frequency spectra, peaks that are
+relevant to wear category can be increased in magnitude.
+Examples of these effects are shown in \hlgr{fig}.
 
-The effect of different window shapes
+The result of low pass filtering in the frequency domain is similar
+to the effect of downsampling followed by upsampling 
+via zero padding in the time domain. 
+The variance of the 
+frequency response over the frequency domain is reduced by clumping
+the modes together.
+If we assume that the vibrations are being caused by a system that is 
+stationary in the short term, we can reduce the variance of the freqeuncy 
+response measurement by using a longer sample.
+This provides increased frequency resolution over the domain,
+but at the cost of longer response and classification times.
+
+Window shapes can have subtle but important effects on results.
+For the concrete sample in this work, much of the acoustic energy was
+below 6 kHz. The higher frequencies still had significant differences,
+but the environment in an underground mine dampens these frequencies while
+being fairly permissive to lower frequencies. 
+Our chosen window captures the lower frequencies, but other windows
+could allow better performance from higher frequencies.
 

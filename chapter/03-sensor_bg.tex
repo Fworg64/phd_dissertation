@@ -5,18 +5,46 @@ Rock cutting tools are consumed quickly during underground mining, and need repl
 to maintain cutting efficiency. 
 Sensors at the cutting interface must be low power, low cost, and robust 
 to be sucessful in the underground mine.
-A table of different sensing technologies and requirements is shown in ~\ref{tab:technologies}
-
+A table of different sensing technologies and requirements is shown in ~\ref{tab:sense_review}
 Each sensing technolgy has different pros and cons, and are discussed in the following subsections.
 
-\subsection{Strain gauges}
+
+\begin{table}[]
+\centering
+\caption{Summary of technology review, `X' indicates requirement is met.}
+\label{tab:sense_review}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Sensor        & Robust & Low Cost & Low Power & Used Here \\ \hline
+IMU           &        & X        &           &           \\ \hline
+Custom MEMs   &        &          & X         &           \\ \hline
+Photo         &        &          &           &           \\ \hline
+Piezo         &        & X        & X         &           \\ \hline
+Radio Antenna &        & X        & X         &           \\ \hline
+Thermal       & X      & X        & X         &           \\ \hline
+Strain Gauge  &        & X        &           & X         \\ \hline
+Acoustic      &        & X        & X         & X         \\ \hline
+Capacitive    & X      & X        & X         & X         \\ \hline
+\end{tabular}
+\end{table}
+
+\subsection{IMU}
+
+\subsection{Custom MEMs}
+
+\subsection{Photo}
 
 \subsection{Piezo}
 
+\subsection{Radio Antenna}
+
+\subsection{Thermal}
+
+\subsection{Strain gauges}
+
+\subsection{Acoustic}
+
 \subsection{Capacitive}
 
-\subsection{Radio signals}
-
-\subsection{Thermocouple/temp}
 
 
