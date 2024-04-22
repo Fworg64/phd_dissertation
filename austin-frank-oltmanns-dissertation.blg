@@ -3,7 +3,33 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: austin-frank-oltmanns-dissertation.aux
 The style file: unsrtnat.bst
 Database file #1: supporting-files/sources_flexpcb.bib
-Database file #2: supporting-files/thesis.bib
+Database file #2: supporting-files/sn-bibliography.bib
+Repeated entry---line 305 of file supporting-files/sn-bibliography.bib
+ : @misc{niosh_2015
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 325 of file supporting-files/sn-bibliography.bib
+ : @misc{nioshdata
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "Vaishnnave12019" isn't style-file defined
+--line 613 of file supporting-files/sn-bibliography.bib
+Warning--entry type for "Song2007" isn't style-file defined
+--line 627 of file supporting-files/sn-bibliography.bib
+Database file #3: supporting-files/airgap-bibliography.bib
+Repeated entry---line 57 of file supporting-files/airgap-bibliography.bib
+ : @article{Bartels2009
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1231 of file supporting-files/airgap-bibliography.bib
+ : @article{JMLR:v12:pedregosa11a
+ :                               ,
+I'm skipping whatever remains of this entry
+Database file #4: supporting-files/thesis.bib
+Repeated entry---line 70 of file supporting-files/thesis.bib
+ : @article{Sider1983
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in schiffbauer2001active
 Warning--empty booktitle in sanders81
 Warning--can't use both volume and number fields in teale65
@@ -12,45 +38,56 @@ Warning--empty chapter and pages in dharmadasa20
 Warning--empty publisher in dharmadasa20
 Warning--empty year in dharmadasa20
 Warning--empty year in dharmadasa20
-You've used 74 entries,
+Warning--empty journal in Colinent2020
+Warning--empty year in Colinent2020
+Warning--empty year in Colinent2020
+Warning--empty author and editor in Bramer2007
+Warning--can't use both volume and number fields in yulita2018multi
+Warning--empty journal in molina2021classification
+Warning--empty publisher in montesinos2022fundamentals
+Warning--empty booktitle in Thrybom2015
+Warning--empty journal in Cooper2020
+Warning--empty journal in Nelu2019
+Warning--empty booktitle in Kim2005
+You've used 178 entries,
             2481 wiz_defined-function locations,
-            1036 strings with 20079 characters,
-and the built_in function-call counts, 31050 in all, are:
-= -- 2681
-> -- 1489
-< -- 62
-+ -- 589
-- -- 438
-* -- 2343
-:= -- 4784
-add.period$ -- 280
-call.type$ -- 74
-change.case$ -- 143
-chr.to.int$ -- 71
-cite$ -- 83
-duplicate$ -- 1612
-empty$ -- 2890
-format.name$ -- 530
-if$ -- 6822
-int.to.chr$ -- 4
-int.to.str$ -- 75
-missing$ -- 68
-newline$ -- 425
-num.names$ -- 219
-pop$ -- 673
+            1777 strings with 43855 characters,
+and the built_in function-call counts, 75614 in all, are:
+= -- 6506
+> -- 3872
+< -- 130
++ -- 1510
+- -- 1138
+* -- 5953
+:= -- 11900
+add.period$ -- 723
+call.type$ -- 178
+change.case$ -- 347
+chr.to.int$ -- 162
+cite$ -- 199
+duplicate$ -- 3796
+empty$ -- 6789
+format.name$ -- 1391
+if$ -- 16458
+int.to.chr$ -- 17
+int.to.str$ -- 179
+missing$ -- 172
+newline$ -- 1072
+num.names$ -- 530
+pop$ -- 1451
 preamble$ -- 1
-purify$ -- 74
+purify$ -- 178
 quote$ -- 0
-skip$ -- 1013
+skip$ -- 2319
 stack$ -- 0
-substring$ -- 1388
-swap$ -- 370
-text.length$ -- 30
+substring$ -- 3304
+swap$ -- 837
+text.length$ -- 55
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 505
-warning$ -- 8
-while$ -- 246
+type$ -- 1218
+warning$ -- 19
+while$ -- 556
 width$ -- 0
-write$ -- 1060
-(There were 8 warnings)
+write$ -- 2654
+(There were 5 error messages)

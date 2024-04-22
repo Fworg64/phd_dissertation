@@ -30,20 +30,24 @@ Capacitive     & X      & X        & X         & X         \\ \hline
 
 \subsection{IMU}
 The IMU, or inertial measurement unit, is a type of device which uses a deflecting element
-to determine inertial and gryscopic measurements. They range in price and performance, but
-in generall, they are sensitive and can be easily damaged by excessive forces or vibrations.
+to determine inertial and gryscopic measurements. 
+They can be used for material classification via vibrations produced by impact \cite{9981139}.
+They range in price and performance, but
+in general, they are sensitive and can be easily damaged by excessive forces or vibrations.
 IMUs also require active power to operate, typically using electromagnetic fields to deduce the 
 position of their test mass. For these reasons, IMUs were not used for this study.
 
 \subsection{Custom MEMS}
 Beyond IMUs, custom micro-electro-mechanical sensors (MEMS), are designed to be very low scale
-sensors which can operate at low power points from their reduced size. The construction of these
-devices can be labor intensive and require expensive materials. Additionally, their delecate elements
-can easisly be damaged by excessive forces. For these reasons, custom MEMS were not used for this study.
+sensors which can operate at low power points from their reduced size. 
+Low cost wireless vibration sensor systems have been demonstrated using this technology \cite{9234762}.
+The construction of these devices can be labor intensive, and coal mining has very little room for additional cost. 
+Additionally, their delicate elements can easisly be damaged by excessive forces. 
+For these reasons, custom MEMS were not used for this study.
 
 \subsection{Photo \& Video}
 Photo sensors use precision cameras to monitor the rock face for changing conditions.
-Sensors today that use this technology monitor the rock face to anticipate fall or fracture.
+Sensors today that use this technology monitor the rock face to anticipate fall or fracture \cite{duarte2022sensing}.
 Use of these sensors for autonomous control is inhibited by the dark and dusty conditions in the mine.
 Cameras generally cannot be dropped or hit repeadetly, and require the most power out of the considered categories,
 and are the most expensive. For these reasons, photo and video sensors were not used for this study.
@@ -56,7 +60,7 @@ Generally low in cost, these sensors have been used for
 previous iterations of the smart bit study \cite{11124/170545}, but not this study.
 
 \subsection{Radio Antenna}
-Did you know that rocks make radio waves when they break apart? 
+Did you know that rocks make radio waves when they break apart \cite{qian1996experimental}? 
 The destruction of mollecular bonds releases lots of energy
  and some of this energy is sent to the electromagnetic spectrum.
 This is a more recent area of study, but presents potential benefits like
@@ -70,7 +74,7 @@ but would be a good topic for future research.
 \subsection{Thermal}
 Increasing tool tip temperature tends to tribulate rock cutting tools at a faster rate.
 There have been efforts to embed thermocouples into cutting tools 
-to track bit health via temperature measurements \hlgr{[]}.
+to monitor hot spots and track bit health via temperature measurements \cite{SHAO201839}.
 These types of sensors are robust, low cost, and low power, but they are also very low bandwidth.
 Tracking material type and cutting forces could be difficult using thermal measurements alone.
 However, thermal measurements augmented with force measurements stands to improve accuracy for 
@@ -80,6 +84,7 @@ tracking tool wear conditions. For these reasons, thermal sensors are not used i
 Strain gauges are the classic method for measuring forces with precision and accuracy.
 These sensors are small segments of resitive wire, typically superglued to a metal fixture, 
 which measure the small deflections of the material by changing length and resistance.
+They have been used recently to measure conical pick forces \cite{s23239521}.
 Using a resistive segment of wire is a low cost method, but the accuracy depends on the power input.
 The sensors can be delicate to being scratched, but must be somewhere the cutting tool is deflecting.
 The cutting tool is generally very stiff, and so deflection away from the point of contact between the rock
@@ -88,7 +93,7 @@ Strain gauges are used as the baseline sensing technology for the load cell and 
 They are not investigated for use in an underground mine for this study.
 
 \subsection{Acoustic}
-Underground coal miners use acoustic cues as part of machine operation \hlgr{[]}.
+Underground coal miners use acoustic cues as part of machine operation.
 Acoustic sensors are typically piezo based, but seperated from the source of vibration by a medium like air.
 These types of sensors are very low cost and can be given an enclosure to make them robust. 
 Being piezo based, they are also low power. 

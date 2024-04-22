@@ -1,0 +1,39 @@
+Loading data...
+window shape is hamming
+window duration is 0.1
+window overlap is 0.5
+Data loaded in 3.603641986846924 sec; performing experimentsFitting svm hyper param
+Fitting 5 folds for each of 49 candidates, totalling 245 fits
+The best parameters are {'rbf_svm__C': 10.0, 'rbf_svm__class_weight': 'balanced', 'rbf_svm__gamma': 0.00031622776601683794} with a score of 0.87
+|||||. T+: 1016.4943015575409 seconds, rbf_svm completed.
+F1 scores: 0.8715830248161603 +/- 0.0051908545690107335
+Accuracy scores: 0.8717794486215539 +/- 0.0053274507290571906
+. T+: 1016.4944560527802 seconds, FFT_Mag completed.
+conf_mats:
+[array([[0.8887218 , 0.05263158, 0.05864662],
+       [0.04054054, 0.86336336, 0.0960961 ],
+       [0.06475904, 0.10240964, 0.83283133]]), 
+
+array([[0.90153846, 0.04769231, 0.05076923],
+       [0.03851852, 0.87259259, 0.08888889],
+       [0.05671642, 0.09253731, 0.85074627]]), 
+
+array([[0.92296296, 0.03407407, 0.04296296],
+       [0.03571429, 0.86956522, 0.0947205 ],
+       [0.06656805, 0.10798817, 0.82544379]]), 
+
+array([[0.91970803, 0.0379562 , 0.04233577],
+       [0.0328849 , 0.86696562, 0.10014948],
+       [0.05616225, 0.10140406, 0.8424337 ]]), 
+
+array([[0.91171994, 0.02739726, 0.0608828 ],
+       [0.04081633, 0.84693878, 0.1122449 ],
+       [0.05828221, 0.08128834, 0.86042945]])]
+ Done! Took 1016.4944639205933 sec; Saving data...
+results frame
+                 name window_shape  window_duration  window_overlap  ...     acc 1     acc 2     acc 3     acc 4
+0  Concrete Tool Wear      hamming              0.1             0.5  ...  0.874687  0.872682  0.877193  0.872682
+
+[1 rows x 32 columns]
+File saved to ./out/CONCRETE_20240315_153322results.csv
+Have a nice day!

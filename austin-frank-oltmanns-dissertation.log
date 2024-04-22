@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.10)  14 APR 2024 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2023.6.10)  21 APR 2024 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,46 +506,479 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen149
 \SOUL@ulht=\dimen150
 )
-\csm@temp@endhead=\box49
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2017/05/28{} The CircuiTikz circuit drawing package version
+ 0.8.3
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box49
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen153
+\pgf@y=\dimen154
+\pgf@xa=\dimen155
+\pgf@ya=\dimen156
+\pgf@xb=\dimen157
+\pgf@yb=\dimen158
+\pgf@xc=\dimen159
+\pgf@yc=\dimen160
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count174
+\c@pgf@countb=\count175
+\c@pgf@countc=\count176
+\c@pgf@countd=\count177
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count178
+\pgfsyssoftpath@bigbuffer@items=\count179
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen161
+\pgfmath@count=\count180
+\pgfmath@box=\box50
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count181
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen162
+\pgf@picmaxx=\dimen163
+\pgf@picminy=\dimen164
+\pgf@picmaxy=\dimen165
+\pgf@pathminx=\dimen166
+\pgf@pathmaxx=\dimen167
+\pgf@pathminy=\dimen168
+\pgf@pathmaxy=\dimen169
+\pgf@xx=\dimen170
+\pgf@xy=\dimen171
+\pgf@yx=\dimen172
+\pgf@yy=\dimen173
+\pgf@zx=\dimen174
+\pgf@zy=\dimen175
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen176
+\pgf@path@lasty=\dimen177
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen178
+\pgf@shorten@start@additional=\dimen179
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count182
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen180
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen181
+\pgf@pt@y=\dimen182
+\pgf@pt@temp=\dimen183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen184
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen185
+\pgf@sys@shading@range@num=\count183
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box54
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box55
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen186
+\pgf@nodesepend=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen188
+\pgffor@skip=\dimen189
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count184
+\pgfplotmarksize=\dimen190
+)
+\tikz@lastx=\dimen191
+\tikz@lasty=\dimen192
+\tikz@lastxsaved=\dimen193
+\tikz@lastysaved=\dimen194
+\tikzleveldistance=\dimen195
+\tikzsiblingdistance=\dimen196
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count185
+\tikznumberofchildren=\count186
+\tikznumberofcurrentchild=\count187
+\tikz@fig@count=\count188
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count189
+\pgfmatrixcurrentcolumn=\count190
+\pgf@matrix@numberofcolumns=\count191
+)
+\tikz@expandcount=\count192
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen197
+) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@res@up=\dimen198
+\pgf@circ@res@down=\dimen199
+\pgf@circ@res@zero=\dimen256
+\pgf@circ@res@left=\dimen257
+\pgf@circ@res@right=\dimen258
+\pgf@circ@res@other=\dimen259
+\pgf@circ@res@step=\dimen260
+\pgf@circ@res@temp=\dimen261
+\pgfstartlinewidth=\dimen262
+\pgf@circ@Rlen=\dimen263
+) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tikz-dimline/tikz-dimline.sty
+Package: tikz-dimline 2013/03/13 v1.0 initial version
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks49
+\t@pgfplots@tokb=\toks50
+\t@pgfplots@tokc=\toks51
+\pgfplots@tmpa=\dimen264
+\c@pgfplots@coordindex=\count193
+\c@pgfplots@scanlineindex=\count194
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count195
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count196
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count197
+\t@pgfplotstable@a=\toks52
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count198
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen265
+\pgfdecoratedremainingdistance=\dimen266
+\pgfdecoratedinputsegmentcompleteddistance=\dimen267
+\pgfdecoratedinputsegmentremainingdistance=\dimen268
+\pgf@decorate@distancetomove=\dimen269
+\pgf@decorate@repeatstate=\count199
+\pgfdecorationsegmentamplitude=\dimen270
+\pgfdecorationsegmentlength=\dimen271
+)
+\tikz@lib@dec@box=\box60
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count266
+\pgfplots@xmin@reg=\dimen272
+\pgfplots@xmax@reg=\dimen273
+\pgfplots@ymin@reg=\dimen274
+\pgfplots@ymax@reg=\dimen275
+\pgfplots@zmin@reg=\dimen276
+\pgfplots@zmax@reg=\dimen277
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.markings.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.markings.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+)
+\dimline@arrow@linewidth=\dimen278
+)
+\csm@temp@endhead=\box61
 
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count174
+\c@KVtest=\count267
 \sf@farskip=\skip68
-\sf@captopadj=\dimen151
+\sf@captopadj=\dimen279
 \sf@capskip=\skip69
 \sf@nearskip=\skip70
-\c@subfigure=\count175
-\c@subfigure@save=\count176
-\c@lofdepth=\count177
-\c@subtable=\count178
-\c@subtable@save=\count179
-\c@lotdepth=\count180
+\c@subfigure=\count268
+\c@subfigure@save=\count269
+\c@lofdepth=\count270
+\c@subtable=\count271
+\c@subtable@save=\count272
+\c@lotdepth=\count273
 \sf@top=\skip71
 \sf@bottom=\skip72
 )
 (./austin-frank-oltmanns-dissertation.aux
-\csm@redefined@appendix@saved=\count181
-\csm@appendicies=\count182
+
+LaTeX Warning: Label `sec1' multiply defined.
+
+
+LaTeX Warning: Label `sec1' multiply defined.
+
+
+LaTeX Warning: Label `sec13' multiply defined.
+
+\csm@redefined@appendix@saved=\count274
+\csm@appendicies=\count275
 )
 \openout1 = `austin-frank-oltmanns-dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-
-(./austin-frank-oltmanns-dissertation.lot)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+ (./austin-frank-oltmanns-dissertation.lot)
 (./austin-frank-oltmanns-dissertation.lof)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -583,17 +1016,17 @@ LaTeX Font Info:    ... okay on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count183
-\scratchdimen=\dimen152
-\scratchbox=\box50
-\nofMPsegments=\count184
-\nofMParguments=\count185
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count186
-\MPscratchDim=\dimen153
-\MPnumerator=\count187
-\makeMPintoPDFobject=\count188
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count276
+\scratchdimen=\dimen280
+\scratchbox=\box62
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen281
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks54
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -622,8 +1055,8 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 61.
+\AtBeginShipoutBox=\box63
+Package hyperref Info: Link coloring OFF on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -631,67 +1064,76 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count189
+\c@section@level=\count282
 )
-LaTeX Info: Redefining \ref on input line 61.
-LaTeX Info: Redefining \pageref on input line 61.
-LaTeX Info: Redefining \nameref on input line 61.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./austin-frank-oltmanns-dissertation.out)
 (./austin-frank-oltmanns-dissertation.out)
-\@outlinefile=\write3
-\openout3 = `austin-frank-oltmanns-dissertation.out'.
+\@outlinefile=\write4
+\openout4 = `austin-frank-oltmanns-dissertation.out'.
 
-\c@lstlisting=\count190
- [1
+\c@lstlisting=\count283
+
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
+your preamble.
+ on input line 63.
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 72.
-
-[2] [2] (./chapter/i-abstract.tex
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 74.
+ [2] [2]
+(./chapter/i-abstract.tex
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )) [3]
-(./austin-frank-oltmanns-dissertation.toc [4])
-\tf@toc=\write4
-\openout4 = `austin-frank-oltmanns-dissertation.toc'.
+(./austin-frank-oltmanns-dissertation.toc [4] [5])
+\tf@toc=\write5
+\openout5 = `austin-frank-oltmanns-dissertation.toc'.
 
- [5]
+ [6]
 (./austin-frank-oltmanns-dissertation.lof)
-\tf@lof=\write5
-\openout5 = `austin-frank-oltmanns-dissertation.lof'.
+\tf@lof=\write6
+\openout6 = `austin-frank-oltmanns-dissertation.lof'.
 
- [6] [7]
+ [7] [8] [9] [10] [11] [12]
 (./austin-frank-oltmanns-dissertation.lot)
-\tf@lot=\write6
-\openout6 = `austin-frank-oltmanns-dissertation.lot'.
+\tf@lot=\write7
+\openout7 = `austin-frank-oltmanns-dissertation.lot'.
 
- [8]
+ [13]
 (./austin-frank-oltmanns-dissertation.los)
-\tf@los=\write7
-\openout7 = `austin-frank-oltmanns-dissertation.los'.
+\tf@los=\write8
+\openout8 = `austin-frank-oltmanns-dissertation.los'.
 
 
 (./austin-frank-oltmanns-dissertation.GeneralNomenclature)
-\tf@GeneralNomenclature=\write8
-\openout8 = `austin-frank-oltmanns-dissertation.GeneralNomenclature'.
+\tf@GeneralNomenclature=\write9
+\openout9 = `austin-frank-oltmanns-dissertation.GeneralNomenclature'.
 
- [9]
+ [14]
 (./austin-frank-oltmanns-dissertation.loabbrv)
-\tf@loabbrv=\write9
-\openout9 = `austin-frank-oltmanns-dissertation.loabbrv'.
+\tf@loabbrv=\write10
+\openout10 = `austin-frank-oltmanns-dissertation.loabbrv'.
 
- [10]
+ [15]
 (./supporting-files/symbols-and-abbreviations.tex)
-(./chapter/00-acknowledgements.tex) [11] [12] (./chapter/01-Introduction.tex
-<./figures/Continuous_Miner.jpg, id=390, 378.6948pt x 249.5724pt>
+(./chapter/00-acknowledgements.tex) [16] [17] (./chapter/01-Introduction.tex
+<./figures/Continuous_Miner.jpg, id=830, 378.6948pt x 249.5724pt>
 File: ./figures/Continuous_Miner.jpg Graphic file (type jpg)
 <use ./figures/Continuous_Miner.jpg>
 Package pdftex.def Info: ./figures/Continuous_Miner.jpg  used on input line 24.
@@ -709,84 +1151,100 @@ LaTeX Warning: No positions in optional float specifier.
 
 ]) (./chapter/03-sensor_bg.tex [4]
 
-LaTeX Warning: Reference `tab:technologies' on page 5 undefined on input line 8
-.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 12.
 
-) (./chapter/04-classification_regression_bg.tex [5
+[5
 
-])
-(./chapter/05-P1-Journal-Chapter.tex [6
+] [6]
+<./figures/sensorpic.jpg, id=902, 963.6pt x 591.71063pt>
+File: ./figures/sensorpic.jpg Graphic file (type jpg)
+<use ./figures/sensorpic.jpg>
+Package pdftex.def Info: ./figures/sensorpic.jpg  used on input line 113.
+(pdftex.def)             Requested size: 328.82707pt x 201.91931pt.
+) (./chapter/04-classification_regression_bg.tex [7 <./figures/sensorpic.jpg>]
+<figures/sensestackupxcf.png, id=910, 325.215pt x 325.215pt>
+File: figures/sensestackupxcf.png Graphic file (type png)
+<use figures/sensestackupxcf.png>
+Package pdftex.def Info: figures/sensestackupxcf.png  used on input line 75.
+(pdftex.def)             Requested size: 258.36668pt x 198.57419pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (./chapter/05-P1-Journal-Chapter.tex [8
 
-] [7
+] [9 <./figures/sensestackupxcf.png>] [10
 
 ]
-<figures/p1_media/Fig1.png, id=478, 246.6816pt x 246.6816pt>
+<figures/p1_media/Fig1.png, id=957, 246.6816pt x 246.6816pt>
 File: figures/p1_media/Fig1.png Graphic file (type png)
 <use figures/p1_media/Fig1.png>
 Package pdftex.def Info: figures/p1_media/Fig1.png  used on input line 96.
 (pdftex.def)             Requested size: 216.81pt x 216.81699pt.
- [8]
-<figures/p1_media/Fig2.png, id=499, 678.3744pt x 164.2938pt>
+ [11]
+<figures/p1_media/Fig2.png, id=977, 678.3744pt x 164.2938pt>
 File: figures/p1_media/Fig2.png Graphic file (type png)
 <use figures/p1_media/Fig2.png>
 Package pdftex.def Info: figures/p1_media/Fig2.png  used on input line 128.
 (pdftex.def)             Requested size: 216.81pt x 52.50739pt.
- [9 <./figures/p1_media/Fig1.png> <./figures/p1_media/Fig2.png>] [10] [11]
+ [12 <./figures/p1_media/Fig1.png> <./figures/p1_media/Fig2.png>] [13] [14]
 
 Package caption Warning: \label without proper reference on input line 282.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `tab:preproc' on page 12 undefined on input line 266.
+LaTeX Warning: Reference `tab:preproc' on page 15 undefined on input line 266.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[12] [13] [14] [15]
-<figures/p1_media/Fig3.png, id=617, 246.6816pt x 163.812pt>
+[15] [16] [17] [18]
+<figures/p1_media/Fig3.png, id=1095, 246.6816pt x 163.812pt>
 File: figures/p1_media/Fig3.png Graphic file (type png)
 <use figures/p1_media/Fig3.png>
 Package pdftex.def Info: figures/p1_media/Fig3.png  used on input line 483.
 (pdftex.def)             Requested size: 216.81pt x 143.98001pt.
- [16] [17 <./figures/p1_media/Fig3.png>]
-<figures/p1_media/Fig4.png, id=642, 1387.584pt x 712.5822pt>
+ [19] [20 <./figures/p1_media/Fig3.png>]
+<figures/p1_media/Fig4.png, id=1121, 1387.584pt x 712.5822pt>
 File: figures/p1_media/Fig4.png Graphic file (type png)
 <use figures/p1_media/Fig4.png>
 Package pdftex.def Info: figures/p1_media/Fig4.png  used on input line 549.
 (pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
-<figures/p1_media/Fig5.png, id=643, 1387.584pt x 712.5822pt>
+<figures/p1_media/Fig5.png, id=1122, 1387.584pt x 712.5822pt>
 File: figures/p1_media/Fig5.png Graphic file (type png)
 <use figures/p1_media/Fig5.png>
 Package pdftex.def Info: figures/p1_media/Fig5.png  used on input line 562.
 (pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
- [18 <./figures/p1_media/Fig4.png>] [19 <./figures/p1_media/Fig5.png>]
-<figures/p1_media/Fig6.jpg, id=659, 216.81pt x 216.81pt>
+ [21 <./figures/p1_media/Fig4.png>] [22 <./figures/p1_media/Fig5.png>]
+<figures/p1_media/Fig6.jpg, id=1137, 216.81pt x 216.81pt>
 File: figures/p1_media/Fig6.jpg Graphic file (type jpg)
 <use figures/p1_media/Fig6.jpg>
 Package pdftex.def Info: figures/p1_media/Fig6.jpg  used on input line 612.
 (pdftex.def)             Requested size: 216.81pt x 216.81938pt.
- [20 <./figures/p1_media/Fig6.jpg>]
-<figures/p1_media/Fig7.png, id=672, 1387.584pt x 712.5822pt>
+ [23 <./figures/p1_media/Fig6.jpg>]
+<figures/p1_media/Fig7.png, id=1151, 1387.584pt x 712.5822pt>
 File: figures/p1_media/Fig7.png Graphic file (type png)
 <use figures/p1_media/Fig7.png>
 Package pdftex.def Info: figures/p1_media/Fig7.png  used on input line 690.
 (pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
-<figures/p1_media/Fig8.png, id=673, 313.17pt x 313.17pt>
+<figures/p1_media/Fig8.png, id=1152, 313.17pt x 313.17pt>
 File: figures/p1_media/Fig8.png Graphic file (type png)
 <use figures/p1_media/Fig8.png>
 Package pdftex.def Info: figures/p1_media/Fig8.png  used on input line 701.
 (pdftex.def)             Requested size: 397.48499pt x 397.49687pt.
-<figures/p1_media/Fig9.png, id=674, 313.17pt x 313.17pt>
+<figures/p1_media/Fig9.png, id=1153, 313.17pt x 313.17pt>
 File: figures/p1_media/Fig9.png Graphic file (type png)
 <use figures/p1_media/Fig9.png>
 Package pdftex.def Info: figures/p1_media/Fig9.png  used on input line 713.
 (pdftex.def)             Requested size: 397.48499pt x 397.49687pt.
-<figures/p1_media/Fig10.png, id=675, 1387.584pt x 712.5822pt>
+<figures/p1_media/Fig10.png, id=1154, 1387.584pt x 712.5822pt>
 File: figures/p1_media/Fig10.png Graphic file (type png)
 <use figures/p1_media/Fig10.png>
 Package pdftex.def Info: figures/p1_media/Fig10.png  used on input line 726.
 (pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
-<figures/p1_media/Fig11.png, id=676, 1387.584pt x 712.5822pt>
+<figures/p1_media/Fig11.png, id=1155, 1387.584pt x 712.5822pt>
 File: figures/p1_media/Fig11.png Graphic file (type png)
 <use figures/p1_media/Fig11.png>
 Package pdftex.def Info: figures/p1_media/Fig11.png  used on input line 740.
@@ -802,35 +1260,294 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] [22 <./figures/p1_media/Fig7.png>] [23 <./figures/p1_media/Fig8.png>]
-[24 <./figures/p1_media/Fig9.png>] [25 <./figures/p1_media/Fig10.png> <./figure
-s/p1_media/Fig11.png>]) (./chapter/06-P2-Journal-Chapter.tex [26]
+[24] [25 <./figures/p1_media/Fig7.png>] [26 <./figures/p1_media/Fig8.png>]
+[27 <./figures/p1_media/Fig9.png>] [28 <./figures/p1_media/Fig10.png> <./figure
+s/p1_media/Fig11.png>]) (./chapter/06-P2-Journal-Chapter.tex [29] [30
 
-LaTeX Warning: Reference `sec-Apx-C' on page 27 undefined on input line 20.
+] [31]
+[32]
+<./figures/p2_media/figures/raw/setup.png, id=1267, 1927.2pt x 1084.05pt>
+File: ./figures/p2_media/figures/raw/setup.png Graphic file (type png)
+<use ./figures/p2_media/figures/raw/setup.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/setup.png  used on inpu
+t line 157.
+(pdftex.def)             Requested size: 397.48499pt x 223.57153pt.
+<./figures/p2_media/figures/tips.png, id=1268, 385.44pt x 144.54pt>
+File: ./figures/p2_media/figures/tips.png Graphic file (type png)
+<use ./figures/p2_media/figures/tips.png>
+Package pdftex.def Info: ./figures/p2_media/figures/tips.png  used on input lin
+e 171.
+(pdftex.def)             Requested size: 397.48499pt x 149.05649pt.
+ [33 <./figures/p2_media/figures/raw/setup.png (PNG copy)>] [34 <./figures/p2_m
+edia/figures/tips.png>]
+<./figures/p2_media/figures/raw/fig3_5_natural.png, id=1286, 1387.584pt x 712.5
+822pt>
+File: ./figures/p2_media/figures/raw/fig3_5_natural.png Graphic file (type png)
 
-[27
+<use ./figures/p2_media/figures/raw/fig3_5_natural.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/fig3_5_natural.png  use
+d on input line 241.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+<./figures/p2_media/figures/raw/fig4_normalized.png, id=1289, 1387.584pt x 712.
+5822pt>
+File: ./figures/p2_media/figures/raw/fig4_normalized.png Graphic file (type png
+)
+<use ./figures/p2_media/figures/raw/fig4_normalized.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/fig4_normalized.png  us
+ed on input line 266.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+ [35] [36 <./figures/p2_media/figures/raw/fig3_5_natural.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [37 <./figures/p2_media/figures/raw/fig4_normalized.png>] [38]
+<./figures/p2_media/figures/raw/KNN_F1_scores.png, id=1349, 1387.584pt x 712.58
+22pt>
+File: ./figures/p2_media/figures/raw/KNN_F1_scores.png Graphic file (type png)
+<use ./figures/p2_media/figures/raw/KNN_F1_scores.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/KNN_F1_scores.png  used
+ on input line 444.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+<./figures/p2_media/figures/raw/SVM_F1_scores.png, id=1350, 1387.584pt x 712.58
+22pt>
+File: ./figures/p2_media/figures/raw/SVM_F1_scores.png Graphic file (type png)
+<use ./figures/p2_media/figures/raw/SVM_F1_scores.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/SVM_F1_scores.png  used
+ on input line 457.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+<./figures/p2_media/figures/raw/MLP_F1_scores.png, id=1351, 1387.584pt x 712.58
+22pt>
+File: ./figures/p2_media/figures/raw/MLP_F1_scores.png Graphic file (type png)
+<use ./figures/p2_media/figures/raw/MLP_F1_scores.png>
+Package pdftex.def Info: ./figures/p2_media/figures/raw/MLP_F1_scores.png  used
+ on input line 472.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
 
-]) (./chapter/07-P3-Journal-Chapter.tex [28])
-(./chapter/08-load_cell_compare.tex [29
-
-]) (./chapter/09-acoustic_extension.tex
-[30
-
-]) (./chapter/10-extra_modelling_and_recs.tex [31
-
-]) [32
+[39] [40 <./figures/p2_media/figures/raw/KNN_F1_scores.png> <./figures/p2_media
+/figures/raw/SVM_F1_scores.png>] [41 <./figures/p2_media/figures/raw/MLP_F1_sco
+res.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [42]) (./chapter/07-P3-Journal-Chapter.tex [43] [44
 
 ]
+<./figures/p3_media/figures/dataflow.png, id=1396, 1204.5pt x 642.4pt>
+File: ./figures/p3_media/figures/dataflow.png Graphic file (type png)
+<use ./figures/p3_media/figures/dataflow.png>
+Package pdftex.def Info: ./figures/p3_media/figures/dataflow.png  used on input
+ line 83.
+(pdftex.def)             Requested size: 325.215pt x 173.45032pt.
+ [45] [46 <./figures/p3_media/figures/dataflow.png>] [47]
+<./figures/p3_media/figures/sensors_intact_crushed_cropped.jpg, id=1463, 467.82
+78pt x 277.5168pt>
+File: ./figures/p3_media/figures/sensors_intact_crushed_cropped.jpg Graphic fil
+e (type jpg)
+<use ./figures/p3_media/figures/sensors_intact_crushed_cropped.jpg>
+Package pdftex.def Info: ./figures/p3_media/figures/sensors_intact_crushed_crop
+ped.jpg  used on input line 212.
+(pdftex.def)             Requested size: 325.215pt x 192.9223pt.
+ [48 <./figures/p3_media/figures/sensors_intact_crushed_cropped.jpg>]
+<./figures/p3_media/figures/load_frame_highlight.png, id=1470, 820.0236pt x 587
+.796pt>
+File: ./figures/p3_media/figures/load_frame_highlight.png Graphic file (type pn
+g)
+<use ./figures/p3_media/figures/load_frame_highlight.png>
+Package pdftex.def Info: ./figures/p3_media/figures/load_frame_highlight.png  u
+sed on input line 244.
+(pdftex.def)             Requested size: 325.215pt x 233.11414pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 267.
+
+<./figures/p3_media/figures/rock_cutting_setup_detail.png, id=1473, 3854.4pt x 
+2168.1pt>
+File: ./figures/p3_media/figures/rock_cutting_setup_detail.png Graphic file (ty
+pe png)
+<use ./figures/p3_media/figures/rock_cutting_setup_detail.png>
+Package pdftex.def Info: ./figures/p3_media/figures/rock_cutting_setup_detail.p
+ng  used on input line 284.
+(pdftex.def)             Requested size: 361.34999pt x 203.25888pt.
+[49 <./figures/p3_media/figures/load_frame_highlight.png>] [50 <./figures/p3_me
+dia/figures/rock_cutting_setup_detail.png>]
+<./figures/p3_media/figures/model_fig2.png, id=1488, 529.98pt x 337.26pt>
+File: ./figures/p3_media/figures/model_fig2.png Graphic file (type png)
+<use ./figures/p3_media/figures/model_fig2.png>
+Package pdftex.def Info: ./figures/p3_media/figures/model_fig2.png  used on inp
+ut line 372.
+(pdftex.def)             Requested size: 325.215pt x 206.95822pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--427
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[51] [52 <./figures/p3_media/figures/model_fig2.png>] [53] [54] [55] [56]
+<./figures/p3_media/figures/combined_strain.png, id=1574, 1387.584pt x 712.5822
+pt>
+File: ./figures/p3_media/figures/combined_strain.png Graphic file (type png)
+<use ./figures/p3_media/figures/combined_strain.png>
+Package pdftex.def Info: ./figures/p3_media/figures/combined_strain.png  used o
+n input line 758.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+<./figures/p3_media/figures/combined_load_meas.png, id=1575, 1387.584pt x 712.5
+822pt>
+File: ./figures/p3_media/figures/combined_load_meas.png Graphic file (type png)
+
+<use ./figures/p3_media/figures/combined_load_meas.png>
+Package pdftex.def Info: ./figures/p3_media/figures/combined_load_meas.png  use
+d on input line 771.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[57] [58 <./figures/p3_media/figures/combined_strain.png> <./figures/p3_media/f
+igures/combined_load_meas.png>]
+<./figures/p3_media/figures/combined_force_cap.png, id=1586, 1387.584pt x 712.5
+822pt>
+File: ./figures/p3_media/figures/combined_force_cap.png Graphic file (type png)
+
+<use ./figures/p3_media/figures/combined_force_cap.png>
+Package pdftex.def Info: ./figures/p3_media/figures/combined_force_cap.png  use
+d on input line 784.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+ [59
+
+]
+<./figures/p3_media/figures/model_time_perf.png, id=1596, 1387.584pt x 712.5822
+pt>
+File: ./figures/p3_media/figures/model_time_perf.png Graphic file (type png)
+<use ./figures/p3_media/figures/model_time_perf.png>
+Package pdftex.def Info: ./figures/p3_media/figures/model_time_perf.png  used o
+n input line 824.
+(pdftex.def)             Requested size: 361.34999pt x 185.56058pt.
+<./figures/p3_media/figures/model_time_perf_worn.png, id=1597, 1387.584pt x 712
+.5822pt>
+File: ./figures/p3_media/figures/model_time_perf_worn.png Graphic file (type pn
+g)
+<use ./figures/p3_media/figures/model_time_perf_worn.png>
+Package pdftex.def Info: ./figures/p3_media/figures/model_time_perf_worn.png  u
+sed on input line 838.
+(pdftex.def)             Requested size: 361.34999pt x 185.56058pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./figures/p3_media/figures/mae_perf.png, id=1598, 1387.584pt x 712.5822pt>
+File: ./figures/p3_media/figures/mae_perf.png Graphic file (type png)
+<use ./figures/p3_media/figures/mae_perf.png>
+Package pdftex.def Info: ./figures/p3_media/figures/mae_perf.png  used on input
+ line 854.
+(pdftex.def)             Requested size: 361.34999pt x 185.56058pt.
+<./figures/p3_media/figures/r2_perf.png, id=1599, 1387.584pt x 712.5822pt>
+File: ./figures/p3_media/figures/r2_perf.png Graphic file (type png)
+<use ./figures/p3_media/figures/r2_perf.png>
+Package pdftex.def Info: ./figures/p3_media/figures/r2_perf.png  used on input 
+line 869.
+(pdftex.def)             Requested size: 361.34999pt x 185.56058pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[60 <./figures/p3_media/figures/combined_force_cap.png>] [61 <./figures/p3_medi
+a/figures/model_time_perf.png> <./figures/p3_media/figures/model_time_perf_worn
+.png>] [62 <./figures/p3_media/figures/mae_perf.png> <./figures/p3_media/figure
+s/r2_perf.png>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [63
+
+]) (./chapter/08-load_cell_compare.tex [64]
+<./figures/ch8_flexcell.png, id=1634, 688.7331pt x 711.1368pt>
+File: ./figures/ch8_flexcell.png Graphic file (type png)
+<use ./figures/ch8_flexcell.png>
+Package pdftex.def Info: ./figures/ch8_flexcell.png  used on input line 46.
+(pdftex.def)             Requested size: 216.81pt x 223.85736pt.
+<./figures/ch8_airgap.png, id=1635, 688.7331pt x 711.1368pt>
+File: ./figures/ch8_airgap.png Graphic file (type png)
+<use ./figures/ch8_airgap.png>
+Package pdftex.def Info: ./figures/ch8_airgap.png  used on input line 46.
+(pdftex.def)             Requested size: 216.81pt x 223.85736pt.
+<./figures/ch8_sense_vals.png, id=1636, 1387.584pt x 712.5822pt>
+File: ./figures/ch8_sense_vals.png Graphic file (type png)
+<use ./figures/ch8_sense_vals.png>
+Package pdftex.def Info: ./figures/ch8_sense_vals.png  used on input line 62.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapter/09-acoustic_extension.tex [65
+
+] [66 <./figures/ch8_flexcell.png> <./figures/ch8_airgap.png> <./figures/ch8_se
+nse_vals.png>]
+<./figures/ch_9_frequencies.png, id=1650, 1387.584pt x 712.5822pt>
+File: ./figures/ch_9_frequencies.png Graphic file (type png)
+<use ./figures/ch_9_frequencies.png>
+Package pdftex.def Info: ./figures/ch_9_frequencies.png  used on input line 56.
+
+(pdftex.def)             Requested size: 399.29463pt x 205.05606pt.
+<./figures/ch_9_frequencies_compare.png, id=1651, 1387.584pt x 712.5822pt>
+File: ./figures/ch_9_frequencies_compare.png Graphic file (type png)
+<use ./figures/ch_9_frequencies_compare.png>
+Package pdftex.def Info: ./figures/ch_9_frequencies_compare.png  used on input 
+line 69.
+(pdftex.def)             Requested size: 399.29463pt x 205.05606pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./chapter/10-extra_modelling_and_recs.tex [67
+
+] [68 <./figures/ch_9_frequencies.png> <./figures/ch_9_frequencies_compare.png>
+]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `htbp') on input line 40.
+
+<./figures/ch10_tf.png, id=1667, 1387.584pt x 712.5822pt>
+File: ./figures/ch10_tf.png Graphic file (type png)
+<use ./figures/ch10_tf.png>
+Package pdftex.def Info: ./figures/ch10_tf.png  used on input line 57.
+(pdftex.def)             Requested size: 397.48499pt x 204.12097pt.
+<./figures/ch10_airgap_and_case.jpg, id=1668, 973.4769pt x 716.6775pt>
+File: ./figures/ch10_airgap_and_case.jpg Graphic file (type jpg)
+<use ./figures/ch10_airgap_and_case.jpg>
+Package pdftex.def Info: ./figures/ch10_airgap_and_case.jpg  used on input line
+ 75.
+(pdftex.def)             Requested size: 234.8775pt x 172.91377pt.
+) [69
+
+] [70 <./figures/ch10_tf.png> <./figures/ch10_airgap_and_case.jpg>]
 (./austin-frank-oltmanns-dissertation.bbl
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [33
+ [71
 
 ]
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [72]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no Ç in font cmr10!
- [34] [35] [36]
+ [73] [74]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no © in font cmr10!
 Missing character: There is no ƒ in font cmr10!
@@ -841,8 +1558,50 @@ Missing character: There is no ≈ in font cmr10!
 Missing character: There is no Ω in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no á in font cmr10!
- [37]) [38]
-(./chapter/B-Appendix.tex [39
+ [75]
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no ∞ in font cmr10!
+ [76]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ü in font cmr10!
+
+[77]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+ [78] [79] [80]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no § in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no Ç in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no õ in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no á in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [81]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no æ in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no º in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no Ω in font cmr10!
+ [82] [83]) [84] (./chapter/B-Appendix.tex [85
 
 ]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -851,35 +1610,38 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 5.
 
-(./supporting-files/matlab_code.m)) [40
+(./supporting-files/matlab_code.m)) [86
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
 
 (./austin-frank-oltmanns-dissertation.aux
-\csm@redefined@appendix@saved=\count191
-\csm@appendicies=\count192
+\csm@redefined@appendix@saved=\count284
+\csm@appendicies=\count285
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `austin-frank-oltmanns-dissertation.out' has 
 not changed.
-(rerunfilecheck)             Checksum: 468FBA494703A4C4D316BB558FC24A7E;2925.
+(rerunfilecheck)             Checksum: 9DB5574D7C49B131653B7732E6428E39;5503.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 12423 strings out of 494847
- 186685 string characters out of 6179080
- 427703 words of memory out of 5000000
- 15281 multiletter control sequences out of 15000+600000
- 10773 words of font info for 41 fonts, out of 8000000 for 9000
+ 40090 strings out of 494847
+ 967009 string characters out of 6179080
+ 1418240 words of memory out of 5000000
+ 42262 multiletter control sequences out of 15000+600000
+ 15683 words of font info for 60 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 50i,26n,213p,935b,1558s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,26n,324p,1109b,1557s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{lstnumber.\\relax\040Listing\\protect\040\\unhbox
 \040\\voidb@x\040\\penalty\040\\@M\040\\\040{A}.1.{A}.3} has been referenced bu
 t does not exist, replaced by a fixed one
@@ -890,21 +1652,27 @@ t does not exist, replaced by a fixed one
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on austin-frank-oltmanns-dissertation.pdf (53 pages, 5232604 byt
-es).
+type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+>
+Output written on austin-frank-oltmanns-dissertation.pdf (104 pages, 31653305 b
+ytes).
 PDF statistics:
- 916 PDF objects out of 1000 (max. 8388607)
- 809 compressed objects within 9 object streams
- 206 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1983 PDF objects out of 2073 (max. 8388607)
+ 1757 compressed objects within 18 object streams
+ 453 named destinations out of 1000 (max. 500000)
+ 859 words of extra memory for PDF output out of 10000 (max. 10000000)
 

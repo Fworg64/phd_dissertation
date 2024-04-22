@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{178}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -51,13 +51,13 @@ William~H Schiffbauer.
   applications.
 \newblock 2001.
 
-\bibitem[Duarte et~al.(2022)Duarte, Rodrigues, and
+\bibitem[Duarte et~al.(2022{\natexlab{a}})Duarte, Rodrigues, and
   Castelo~Branco]{ijerph19042334}
 Joana Duarte, Fernanda Rodrigues, and Jacqueline Castelo~Branco.
 \newblock Sensing technology applications in the mining industry—a systematic
   review.
 \newblock \emph{International Journal of Environmental Research and Public
-  Health}, 19\penalty0 (4), 2022.
+  Health}, 19\penalty0 (4), 2022{\natexlab{a}}.
 \newblock ISSN 1660-4601.
 \newblock \doi{10.3390/ijerph19042334}.
 \newblock URL \url{https://www.mdpi.com/1660-4601/19/4/2334}.
@@ -106,6 +106,59 @@ Hal Sider.
 \newblock \emph{Source: The Review of Economics and Statistics}, 65:\penalty0
   225--233, 1983.
 \newblock URL \url{https://www.jstor.org/stable/1924488}.
+
+\bibitem[Valle et~al.(2022)Valle, Kurdas, Fortunić, Abdolshah, and
+  Haddadin]{9981139}
+Carlos Magno C.~O. Valle, Alexander Kurdas, Edmundo~Pozo Fortunić, Saeed
+  Abdolshah, and Sami Haddadin.
+\newblock Real-time imu-based learning: a classification of contact materials.
+\newblock In \emph{2022 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems (IROS)}, pages 1965--1971, 2022.
+\newblock \doi{10.1109/IROS47612.2022.9981139}.
+
+\bibitem[dos Santos~Pedotti et~al.(2020)dos Santos~Pedotti, Zago, Giesbrecht,
+  and Fruett]{9234762}
+Luciane~Agnoletti dos Santos~Pedotti, Ricardo~Mazza Zago, Mateus Giesbrecht,
+  and Fabiano Fruett.
+\newblock Low-cost mems accelerometer network for rotating machine vibration
+  diagnostics.
+\newblock \emph{IEEE Instrumentation \& Measurement Magazine}, 23\penalty0
+  (7):\penalty0 25--33, 2020.
+\newblock \doi{10.1109/MIM.2020.9234762}.
+
+\bibitem[Duarte et~al.(2022{\natexlab{b}})Duarte, Rodrigues, and
+  Castelo~Branco]{duarte2022sensing}
+Joana Duarte, Fernanda Rodrigues, and Jacqueline Castelo~Branco.
+\newblock Sensing technology applications in the mining industry—a systematic
+  review.
+\newblock \emph{International Journal of Environmental Research and Public
+  Health}, 19\penalty0 (4):\penalty0 2334, 2022{\natexlab{b}}.
+
+\bibitem[Qian et~al.(1996)Qian, Ren, and L{\"u}]{qian1996experimental}
+Shu-Qing Qian, Ke-Xin Ren, and Zhi L{\"u}.
+\newblock Experimental study of the features of vlf, mf, hf and vhf
+  electromagnetic radiation accompanying rock fracture.
+\newblock \emph{Acta Seismologica Sinica}, 9:\penalty0 447--454, 1996.
+
+\bibitem[Shao et~al.(2018)Shao, Li, Sun, Huang, and Tang]{SHAO201839}
+Wen Shao, Xingsheng Li, Yong Sun, Han Huang, and Jinyuan Tang.
+\newblock An experimental study of temperature at the tip of point-attack pick
+  during rock cutting process.
+\newblock \emph{International Journal of Rock Mechanics and Mining Sciences},
+  107:\penalty0 39--47, 2018.
+\newblock ISSN 1365-1609.
+\newblock \doi{https://doi.org/10.1016/j.ijrmms.2018.04.044}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1365160917307530}.
+
+\bibitem[Miao et~al.(2023)Miao, Li, Guo, You, and Ge]{s23239521}
+Bing Miao, Yunwang Li, Yinan Guo, Xiusong You, and Shirong Ge.
+\newblock Design and experimental results of a three-dimensional force sensor
+  for shearer cutting pick force monitoring.
+\newblock \emph{Sensors}, 23\penalty0 (23), 2023.
+\newblock ISSN 1424-8220.
+\newblock \doi{10.3390/s23239521}.
+\newblock URL \url{https://www.mdpi.com/1424-8220/23/23/9521}.
 
 \bibitem[{Jobes} et~al.(2012){Jobes}, {Carr}, and {Ducarme}]{jobes12}
 C.~{Jobes}, J.~{Carr}, and J.~{Ducarme}.
@@ -228,11 +281,12 @@ David~MW Powers.
   informedness, markedness and correlation.
 \newblock \emph{arXiv preprint arXiv:2010.16061}, 2020.
 
-\bibitem[Teale(1965)]{teale65}
+\bibitem[Teale(1965{\natexlab{a}})]{teale65}
 Robert Teale.
 \newblock The concept of specific energy in rock drilling.
 \newblock In \emph{International journal of rock mechanics and mining sciences
-  \& geomechanics abstracts}, volume~2, pages 57--73. Elsevier, 1965.
+  \& geomechanics abstracts}, volume~2, pages 57--73. Elsevier,
+  1965{\natexlab{a}}.
 
 \bibitem[Klyuchnikov et~al.(2019)Klyuchnikov, Zaytsev, Gruzdev, Ovchinnikov,
   Antipova, Ismailova, Muravleva, Burnaev, Semenikhin, Cherepanov,
@@ -276,12 +330,12 @@ Liping Liu, Feng Wu, Chunliang Qi, Tianshu Liu, and Jing Tian.
   candlestick drills.
 \newblock \emph{Composite Structures}, 184:\penalty0 742--758, 2018.
 
-\bibitem[Nie et~al.(2011)Nie, Li, Liu, Liu, and Xu]{peng11}
+\bibitem[Nie et~al.(2011{\natexlab{a}})Nie, Li, Liu, Liu, and Xu]{peng11}
 Peng Nie, Zhengqiang Li, Yanchun Liu, Xinyu Liu, and Hongyao Xu.
 \newblock Study on identification method of tool wear based on singular
   spectrum analysis and support vector machine.
 \newblock In \emph{2011 Second International Conference on Digital
-  Manufacturing \& Automation}, pages 1164--1167. IEEE, 2011.
+  Manufacturing \& Automation}, pages 1164--1167. IEEE, 2011{\natexlab{a}}.
 
 \bibitem[Qian et~al.(2010)Qian, Tian, Liu, Zhang, and Chen]{qian10}
 Yiqiu Qian, Jia Tian, Libing Liu, Yu~Zhang, and Yingshu Chen.
@@ -355,10 +409,10 @@ Rui Kong and Bing Zhang.
 \newblock In \emph{Third International Conference on Natural Computation (ICNC
   2007)}, volume~1, pages 512--516. IEEE, 2007.
 
-\bibitem[Tamhane and Dunlop(2000)]{tamhane2000statistics}
+\bibitem[Tamhane and Dunlop(2000{\natexlab{a}})]{tamhane2000statistics}
 Ajit Tamhane and Dunlop Dunlop.
 \newblock Statistics and data analysis: from elementary to intermediate.
-\newblock page 280, 2000.
+\newblock page 280, 2000{\natexlab{a}}.
 
 \bibitem[Lee et~al.(2016)Lee, Kim, Jung, and Choi]{lee16}
 Dong-Hyuk Lee, Uikyum Kim, Hosang Jung, and Hyouk~Ryeol Choi.
@@ -391,44 +445,44 @@ Kaspar Willam.
 \newblock \emph{Encyclopedia of physical science and technology}, 3:\penalty0
   603--633, 2002.
 
-\bibitem[Barile et~al.(2019)Barile, Leoni, and Fern]{barile19}
+\bibitem[Barile et~al.(2019{\natexlab{a}})Barile, Leoni, and Fern]{barile19}
 Gianluca Barile, Alfiero Leoni, and Giuseppe Fern.
 \newblock A differential capacitive multi-material 3d printed sensor for
   portable anemometric applications.
 \newblock In \emph{2019 IEEE 8th International Workshop on Advances in Sensors
-  and Interfaces (IWASI)}, pages 234--238, 2019.
+  and Interfaces (IWASI)}, pages 234--238, 2019{\natexlab{a}}.
 \newblock \doi{10.1109/IWASI.2019.8791283}.
 
-\bibitem[Lu et~al.(2016)Lu, Bai, Zeng, Li, Zhang, and Tan]{Lu16}
+\bibitem[Lu et~al.(2016{\natexlab{a}})Lu, Bai, Zeng, Li, Zhang, and Tan]{Lu16}
 Yunfeng Lu, Yang Bai, Tao Zeng, Zhengkun Li, Zhonghua Zhang, and Jiubin Tan.
 \newblock Coplanar capacitive sensor for measuring horizontal displacement in
   joule balance.
 \newblock In \emph{2016 Conference on Precision Electromagnetic Measurements
-  (CPEM 2016)}, pages 1--2, 2016.
+  (CPEM 2016)}, pages 1--2, 2016{\natexlab{a}}.
 \newblock \doi{10.1109/CPEM.2016.7540791}.
 
-\bibitem[Zaitsev and Levytskyi(2017)]{Zaitsev17}
+\bibitem[Zaitsev and Levytskyi(2017{\natexlab{a}})]{Zaitsev17}
 Ievgen~O. Zaitsev and Anatolii~S. Levytskyi.
 \newblock Determination of response characteristic of capacitive coplanar air
   gap sensor.
 \newblock In \emph{2017 IEEE Microwaves, Radar and Remote Sensing Symposium
-  (MRRS)}, pages 85--88, 2017.
+  (MRRS)}, pages 85--88, 2017{\natexlab{a}}.
 \newblock \doi{10.1109/MRRS.2017.8075034}.
 
-\bibitem[Prit et~al.(2019)Prit, Goyal, and Islam]{Prit19}
+\bibitem[Prit et~al.(2019{\natexlab{a}})Prit, Goyal, and Islam]{Prit19}
 Gaurav Prit, Prateek Goyal, and Tarikul Islam.
 \newblock A novel design of the parallel plate capacitive sensor for
   displacement measurement.
 \newblock In \emph{2019 IEEE 16th India Council International Conference
-  (INDICON)}, pages 1--4, 2019.
+  (INDICON)}, pages 1--4, 2019{\natexlab{a}}.
 \newblock \doi{10.1109/INDICON47234.2019.9029007}.
 
-\bibitem[Liu et~al.(2016)Liu, Peng, Chen, Pu, and Yu]{Liu16}
+\bibitem[Liu et~al.(2016{\natexlab{a}})Liu, Peng, Chen, Pu, and Yu]{Liu16}
 Xiaokang Liu, Kai Peng, Ziran Chen, Hongji Pu, and Zhicheng Yu.
 \newblock A new capacitive displacement sensor with nanometer accuracy and long
   range.
 \newblock \emph{IEEE Sensors Journal}, 16\penalty0 (8):\penalty0 2306--2316,
-  2016.
+  2016{\natexlab{a}}.
 \newblock \doi{10.1109/JSEN.2016.2521681}.
 
 \bibitem[Schouten et~al.(2017)Schouten, Sanders, and Krijnen]{Shouten17}
@@ -522,22 +576,23 @@ Pal~Jen Wei, Wei~Xin Shen, and Jen~Fin Lin.
 \newblock \emph{Journal of non-crystalline solids}, 354\penalty0 (33):\penalty0
   3911--3918, 2008.
 
-\bibitem[Zhu et~al.(2020)Zhu, Wu, Wang, Wang, Tan, Zhao, and Wu]{zhu20}
+\bibitem[Zhu et~al.(2020{\natexlab{a}})Zhu, Wu, Wang, Wang, Tan, Zhao, and
+  Wu]{zhu20}
 Yuchao Zhu, Yigen Wu, Guangshun Wang, Zhongbao Wang, Qiulin Tan, Libo Zhao, and
   Dezhi Wu.
 \newblock A flexible capacitive pressure sensor based on an electrospun
   polyimide nanofiber membrane.
-\newblock \emph{Organic Electronics}, 84:\penalty0 105759, 2020.
+\newblock \emph{Organic Electronics}, 84:\penalty0 105759, 2020{\natexlab{a}}.
 \newblock ISSN 1566-1199.
 \newblock \doi{https://doi.org/10.1016/j.orgel.2020.105759}.
 \newblock URL
   \url{https://www.sciencedirect.com/science/article/pii/S1566119920301452}.
 
-\bibitem[Dobrzynska and Gijs(2012)]{dobrzynska12}
+\bibitem[Dobrzynska and Gijs(2012{\natexlab{a}})]{dobrzynska12}
 Jagoda~A Dobrzynska and Martin~AM Gijs.
 \newblock Flexible polyimide-based force sensor.
 \newblock \emph{Sensors and Actuators A: Physical}, 173\penalty0 (1):\penalty0
-  127--135, 2012.
+  127--135, 2012{\natexlab{a}}.
 
 \bibitem[Bodini et~al.(2018{\natexlab{b}})Bodini, Pandini, Sardini, and
   Serpelloni]{Bodini19}
@@ -547,5 +602,780 @@ Andrea Bodini, Stefano Pandini, Emilio Sardini, and Mauro Serpelloni.
 \newblock In \emph{2018 IEEE Sensors Applications Symposium (SAS)}, pages 1--5,
   2018{\natexlab{b}}.
 \newblock \doi{10.1109/SAS.2018.8336775}.
+
+\bibitem[Sari et~al.(2004)Sari, Duzgun, Karpuz, and Selcuk]{Sari2004}
+M.~Sari, H.~S.B. Duzgun, C.~Karpuz, and A.~S. Selcuk.
+\newblock Accident analysis of two turkish underground coal mines.
+\newblock \emph{Safety Science}, 42:\penalty0 675--690, 2004.
+\newblock ISSN 09257535.
+\newblock \doi{10.1016/j.ssci.2003.11.002}.
+
+\bibitem[İlknur Erol(2022)]{Erol2022}
+İlknur Erol.
+\newblock Investigation of occupational noise-induced hearing loss of
+  underground coal mines.
+\newblock \emph{Mining, Metallurgy and Exploration}, 39:\penalty0 1045--1060, 6
+  2022.
+\newblock ISSN 25243470.
+\newblock \doi{10.1007/s42461-022-00585-1}.
+
+\bibitem[Colinet()]{Colinent2020}
+Jay~F Colinet.
+\newblock The impact of black lung and a methodology for controlling respirable
+  dust.
+\newblock \doi{10.1007/s42461-020-00278-7/Published}.
+\newblock URL \url{https://doi.org/10.1007/s42461-020-00278-7}.
+
+\bibitem[Juganda et~al.(2022)Juganda, Pinheiro, Wilson, Sandoval, Bogin, and
+  Brune]{Juganda2022}
+A.~Juganda, H.~Pinheiro, F.~Wilson, N.~Sandoval, G.~E. Bogin, and J.~F. Brune.
+\newblock Investigation of explosion hazard in longwall coal mines by combining
+  cfd with a 1/40th-scale physical model.
+\newblock \emph{Mining, Metallurgy and Exploration}, 39:\penalty0 2273--2290,
+  10 2022.
+\newblock ISSN 25243470.
+\newblock \doi{10.1007/s42461-022-00629-6}.
+
+\bibitem[Cinar and Ozsen(2020)]{cinar2020}
+Ibrahim Cinar and Hakan Ozsen.
+\newblock Investigation of climatic conditions in underground coal mining.
+\newblock \emph{Mining, Metallurgy and Exploration}, 37:\penalty0 753--760, 4
+  2020.
+\newblock ISSN 25243470.
+\newblock \doi{10.1007/s42461-019-00141-4}.
+
+\bibitem[Bugarski et~al.(2022)Bugarski, Vanderslice, Hummer, Barone, Mischler,
+  Peters, Cochrane, and Winkler]{Bugarski2022}
+Aleksandar~D. Bugarski, Shawn Vanderslice, Jon~A. Hummer, Teresa Barone,
+  Steven~E. Mischler, Shad Peters, Steve Cochrane, and Jared Winkler.
+\newblock Diesel aerosols in an underground coal mine.
+\newblock \emph{Mining, Metallurgy and Exploration}, 39:\penalty0 937--945, 6
+  2022.
+\newblock ISSN 25243470.
+\newblock \doi{10.1007/s42461-022-00588-y}.
+
+\bibitem[Swanson and Bellanca(2019)]{Swanson2019}
+La~Tasha~R. Swanson and Jennica~L. Bellanca.
+\newblock If the technology fits: an evaluation of mobile proximity detection
+  systems in underground coal mines.
+\newblock \emph{Mining, Metallurgy and Exploration}, 36:\penalty0 633--645, 8
+  2019.
+\newblock ISSN 25243470.
+\newblock \doi{10.1007/s42461-019-0056-8}.
+
+\bibitem[Bartels et~al.(2009{\natexlab{c}})Bartels, Jobes, Ducarme, and
+  Lutz]{Bartels2009}
+J.~R. Bartels, C.~C. Jobes, J.~P. Ducarme, and T.~J. Lutz.
+\newblock Evaluation of work positions used by continuous miner operators in
+  underground coal mines.
+\newblock \emph{Proceedings of the Human Factors and Ergonomics Society},
+  3:\penalty0 1622--1626, 2009{\natexlab{c}}.
+\newblock ISSN 10711813.
+\newblock \doi{10.1518/107118109x12524444080792}.
+
+\bibitem[Sensogut et~al.(2021)Sensogut, Kasap, and Oren]{sensogut2021}
+Cem Sensogut, Yaşar Kasap, and Ozer Oren.
+\newblock Investigation of work accidents in underground and surface coal
+  mining activities of western lignite corporation by data envelopment analysis
+  (dea).
+\newblock \emph{Mining Metallurgy and Exploration}, 38:\penalty0 1973--1983,
+  2021.
+\newblock \doi{10.1007/s42461-021-00448-1/Published}.
+\newblock URL \url{http://www.gli.gov.tr}.
+
+\bibitem[Zakeri and Hodgson(2017)]{Zakeri2017}
+V.~Zakeri and A.~J. Hodgson.
+\newblock Classifying hard and soft bone tissues using drilling sounds.
+\newblock In \emph{Proceedings of the Annual International Conference of the
+  IEEE Engineering in Medicine and Biology Society, EMBS}, pages 2855--2858, 9
+  2017.
+\newblock \doi{10.1109/EMBC.2017.8037452}.
+
+\bibitem[Zhong et~al.(2013)Zhong, Zhou, and Win]{Zhong2013}
+Z.~W. Zhong, J.~H. Zhou, and Ye~Nyi Win.
+\newblock Correlation analysis of cutting force and acoustic emission signals
+  for tool condition monitoring.
+\newblock In \emph{2013 9th Asian Control Conference, ASCC 2013}, 2013.
+\newblock ISBN 9781467357692.
+\newblock \doi{10.1109/ASCC.2013.6606333}.
+
+\bibitem[Rad et~al.(2014)Rad, Zhang, Aghazadeh, and Chen]{Rad2014}
+Javad~Soltani Rad, Youmin Zhang, Fatemeh Aghazadeh, and Zezhong~Chevy Chen.
+\newblock A study on tool wear monitoring using time-frequency transformation
+  techniques.
+\newblock In \emph{Proceedings of the 2014 International Conference on
+  Innovative Design and Manufacturing, ICIDM 2014}, pages 342--347, 9 2014.
+\newblock ISBN 9781479962709.
+\newblock \doi{10.1109/IDAM.2014.6912718}.
+
+\bibitem[Zakeri et~al.(2015)Zakeri, Arzanpour, and Chehroudi]{Zakeri2015}
+Vahid Zakeri, Siamak Arzanpour, and Babak Chehroudi.
+\newblock Discrimination of tooth layers and dental restorative materials using
+  cutting sounds.
+\newblock \emph{IEEE Journal of Biomedical and Health Informatics},
+  19:\penalty0 571--580, 3 2015.
+\newblock ISSN 21682208.
+\newblock \doi{10.1109/JBHI.2014.2317503}.
+
+\bibitem[Tan(1992)]{Tan1992}
+C.~C. Tan.
+\newblock Monitoring of tool wear using acoustic emission.
+\newblock In \emph{Singapore International Conference on Intelligent Control
+  and Instrumentation - Proceedings}, volume~2, pages 1063--1067, 1992.
+\newblock ISBN 0780306325.
+\newblock \doi{10.1109/SICICI.1992.637686}.
+
+\bibitem[Kakade et~al.(1995)Kakade, Vijayaraghavan, and
+  Krishnamurthy]{Kakade1995}
+Sunilkumar Kakade, L.~Vijayaraghavan, and R.~Krishnamurthy.
+\newblock Monitoring of tool status using intelligent acoustic emission sensing
+  and decision based neural network.
+\newblock In \emph{IEEE/IAS International Conference on Industrial Automation
+  and Control, Proceedings}, pages 25--29, 1995.
+\newblock \doi{10.1109/iacc.1995.465873}.
+
+\bibitem[Xu and Zhou(2016{\natexlab{a}})]{xu2016fftsvm}
+Liyu Xu and Yuanjun Zhou.
+\newblock Fault diagnosis for bldcm system used fft algorithm and support
+  vector machines.
+\newblock In \emph{2016 IEEE International Conference on Aircraft Utility
+  Systems (AUS)}, pages 384--387, 2016{\natexlab{a}}.
+\newblock \doi{10.1109/AUS.2016.7748079}.
+
+\bibitem[He(2013)]{he2013vibration}
+Qingbo He.
+\newblock Vibration signal classification by wavelet packet energy flow
+  manifold learning.
+\newblock \emph{Journal of Sound and Vibration}, 332\penalty0 (7):\penalty0
+  1881--1894, 2013.
+
+\bibitem[Sadegh et~al.(2016)Sadegh, Mehdi, and Mehdi]{sadegh2016classification}
+Hosseini Sadegh, Ahmadi~Najafabadi Mehdi, and Akhlaghi Mehdi.
+\newblock Classification of acoustic emission signals generated from journal
+  bearing at different lubrication conditions based on wavelet analysis in
+  combination with artificial neural network and genetic algorithm.
+\newblock \emph{Tribology International}, 95:\penalty0 426--434, 2016.
+
+\bibitem[Skariah et~al.(2021)Skariah, Pradeep, Rejith, and
+  Bijudas]{skariah2021health}
+Abhilash Skariah, R~Pradeep, R~Rejith, and CR~Bijudas.
+\newblock Health monitoring of rolling element bearings using improved wavelet
+  cross spectrum technique and support vector machines.
+\newblock \emph{Tribology International}, 154:\penalty0 106650, 2021.
+
+\bibitem[Xu and Feng(2009)]{Xu2009}
+Tao Xu and Zhigang Feng.
+\newblock Tool wear identifying based on emd and svm with ae sensor.
+\newblock In \emph{ICEMI 2009 - Proceedings of 9th International Conference on
+  Electronic Measurement and Instruments}, pages 2948--2952, 2009.
+\newblock ISBN 9781424438624.
+\newblock \doi{10.1109/ICEMI.2009.5274425}.
+
+\bibitem[Nie et~al.(2011{\natexlab{b}})Nie, Xu, Liu, Liu, and Li]{Nie2011}
+Peng Nie, Hongyao Xu, Yanchun Liu, Xinyu Liu, and Zhengqiang Li.
+\newblock Aviation tool wear states identifying based on emd and svm.
+\newblock In \emph{Proceedings of the 2011 2nd International Conference on
+  Digital Manufacturing and Automation, ICDMA 2011}, pages 246--249,
+  2011{\natexlab{b}}.
+\newblock ISBN 9780769544557.
+\newblock \doi{10.1109/ICDMA.2011.67}.
+
+\bibitem[Zhan et~al.(2014)Zhan, Min, and Le]{Zhan2014}
+Shuai~Shao Zhan, Huang Min, and Yan Le.
+\newblock Using emd to extract characteristic values of the tool vibration
+  signals.
+\newblock In \emph{Proceedings - 2014 6th International Conference on Measuring
+  Technology and Mechatronics Automation, ICMTMA 2014}, pages 799--802, 2014.
+\newblock \doi{10.1109/ICMTMA.2014.197}.
+
+\bibitem[Xu and Zhou(2016{\natexlab{b}})]{Xu2016}
+Liyu Xu and Yuanjun Zhou.
+\newblock Fault diagnosis for bldcm system used fft algorithm and support
+  vector machines.
+\newblock In \emph{IEEE/CSAA AUS 2016 : 2016 IEEE/CSAA International Conference
+  on Aircraft Utility Systems}, 10 2016{\natexlab{b}}.
+\newblock ISBN 9781509010875.
+\newblock \doi{10.1109/AUS.2016.7748079}.
+
+\bibitem[Harlianto et~al.(2022)Harlianto, Setiawan, and Adji]{Harlianto2022}
+Pramudyana~Agus Harlianto, Noor~Akhmad Setiawan, and Teguh~Bharata Adji.
+\newblock Combining support vector machine - fast fourier transform (svm - fft)
+  for improving accuracy on broken bearing diagnosis.
+\newblock In \emph{2022 5th International Seminar on Research of Information
+  Technology and Intelligent Systems, ISRITI 2022}, pages 576--581, 2022.
+\newblock ISBN 9781665455121.
+\newblock \doi{10.1109/ISRITI56927.2022.10052801}.
+
+\bibitem[Yen and Lin(1999)]{Yen1999}
+G.Y. Yen and Kuo-Chung Lin.
+\newblock Wavelet packet feature extraction for vibration monitoring.
+\newblock In \emph{Proceedings of the 1999 IEEE International Conference on
+  Control Applications (Cat. No.99CH36328)}, volume~2, pages 1573--1578, 1999.
+\newblock ISBN 0-7803-5446-X.
+\newblock \doi{10.1109/CCA.1999.801206}.
+\newblock URL \url{http://ieeexplore.ieee.org/document/801206/}.
+
+\bibitem[Baccar and Söffker(2015)]{Baccar2015}
+D.~Baccar and D.~Söffker.
+\newblock Wear detection by means of wavelet-based acoustic emission analysis.
+\newblock \emph{Mechanical Systems and Signal Processing}, 60:\penalty0
+  198--207, 8 2015.
+\newblock ISSN 10961216.
+\newblock \doi{10.1016/j.ymssp.2015.02.012}.
+
+\bibitem[Thyagarajan and Rostami(2024)]{THYAGARAJAN2024105675}
+Muthu~Vinayak Thyagarajan and Jamal Rostami.
+\newblock Study of cutting forces acting on a disc cutter and impact of
+  variable penetration measured by full scale linear cutting tests.
+\newblock \emph{International Journal of Rock Mechanics and Mining Sciences},
+  175:\penalty0 105675, 2024.
+\newblock ISSN 1365-1609.
+\newblock \doi{https://doi.org/10.1016/j.ijrmms.2024.105675}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1365160924000406}.
+
+\bibitem[Goutte and Gaussier(2005)]{Goutte2005}
+Cyril Goutte and Eric Gaussier.
+\newblock A probabilistic interpretation of precision, recall and f-score, with
+  implication for evaluation.
+\newblock In David~E. Losada and Juan~M. Fern{\'a}ndez-Luna, editors,
+  \emph{Advances in Information Retrieval}, pages 345--359, Berlin, Heidelberg,
+  2005. Springer Berlin Heidelberg.
+\newblock ISBN 978-3-540-31865-1.
+\newblock \doi{10.1007/978-3-540-31865-1_25}.
+
+\bibitem[Bra(2007)]{Bramer2007}
+\emph{Measuring the Performance of a Classifier}, pages 173--185.
+\newblock Springer London, London, 2007.
+\newblock ISBN 978-1-84628-766-4.
+\newblock \doi{10.1007/978-1-84628-766-4_11}.
+\newblock URL \url{https://doi.org/10.1007/978-1-84628-766-4_11}.
+
+\bibitem[Harris(1978)]{Harris1978}
+Fredric~J. Harris.
+\newblock On the use of windows for harmonic analysis with the discrete fourier
+  transform.
+\newblock \emph{Proceedings of the IEEE}, 66:\penalty0 51--83, 1978.
+\newblock ISSN 15582256.
+\newblock \doi{10.1109/PROC.1978.10837}.
+
+\bibitem[Tamhane and Dunlop(2000{\natexlab{b}})]{Tamhane2000}
+Ajit~C. Tamhane and Dorothy~D. Dunlop.
+\newblock \emph{Statistics and Data Analysis from Elementary to Intermediate}.
+\newblock Prentice-Hall Inc., 2000{\natexlab{b}}.
+
+\bibitem[Pedregosa et~al.(2011)Pedregosa, Varoquaux, Gramfort, Michel, Thirion,
+  Grisel, Blondel, Prettenhofer, Weiss, Dubourg, Vanderplas, Passos,
+  Cournapeau, Brucher, Perrot, and {{\'E}}douard
+  Duchesnay]{JMLR:v12:pedregosa11a}
+Fabian Pedregosa, Ga{{\"e}}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and {{\'E}}douard Duchesnay.
+\newblock Scikit-learn: Machine learning in python.
+\newblock \emph{Journal of Machine Learning Research}, 12\penalty0
+  (85):\penalty0 2825--2830, 2011.
+\newblock URL \url{http://jmlr.org/papers/v12/pedregosa11a.html}.
+
+\bibitem[Buckland and Gey(1994)]{buckland94}
+Michael Buckland and Fredric Gey.
+\newblock The relationship between recall and precision.
+\newblock \emph{Journal of the American Society for Information Science},
+  45\penalty0 (1):\penalty0 12--19, 1994.
+\newblock
+  \doi{https://doi.org/10.1002/(SICI)1097-4571(199401)45:1<12::AID-ASI2>3.0.CO;2-L}.
+
+\bibitem[Vaishnnave1 and Srinivasan(2019)]{Vaishnnave12019}
+M~P Vaishnnave1 and P~Srinivasan.
+\newblock Detection and classification of groundnut leaf diseases using knn
+  classifier; detection and classification of groundnut leaf diseases using knn
+  classifier, 2019.
+
+\bibitem[Song et~al.(2007)Song, Huang, Zhou, Zha, and Giles]{Song2007}
+Yang Song, Jian Huang, Ding Zhou, Hongyuan Zha, and C~Lee Giles.
+\newblock Lnai 4702 - iknn: Informative k-nearest neighbor pattern
+  classification, 2007.
+
+\bibitem[Abu~Alfeilat et~al.(2019)Abu~Alfeilat, Hassanat, Lasassmeh, Tarawneh,
+  Alhasanat, Eyal~Salman, and Prasath]{Alf2019}
+Haneen~Arafat Abu~Alfeilat, Ahmad~B.A. Hassanat, Omar Lasassmeh, Ahmad~S.
+  Tarawneh, Mahmoud~Bashir Alhasanat, Hamzeh~S. Eyal~Salman, and V.B.~Surya
+  Prasath.
+\newblock Effects of distance measure choice on k-nearest neighbor classifier
+  performance: A review.
+\newblock \emph{Big Data}, 7\penalty0 (4):\penalty0 221--248, 2019.
+\newblock \doi{10.1089/big.2018.0175}.
+\newblock PMID: 31411491.
+
+\bibitem[Lazarevic et~al.(2009)Lazarevic, Pokrajac, Marcano, and
+  Melikechi]{lazarevic2009support}
+Aleksandar Lazarevic, Dragoljub Pokrajac, Aristides Marcano, and Noureddine
+  Melikechi.
+\newblock Support vector machine based classification of fast fourier transform
+  spectroscopy of proteins.
+\newblock In \emph{Advanced Biomedical and Clinical Diagnostic Systems VII},
+  volume 7169, pages 63--70. SPIE, 2009.
+
+\bibitem[Sewell(2008)]{sewell2008structural}
+Martin Sewell.
+\newblock Structural risk minimization.
+\newblock \emph{Unpublished Ph. D. dissertation, University College London,
+  Department of Computer Science}, 2008.
+
+\bibitem[Gordon and Tibshirani(2012)]{gordon2012karush}
+Geoff Gordon and Ryan Tibshirani.
+\newblock Karush-kuhn-tucker conditions.
+\newblock \emph{Optimization}, 10\penalty0 (725/36):\penalty0 725, 2012.
+
+\bibitem[Oskoei and Hu(2008)]{Oskoei08}
+Mohammadreza~Asghari Oskoei and Huosheng Hu.
+\newblock Support vector machine-based classification scheme for myoelectric
+  control applied to upper limb.
+\newblock \emph{IEEE Transactions on Biomedical Engineering}, 55\penalty0
+  (8):\penalty0 1956--1965, 2008.
+\newblock \doi{10.1109/TBME.2008.919734}.
+
+\bibitem[Debnath et~al.(2004)Debnath, Takahide, and Takahashi]{Debnath2004}
+Rameswar Debnath, N.~Takahide, and Haruhisa Takahashi.
+\newblock A decision based one-against-one method for multi-class support
+  vector machine.
+\newblock \emph{Pattern Anal. Appl.}, 7:\penalty0 164--175, 07 2004.
+\newblock \doi{10.1007/s10044-004-0213-6}.
+
+\bibitem[Yulita et~al.(2018)Yulita, Rosadi, Purwani, and
+  Suryani]{yulita2018multi}
+Intan~Nurma Yulita, Rudi Rosadi, Sri Purwani, and Mira Suryani.
+\newblock Multi-layer perceptron for sleep stage classification.
+\newblock In \emph{Journal of Physics: Conference Series}, volume 1028, page
+  012212. IOP Publishing, 2018.
+
+\bibitem[Molina~Estren et~al.(2021)Molina~Estren, De~la Hoz~Manotas, and
+  Mendoza~Palechor]{molina2021classification}
+Diego Molina~Estren, Alexis~Kevin De~la Hoz~Manotas, and Fabio
+  Mendoza~Palechor.
+\newblock Classification and features selection method for obesity level
+  prediction.
+\newblock 2021.
+
+\bibitem[Montesinos~L{\'o}pez et~al.(2022)Montesinos~L{\'o}pez,
+  Montesinos~L{\'o}pez, and Crossa]{montesinos2022fundamentals}
+Osval~Antonio Montesinos~L{\'o}pez, Abelardo Montesinos~L{\'o}pez, and Jose
+  Crossa.
+\newblock Fundamentals of artificial neural networks and deep learning.
+\newblock In \emph{Multivariate Statistical Machine Learning Methods for
+  Genomic Prediction}, pages 379--425. 2022.
+
+\bibitem[Sharma et~al.(2017)Sharma, Sharma, and Athaiya]{sharma2017activation}
+Sagar Sharma, Simone Sharma, and Anidhya Athaiya.
+\newblock Activation functions in neural networks.
+\newblock \emph{Towards Data Sci}, 6\penalty0 (12):\penalty0 310--316, 2017.
+
+\bibitem[Maxwell et~al.(2017)Maxwell, Li, Yang, Weng, Ou, Hong, Zhou, Gong, and
+  Zhang]{maxwell2017deep}
+Andrew Maxwell, Runzhi Li, Bei Yang, Heng Weng, Aihua Ou, Huixiao Hong,
+  Zhaoxian Zhou, Ping Gong, and Chaoyang Zhang.
+\newblock Deep learning architectures for multi-label classification of
+  intelligent health risk prediction.
+\newblock \emph{BMC bioinformatics}, 18:\penalty0 121--131, 2017.
+
+\bibitem[Khanzode et~al.(2011)Khanzode, Maiti, and Ray]{Khanzode2011}
+Vivek~V. Khanzode, J.~Maiti, and P.~K. Ray.
+\newblock A methodology for evaluation and monitoring of recurring hazards in
+  underground coal mining.
+\newblock \emph{Safety Science}, 49:\penalty0 1172--1179, 10 2011.
+\newblock ISSN 09257535.
+\newblock \doi{10.1016/j.ssci.2011.03.009}.
+
+\bibitem[Saleh and Cummings(2011)]{Saleh2011}
+Joseph~H. Saleh and Amy~M. Cummings.
+\newblock Safety in the mining industry and the unfinished legacy of mining
+  accidents: Safety levers and defense-in-depth for addressing mining hazards.
+\newblock \emph{Safety Science}, 49:\penalty0 764--777, 7 2011.
+\newblock ISSN 09257535.
+\newblock \doi{10.1016/j.ssci.2011.02.017}.
+
+\bibitem[Betz et~al.(2015)Betz, Partridge, Farren, and Lobao]{Betz2015}
+Michael~R. Betz, Mark~D. Partridge, Michael Farren, and Linda Lobao.
+\newblock Coal mining, economic development, and the natural resources curse.
+\newblock \emph{Energy Economics}, 50:\penalty0 105--116, 7 2015.
+\newblock ISSN 01409883.
+\newblock \doi{10.1016/j.eneco.2015.04.005}.
+
+\bibitem[of~St.~Louis(2023)]{FRED2023}
+Federal Reserve~Bank of~St.~Louis.
+\newblock U.s. bureau of labor statistics, all employees, coal mining
+  [ceu1021210001].
+\newblock https://fred.stlouisfed.org/series/CEU1021210001, 2023.
+
+\bibitem[Teale(1965{\natexlab{b}})]{TEALE196557}
+R.~Teale.
+\newblock The concept of specific energy in rock drilling.
+\newblock \emph{International Journal of Rock Mechanics and Mining Sciences and
+  Geomechanics Abstracts}, 2\penalty0 (1):\penalty0 57--73, 1965{\natexlab{b}}.
+\newblock ISSN 0148-9062.
+\newblock \doi{https://doi.org/10.1016/0148-9062(65)90022-7}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0148906265900227}.
+
+\bibitem[Oltmanns and Petruska(2023)]{oltmanns2023low}
+Austin~F Oltmanns and Andrew~J Petruska.
+\newblock Low-profile capacitive load cells for underground mining material and
+  wear classification to promote worker safety.
+\newblock \emph{Mining, Metallurgy \& Exploration}, 40\penalty0 (3):\penalty0
+  757--771, 2023.
+
+\bibitem[Shu et~al.(2010)Shu, Qiao, and Ping]{Shu2010}
+Tian Shu, Jiyang Qiao, and Fan Ping.
+\newblock Study on preventing override trip system under coal mine electric
+  network based on can bus.
+\newblock \emph{Proceedings - 2010 International Conference on Intelligent
+  System Design and Engineering Application, ISDEA 2010}, 2:\penalty0 467--470,
+  2010.
+\newblock \doi{10.1109/ISDEA.2010.200}.
+
+\bibitem[Ma(2021)]{Ma2021}
+Yunlong Ma.
+\newblock Design of coal mine power grid parameter monitoring system based on
+  can bus.
+\newblock \emph{IOP Conference Series: Earth and Environmental Science}, 651, 2
+  2021.
+\newblock ISSN 17551315.
+\newblock \doi{10.1088/1755-1315/651/3/032009}.
+
+\bibitem[Zeng et~al.(2021)Zeng, Wang, Lu, Wan, Liu, and Zhang]{Zeng2021}
+Qingliang Zeng, Zhiwen Wang, Zhenguo Lu, Lirong Wan, Zhihai Liu, and Xin Zhang.
+\newblock Research on cutting performance and fatigue life of conical pick in
+  cutting rock process.
+\newblock \emph{Science Progress}, 104, 10 2021.
+\newblock ISSN 20477163.
+\newblock \doi{10.1177/00368504211050293}.
+
+\bibitem[Fan et~al.(2023)Fan, Chen, Zhang, and Liu]{Fan2023}
+Qiuxia Fan, Chongxue Chen, Qianqian Zhang, and Guirong Liu.
+\newblock A dynamic analysis of a conical pick during rock-cutting process
+  based on the smooth finite element method.
+\newblock \emph{Wear}, 512-513, 1 2023.
+\newblock ISSN 00431648.
+\newblock \doi{10.1016/j.wear.2022.204523}.
+
+\bibitem[Roxborough et~al.(1981)Roxborough, Min, Aus, Kingt, Eng, and
+  Pedroncelli]{Roxborough1981}
+F~F Roxborough, F~I~E Min, M~I M~" Aus, P~Kingt, C~Eng, and E~J Pedroncelli.
+\newblock Tests on the cutting performance of a continuous miner.
+\newblock \emph{Journal of the South African Institute of Mining and
+  Metallurgy}, pages 9--25, 1 1981.
+
+\bibitem[Bilgin et~al.(2006)Bilgin, Demircin, Copur, Balci, Tuncdemir, and
+  Akcin]{Bilgin2006}
+N.~Bilgin, M.~A. Demircin, H.~Copur, C.~Balci, H.~Tuncdemir, and N.~Akcin.
+\newblock Dominant rock properties affecting the performance of conical picks
+  and the comparison of some experimental and theoretical results.
+\newblock \emph{International Journal of Rock Mechanics and Mining Sciences},
+  43:\penalty0 139--156, 2006.
+\newblock ISSN 13651609.
+\newblock \doi{10.1016/j.ijrmms.2005.04.009}.
+
+\bibitem[Ikeda et~al.(2021)Ikeda, Kolade, Mahboob, Cawood, and
+  Kawamura]{Ikeda2021}
+Hajime Ikeda, Oluwafemi Kolade, Muhammad~Ahsan Mahboob, Frederick~Thomas
+  Cawood, and Youhei Kawamura.
+\newblock Communication of sensor data in underground mining environments: An
+  evaluation of wireless signal quality over distance.
+\newblock \emph{Mining}, 1:\penalty0 211--223, 9 2021.
+\newblock \doi{10.3390/mining1020014}.
+
+\bibitem[Seguel et~al.(2022)Seguel, Palacios-Jativa, Azurdia-Meza,
+  Krommenacker, Charpentier, and Soto]{Seguel2022}
+Fabian Seguel, Pablo Palacios-Jativa, Cesar~A. Azurdia-Meza, Nicolas
+  Krommenacker, Patrick Charpentier, and Ismael Soto.
+\newblock Underground mine positioning: A review.
+\newblock \emph{IEEE Sensors Journal}, 22:\penalty0 4755--4771, 3 2022.
+\newblock ISSN 15581748.
+\newblock \doi{10.1109/JSEN.2021.3112547}.
+
+\bibitem[Yarkan et~al.(2009)Yarkan, Güzelgöz, Arslan, and Murphy]{Yarkan2009}
+Serhan Yarkan, Sabih Güzelgöz, Hüseyin Arslan, and Robin Murphy.
+\newblock Underground mine communications: A survey.
+\newblock \emph{IEEE Communications Surveys and Tutorials}, 11:\penalty0
+  125--142, 2009.
+\newblock ISSN 1553877X.
+\newblock \doi{10.1109/SURV.2009.090309}.
+
+\bibitem[Thrybom et~al.(2015)Thrybom, Neander, Hansen, and
+  Landernäs]{Thrybom2015}
+Linus Thrybom, Jonas Neander, Ewa Hansen, and Krister Landernäs.
+\newblock Future challenges of positioning in underground mines.
+\newblock volume~28, pages 222--226, 7 2015.
+\newblock \doi{10.1016/j.ifacol.2015.08.135}.
+
+\bibitem[Ranjan and Sahu(2014)]{Ranjan2014}
+Alok Ranjan and H~B Sahu.
+\newblock Communication challenges in underground mines.
+\newblock \emph{Search and Research}, V:\penalty0 23--29, 2014.
+
+\bibitem[Hurt and Macandrew(1985)]{Hurt1985}
+K~G Hurt and K~M Macandrew.
+\newblock Cutting efficiency and life of rock-cutting picks.
+\newblock \emph{Mining Science and Technology}, 2:\penalty0 139--151, 1985.
+
+\bibitem[Su and Akkaş(2020)]{Su2020}
+Okan Su and Muhammet Akkaş.
+\newblock Assessment of pick wear based on the field performance of two
+  transverse type roadheaders: a case study from amasra coalfield.
+\newblock \emph{Bulletin of Engineering Geology and the Environment},
+  79:\penalty0 2499--2512, 7 2020.
+\newblock ISSN 14359537.
+\newblock \doi{10.1007/s10064-019-01712-x}.
+
+\bibitem[Rostami et~al.(2003)Rostami, Rostami, Ozdemir, and Neil]{Rostami2003}
+Jamal~I Rostami, Jamal Rostami, Levent Ozdemir, and David~M Neil.
+\newblock Application of heavy duty roadheaders for underground development of
+  the yucca mountain exploratory study facility.
+\newblock \emph{Coal International Mining and Quarry World}, 1 2003.
+\newblock URL \url{https://www.researchgate.net/publication/268395388}.
+
+\bibitem[Cooper et~al.(2020)Cooper, Zhang, Gao, Wang, and Ragai]{Cooper2020}
+Clayton Cooper, Jianjing Zhang, Robert~X. Gao, Peng Wang, and Ihab Ragai.
+\newblock Anomaly detection in milling tools using acoustic signals and
+  generative adversarial networks.
+\newblock 48:\penalty0 372--378, 2020.
+\newblock ISSN 23519789.
+\newblock \doi{10.1016/j.promfg.2020.05.059}.
+
+\bibitem[Wang et~al.(2023)Wang, Bi, Zhang, Wang, and Guan]{Wang2023}
+Qing Wang, Chenguang Bi, Jiawei Zhang, Haige Wang, and Zhichuan Guan.
+\newblock Experimental study on downhole acoustic wave propagation
+  characteristics in curved drill string.
+\newblock \emph{Processes}, 11, 5 2023.
+\newblock ISSN 22279717.
+\newblock \doi{10.3390/pr11051525}.
+
+\bibitem[Fuławka et~al.(2022)Fuławka, Stolecki, Szumny, Pytel,
+  Jaśkiewicz-Proć, Jakić, Nöger, and Hartlieb]{en15218312}
+Krzysztof Fuławka, Lech Stolecki, Marcin Szumny, Witold Pytel, Izabela
+  Jaśkiewicz-Proć, Michel Jakić, Michael Nöger, and Philipp Hartlieb.
+\newblock Roof fall hazard monitoring and evaluation—state-of-the-art review.
+\newblock \emph{Energies}, 15\penalty0 (21), 2022.
+\newblock ISSN 1996-1073.
+\newblock \doi{10.3390/en15218312}.
+\newblock URL \url{https://www.mdpi.com/1996-1073/15/21/8312}.
+
+\bibitem[Slaker and Mohamed(2017)]{SLAKER201783}
+Brent~A. Slaker and Khaled~M. Mohamed.
+\newblock A practical application of photogrammetry to performing rib
+  characterization measurements in an underground coal mine using a dslr
+  camera.
+\newblock \emph{International Journal of Mining Science and Technology},
+  27\penalty0 (1):\penalty0 83--90, 2017.
+\newblock ISSN 2095-2686.
+\newblock \doi{https://doi.org/10.1016/j.ijmst.2016.09.032}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2095268616302105}.
+\newblock SI: Special Issue on Ground Control in Mining in 2016.
+
+\bibitem[Alzahrani(2017)]{alzahrani2017detection}
+Ali Abdullah~M Alzahrani.
+\newblock \emph{Detection of mine roof failure using inexpensive LiDAR
+  technology}.
+\newblock Missouri University of Science and Technology, Missouri, 2017.
+
+\bibitem[Nave(2024)]{HyperPhysics}
+Carl~Rod Nave.
+\newblock \emph{HyperPhysics}.
+\newblock Georgia State University, Online, 2024.
+\newblock URL
+  \url{http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pplate.html}.
+
+\bibitem[Reichert and Ristivojevic(2020)]{Reichert2020}
+Benjamin Reichert and Zoran Ristivojevic.
+\newblock Analytical results for the capacitance of a circular plate capacitor.
+\newblock \emph{Physical Review Research}, 2, 3 2020.
+\newblock ISSN 26431564.
+\newblock \doi{10.1103/PhysRevResearch.2.013289}.
+
+\bibitem[Dobrzynska and Gijs(2012{\natexlab{b}})]{Dobrzynska2012}
+Jagoda~A. Dobrzynska and Martin~A.M. Gijs.
+\newblock Flexible polyimide-based force sensor.
+\newblock \emph{Sensors and Actuators, A: Physical}, 173:\penalty0 127--135, 1
+  2012{\natexlab{b}}.
+\newblock ISSN 09244247.
+\newblock \doi{10.1016/j.sna.2011.11.006}.
+
+\bibitem[Zhu et~al.(2020{\natexlab{b}})Zhu, Wu, Wang, Wang, Tan, Zhao, and
+  Wu]{Zhu2020}
+Yuchao Zhu, Yigen Wu, Guangshun Wang, Zhongbao Wang, Qiulin Tan, Libo Zhao, and
+  Dezhi Wu.
+\newblock A flexible capacitive pressure sensor based on an electrospun
+  polyimide nanofiber membrane.
+\newblock \emph{Organic Electronics}, 84, 9 2020{\natexlab{b}}.
+\newblock ISSN 15661199.
+\newblock \doi{10.1016/j.orgel.2020.105759}.
+
+\bibitem[Lu et~al.(2016{\natexlab{b}})Lu, Bai, Zeng, Li, Zhang, and
+  Tan]{Lu2016}
+Yunfeng Lu, Yang Bai, Tao Zeng, Zhengkun Li, Zhonghua Zhang, and Jiubin Tan.
+\newblock Coplanar capacitive sensor for measuring horizontal displacement in
+  joule balance.
+\newblock \emph{CPEM 2016 - Conference on Precision Electromagnetic
+  Measurements, Conference Digest}, 8 2016{\natexlab{b}}.
+\newblock \doi{10.1109/CPEM.2016.7540791}.
+
+\bibitem[Zaitsev and Levytskyi(2017{\natexlab{b}})]{Zaitsev2017}
+Ievgen~O. Zaitsev and Anatolii~S. Levytskyi.
+\newblock Determination rf response characteristic rf capacitive coplanar air
+  gap sensor.
+\newblock \emph{Radar and Remote Sensing Symposium, IEEE Microwaves}, 8
+  2017{\natexlab{b}}.
+
+\bibitem[Barile et~al.(2019{\natexlab{b}})Barile, Leoni, and Ferri]{Barile2019}
+Gianluca Barile, Altiero Leoni, and Giuseppe Ferri.
+\newblock A differential capacitive multi-material 3d printed sensor for
+  portable anemometric applications.
+\newblock \emph{IEEE 8th International Workshop on Advances in Sensors and
+  Interfaces (IWASI).}, 2019{\natexlab{b}}.
+
+\bibitem[Blaž et~al.(2019)Blaž, Kisiü, Damnjanoviü, and Živanov]{Nelu2019}
+Nelu Blaž, Milica Kisiü, Mirjana Damnjanoviü, and Ljiljana Živanov.
+\newblock Capacitive sensor with stretchable membrane fabricated by 3d printing
+  for displacement application.
+\newblock 2019.
+
+\bibitem[Kim et~al.(2005)Kim, Moon, Yoon, and Lee]{Kim2005}
+Moojin Kim, Wonkyu Moon, Euisung Yoon, and Kwang-Ryeol Lee.
+\newblock A new capacitive displacement sensor with high accuracy and long
+  range.
+\newblock 6 2005.
+
+\bibitem[Liu et~al.(2016{\natexlab{b}})Liu, Peng, Chen, Pu, and Yu]{Liu2016}
+Xiaokang Liu, Kai Peng, Ziran Chen, Hongji Pu, and Zhicheng Yu.
+\newblock A new capacitive displacement sensor with nanometer accuracy and long
+  range.
+\newblock \emph{IEEE Sensors Journal}, 16:\penalty0 2306--2316, 4
+  2016{\natexlab{b}}.
+\newblock ISSN 1530437X.
+\newblock \doi{10.1109/JSEN.2016.2521681}.
+
+\bibitem[Prit et~al.(2019{\natexlab{b}})Prit, Goyal, and Islam]{Prit2019}
+Gaurav Prit, Prateek Goyal, and Tarikul Islam.
+\newblock A novel design of the parallel plate capacitive sensor for
+  displacement measurement.
+\newblock \emph{IEEE 16th India Council International Conference (INDICON).},
+  2019{\natexlab{b}}.
+
+\bibitem[Nilsson and Riedel(2015)]{Nilsson2015}
+James~W. Nilsson and Susan~A. Riedel.
+\newblock \emph{Electric Circuits}.
+\newblock Pearson Education, Inc, Upper Saddle River, New Jersey, 10 edition,
+  2015.
+\newblock ISBN 978-0-13-376003-3.
+
+\bibitem[Maulud and Abdulazeez(2020)]{Maulud2020}
+Dastan Maulud and Adnan~M. Abdulazeez.
+\newblock A review on linear regression comprehensive in machine learning.
+\newblock \emph{Journal of Applied Science and Technology Trends}, 1:\penalty0
+  140--147, 12 2020.
+\newblock \doi{10.38094/jastt1457}.
+
+\bibitem[Hu et~al.(2019)Hu, Niu, Wang, and Zhang]{Hu2019}
+Xiaobin Hu, Peifeng Niu, Jianmei Wang, and Xinxin Zhang.
+\newblock A dynamic rectified linear activation units.
+\newblock \emph{IEEE Access}, 7:\penalty0 180409--180416, 2019.
+\newblock ISSN 21693536.
+\newblock \doi{10.1109/ACCESS.2019.2959036}.
+
+\bibitem[Hara et~al.(2015)Hara, Saito, and Shouno]{Hara2015}
+Kazuyuki Hara, Daisuke Saito, and Hayaru Shouno.
+\newblock Analysis of function of rectified linear unit used in deep learning.
+\newblock In \emph{2015 International Joint Conference on Neural Networks
+  (IJCNN)}, pages 1--8, 2015.
+\newblock \doi{10.1109/IJCNN.2015.7280578}.
+
+\bibitem[Girard(1989)]{Girard1989}
+Didier~A Girard.
+\newblock A fast 'monte-carlo cross-validation' procedure for large least
+  squares problems with noisy data.
+\newblock \emph{Numer. Math}, 56:\penalty0 1--23, 1989.
+
+\bibitem[Catania et~al.(2022)Catania, Guerra, Romero, Caffaratti, and
+  Marchetta]{Catania2022}
+Carlos Catania, Jorge Guerra, Juan~Manuel Romero, Gabriel Caffaratti, and
+  Martin Marchetta.
+\newblock Beyond random split for assessing statistical model performance,
+  2022.
+
+\bibitem[Janze(2017)]{Janze2017}
+Christian Janze.
+\newblock Shedding light on the role of sample sizes and splitting proportions
+  in out-of-sample tests: A monte carlo cross-validation approach.
+\newblock \emph{Atas da Conferencia da Associacao Portuguesa de Sistemas de
+  Informacao}, 17:\penalty0 245--259, 2017.
+\newblock ISSN 2183489X.
+\newblock \doi{10.18803/capsi.v17.245-259}.
+
+\bibitem[Lucke and Embretson(1984)]{Lucke1984}
+Joseph~F Lucke and Susan Embretson.
+\newblock The biases and mean squared errors of estimators of multinormal
+  squared multiple correlation.
+\newblock \emph{Journal of Educational Statistics Fall}, 9:\penalty0 183--192,
+  1984.
+
+\bibitem[Chicco et~al.(2021)Chicco, Warrens, and Jurman]{Chicco2021}
+Davide Chicco, Matthijs~J. Warrens, and Giuseppe Jurman.
+\newblock The coefficient of determination r-squared is more informative than
+  smape, mae, mape, mse and rmse in regression analysis evaluation.
+\newblock \emph{PeerJ Computer Science}, 7:\penalty0 1--24, 2021.
+\newblock ISSN 23765992.
+\newblock \doi{10.7717/PEERJ-CS.623}.
+
+\bibitem[Leach and Henson(2007)]{Leach2007}
+Lesley~F Leach and Robin~K Henson.
+\newblock The use and impact of adjusted r2 effects in published regression
+  research.
+\newblock \emph{Multiple Linear Regression Viewpoints}, 33, 2007.
+
+\bibitem[Tellinghuisen and Bolster(2011)]{Tellinghuisen2011}
+Joel Tellinghuisen and Carl~H. Bolster.
+\newblock Using r2 to compare least-squares fit models: When it must fail.
+\newblock \emph{Chemometrics and Intelligent Laboratory Systems}, 105:\penalty0
+  220--222, 2 2011.
+\newblock ISSN 01697439.
+\newblock \doi{10.1016/j.chemolab.2011.01.004}.
+
+\bibitem[Rozeboom(1978)]{rozeboom1978estimation}
+William~W Rozeboom.
+\newblock Estimation of cross-validated multiple correlation: A clarification.
+\newblock \emph{Psychological Bulletin}, 85\penalty0 (6):\penalty0 1348, 1978.
+
+\bibitem[Arora et~al.(2016)Arora, Basu, Mianjy, and Mukherjee]{AroraBMM16}
+Raman Arora, Amitabh Basu, Poorya Mianjy, and Anirbit Mukherjee.
+\newblock Understanding deep neural networks with rectified linear units.
+\newblock \emph{CoRR}, abs/1611.01491, 2016.
+\newblock URL \url{http://arxiv.org/abs/1611.01491}.
+
+\bibitem[ZHANG et~al.(2012)ZHANG, MORI, SAKANE, NAGASAWA, and
+  KOBAYASHI]{ZHANG2012}
+Shengde ZHANG, Syuhei MORI, Masao SAKANE, Tadashi NAGASAWA, and Kaoru
+  KOBAYASHI.
+\newblock Tensile properties and viscoelastic model of a polyimide film.
+\newblock \emph{Journal of Solid Mechanics and Materials Engineering},
+  6\penalty0 (6):\penalty0 668--677, 2012.
+\newblock \doi{10.1299/jmmp.6.668}.
+
+\bibitem[Cho et~al.(1997)Cho, Lee, Lee, and Park]{CHO19971615}
+Kilwon Cho, Daeho Lee, Min~Soo Lee, and Chan~Eon Park.
+\newblock Fracture behaviour of thin polyimide films.
+\newblock \emph{Polymer}, 38\penalty0 (7):\penalty0 1615--1623, 1997.
+\newblock ISSN 0032-3861.
+\newblock \doi{https://doi.org/10.1016/S0032-3861(96)00597-6}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0032386196005976}.
+
+\bibitem[Chang et~al.(2015)Chang, Chiu, Yang, Tseng, Chen, and Huang]{7365229}
+Yu-Chen Chang, Tz-Cheng Chiu, Yu-Ting Yang, Yi-Hsiu Tseng, Xi-Hong Chen, and
+  Pu-Shan Huang.
+\newblock Fatigue response of polyimide thin film under cyclic loading.
+\newblock In \emph{2015 10th International Microsystems, Packaging, Assembly
+  and Circuits Technology Conference (IMPACT)}, pages 233--236, 2015.
+\newblock \doi{10.1109/IMPACT.2015.7365229}.
 
 \end{thebibliography}
