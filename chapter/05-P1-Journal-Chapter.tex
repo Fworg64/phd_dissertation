@@ -12,6 +12,7 @@ Low-Profile Capacitive Load Cells for
 
 \begin{center}
 This article has been published open access and is part of the public domain.
+The copyright remains property of the author.
 \end{center}
 
 \subsection{Abstract}
@@ -262,26 +263,11 @@ The Scikit `sklearn' library \cite{chang11, platt99} provides a convenient data 
  which encapsulates these steps for consistent application and ensures that data from the 
  testing set is not used during parameter fitting. 
 
-For our experiment, the pipeline consists of the composition of three optional operations, 
- detailed in Table~\ref{tab:preproc}, and discussed here:
-\begin{align}
-\mathcal{P}_\theta &= \mathcal{N}_\theta^2 \circ \mathcal{F} \circ \mathcal{N}_\theta^1
-\end{align}
-where $\circ$ represents the function composition operator.
-The steps denoted with $\mathcal{N}$ are normalization steps which transform the input
- data to be zero mean and unit variance along each feature using the sample mean and variance
- from the training set. 
-The $\mathcal{F}$ operation is the frequency based transform, and different variations of 
- the fast Fourier transform are used. 
-Every combination of processing steps is used, 
- and the results are compared to determine the best methods for this application. 
-Each step is also substituted with the identity function during this process as a control.
-
 \begin{table}[h]
 \centering
-\label{tab:preproc}
 \caption{Preprocessing Pipeline Steps, $\|\cdot\|, \cdot^2$, and $\sqrt{\cdot}$ are element-wise
  absolute value, square, and square root respectively.}
+\label{tab:preproc}
 {\renewcommand{\arraystretch}{1.5}%
 \begin{tabular}{l|l|l}
 Symbol                  & Values         & Description    \\ \hline 
@@ -296,6 +282,21 @@ Symbol                  & Values         & Description    \\ \hline
               & None/Control  & $\mathcal{F}(\ora{X_i}) = \ora{X_i}$           
 \end{tabular}}
 \end{table}
+
+For our experiment, the pipeline consists of the composition of three optional operations, 
+ detailed in \ref{tab:preproc}, and discussed here:
+\begin{align}
+\mathcal{P}_\theta &= \mathcal{N}_\theta^2 \circ \mathcal{F} \circ \mathcal{N}_\theta^1
+\end{align}
+where $\circ$ represents the function composition operator.
+The steps denoted with $\mathcal{N}$ are normalization steps which transform the input
+ data to be zero mean and unit variance along each feature using the sample mean and variance
+ from the training set. 
+The $\mathcal{F}$ operation is the frequency based transform, and different variations of 
+ the fast Fourier transform are used. 
+Every combination of processing steps is used, 
+ and the results are compared to determine the best methods for this application. 
+Each step is also substituted with the identity function during this process as a control.
 
 In addition to the preprocessing step, the support-vector machine also can apply a transform to the 
 input data during its use. A description of the support-vector machine algorithm, 

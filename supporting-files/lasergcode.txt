@@ -1,0 +1,25 @@
+===============================================
+CORNER/OD PROGRAM
+## Start with laser focused on top corner
+
+G20 G90 # Start, config
+M7      # Gas on
+<M8> LASER COMMAND, BE CAREFUL
+G01 x0.3245 y-0.20 z0 f60  # GOTO B @ 60 in/min
+G01 x1.1789 y0 z0          # GOTO C
+A270 f1800                 # Rotate 270 @ 1800 deg/min
+G01 x2.0333 y-0.20 z0 f60  # GOTO D @ 60 in/min
+G01 x2.3578 y0 z0          # GOTO E
+
+M9    # Laser Off
+M30   # End
+===============================================
+ID PROGRAM
+## Place 4th axis fixture and focus on ID
+
+G20 G90 # Start, config
+M7      # Gas on
+<M8> LASER COMMAND, BE CAREFUL
+A360 f1800 # Do a 360 @ 1800 deg/min
+M9
+M30

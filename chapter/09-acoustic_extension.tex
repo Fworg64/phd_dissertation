@@ -17,13 +17,13 @@ For example, the square of these values, a.k.a. the power spectral density,
 was tested as well as the square root of the values.
 Plots of data distributions for the wear categories before normalization are shown in \ref{fig:basis}.
 Plots of the significant differences between wear categories for each type of preprocessing 
-is shown in \ref{fig:basis_compare}. Normalization has no effect on the signifigance of the differences.
+is shown in \ref{fig:basis_compare}. Normalization has no effect on the significance of the differences.
 
 Other types of preprocessing tricks were applied in an effort 
 to maximize the fraction of dimensions which correlate with tool wear.
 Filtering in the frequency domain was applied to  smooth 
 the frequency response over the sampled domain.
-This way, bands of irrelavent frequencies can be brought closer to the
+This way, bands of irrelevant frequencies can be brought closer to the
 values of neighboring bands that are significant. 
 Also, boost filters were applied to increase peaks that are
 relevant to wear category and exaggerate the trends.
@@ -31,13 +31,13 @@ Ultimately, these techniques did not improve upon the performance
 given by the unmodified Fourier spectra magnitude.
 
 The result of low pass filtering in the frequency domain is similar
-to the effect of downsampling followed by upsampling 
+to the effect of downsampling followed by up-sampling 
 via zero padding in the time domain. 
 The variance of the 
 frequency response over the frequency domain is reduced by clumping
 the modes together.
 Assuming vibrations are caused by a system that is 
-stationary in the short term, the variance of the freqeuncy 
+stationary in the short term, the variance of the frequency 
 response measurement is reduced by using a longer sample.
 This provides increased frequency resolution over the domain,
 but at the cost of longer response and classification times.
