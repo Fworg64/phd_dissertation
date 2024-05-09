@@ -1,19 +1,55 @@
-\chapter{Method Selection}
+\chapter{Sensor Modeling and Classification Methods}
 
-Motivated by the selection of thin film polyimide sensors, 
-models for their deformation were studied for this work.
+For this work, polyimide dielectric based capacitive load cells were chosen as the primary sensing apparatus
+due to their prescribed robustness, low manufacture cost, and low power requirements.
+Motivated by the selection of thin film polyimide, 
+models for thin film deformation were studied for this work.
 The deformation of polyimide is linear for thick films
 and small deformations, but for thin films, 
-on the mesoscale of hundreds of micrometers,
+on the mesoscale of dozens of micrometers,
 polyimide films have nonlinear deformation.
 These characteristics are manifested as creep, hysteresis, 
 and temperature dependence.
 
+To avoid problems in modeling caused by these reactions,
+different approaches are used to determine rock material type and tool wear conditions 
+from the sensor measurements. In the case presented in Ch.~\ref{chap:P3}, the sensor
+film thickness has been dialed-in, and the measurements are much more linear with respect
+to the input force. The sensor model for the linear sensor case is discussed in the next subsection,
+after that, the classification methods used to avoid problems with creep, hysteresis, and temperature dependence
+are discussed.
+
+\subsection{Linear Sensor Modeling}
+
+It is axiomatic that a linear and time-invariant sensor is an ideal sensor for measuring physical quantities.
+Such a sensor would present an easily measured value that is a fixed multiple of another 
+physical quantity that is desired to be measured without any dependence on the measurement history.
+Such a sensor is difficult to attain, but non-ideal characteristics can still be modeled. 
 Thin film deformation can be modeled using viscous elements, as shown in \ref{fig:sense_model}.
 This is only an approximation, and depending on how nonlinear the dielectric deformation response is,
 this model might not accurately capture the dynamics of the system.
 The system overall is nonlinear, and with a material this viscous,
 cycling the film rapidly will result in changes to the vibrational modes.
+
+The stackup for the sensor membrane for the first iteration of the capacitive load cell
+is shown in \ref{fig:stackupsense}. This model had a very thin inner layer, which resulted
+in nonlinear dynamics. The next iteration of the sensor used a thicker membrane,
+which resulted in a more linear sensor. 
+The non-linearity of the first design was not an issue for tool wear or material classification,
+but did impede using the measurements for force measurements. 
+
+When considering the design of the more linear sensor, the model can be simplified to the 
+linear case without a great loss in accuracy. The use of a small feed-forward neural network
+are able to model the non-linearity present in the more linear design and further improve the accuracy.
+The fact that a linear model is able to be used with the sensor and provide good accuracy means the sensor
+is approaching ideal behavior.
+The fact that a neural network model improves performance reveals that the system still has latent non-linearities.
+
+Increasing the dielectric thickness will make it deform more linearly.
+Increasing stiffness from the steel walls, $K_{walls}$, would also increase the sensor linearity.
+Other types of capacitive sensor designs, like those which translate the electrodes overlapping areas,
+are inherently more linear that the compressing plate design used for this research. However, for small
+deformations, the hyperbolic relationship between capacitance and plate distance is approximately linear.
 
 % Spring figure 
 \begin{figure}[t]
@@ -59,16 +95,8 @@ cycling the film rapidly will result in changes to the vibrational modes.
     \label{fig:sense_model}
 \end{figure}
 
-The stackup for the sensor membrane for the first iteration of the capacitive load cell
-is shown in \ref{fig:stackupsense}. This model had a very thin inner layer, which resulted
-in nonlinear dynamics. The next iteration of the sensor uses a thicker membrane,
-which results in a more linear sensor. 
-The non-linearity of the first design was not an issue for tool wear or material classification,
-but did impede using the measurements for force measurements. 
-The next iteration of the design improved the sensor linearity.
-
 % Stackup fig
-\begin{figure}[t]
+\begin{figure}[]
 \centering
 \begin{tikzpicture}
     \node[anchor=south west, inner sep=0] (image) at (0,0) 
@@ -98,6 +126,8 @@ by the interaction of the complex molecular chains and are expected to be nonlin
 \label{fig:stackupsense}
 \end{figure}
 
+\subsection{Classification Methods}
+
 Other items which govern the vibrational forces during cutting include
 the material type and the tool wear. 
 Different rock types have different fracture mechanics, 
@@ -115,8 +145,17 @@ short duration sample.
 
 As the Fourier spectra magnitude coefficients change, these changes 
 can be used to classify the conditions that caused them.
-We use data-driven classification techniques to identify these differences and 
+Data-driven classification techniques are used to identify these differences and 
 predict the cutting conditions.
 The methods are the K-Nearest Neighbors, the support-vector machine, and multilayer perceptron classifier.
+These methods are able to categorize the different modal excitations present during different rock material and tool wear
+conditions without needing the force measurement. 
 
+For example, worn tools change the rock fracture process
+to more of a crushing operation, resulting in lower and rumblier vibrations. 
+Likewise, different materials will fracture in different patterns and frequencies due to their constitution.
+On average, the statistical distribution of a measurement recorded 
+during consistent rock material type and tool wear conditions
+will differ from the distribution of a measurement recorded during different conditions.
+This difference is identified by the classification methods and used to make classifications.
 

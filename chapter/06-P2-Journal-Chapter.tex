@@ -135,7 +135,7 @@ These methods and how they are compared are described in the next section.
 \subsection{Materials and Methods}\label{sec2}
 
 A homogeneous concrete sample is cut using the Linear Cutting Machine
-at the Earth Mechanics Institute at the Colorado School of Mines, shown in Fig.~\ref{fig:setup},
+at the Earth Mechanics Institute at the Colorado School of Mines, shown in \ref{fig:setup},
 and capable of testing with many cutting tools \cite{THYAGARAJAN2024105675}. 
 Hydraulic actuators move the rock box for positioning and cutting. The rock sample in this experiment
 is a solid block of concrete. This is a homogeneous material that will isolate the changes in tool wear.
@@ -144,9 +144,9 @@ Additional equipment consisting of a dust shroud and vacuum sample collection sy
 Forces are recorded using integrated load cells in the coupling between the tool and the frame.
 
 The acoustic signals for this experiment were recorded from the camcorder 
-used to capture Fig. ~\ref{fig:setup} at a sample rate of 44.1 kHz.
+used to capture \ref{fig:setup} at a sample rate of 44.1 kHz.
 Then, the data is categorized by tool wear condition.
-The different tool wear levels are shown in Fig.~\ref{fig:levels}.
+The different tool wear levels are shown in \ref{fig:levels}.
 The tool tips have been artificially worn with a lathe to a spherical shape to approximate even wear.
 They vary in diameter and have been chosen to represent 
 \textit{new}, \textit{moderately used}, and \textit{worn} tooltips.
@@ -180,7 +180,7 @@ starting shortly after the bit hits the material. The data is chopped into small
 and this yields roughly 480 samples for the 100-millisecond case and 4800 samples for the 
 20-millisecond case for each wear category.
 
-The fast sampling rate of our microphone, 44.1 kHz, means that even short segments,
+The fast sampling rate of the microphone, 44.1 kHz, means that even short segments,
 dozens of milliseconds in duration, will have thousands of data points.
 Reducing input dimension via downsampling after low pass filtering will preserve 
 low frequency data while leading to faster processing for the classification algorithms and 
@@ -224,7 +224,7 @@ of mean values for each dimension in the training set,
 and $\vec{s}$ represents the vector of standard deviations for each
 dimension in the training set. 
 The distributions of frequency spectra magnitudes and time domain waveforms
-for each wear category are shown in Fig.~\ref{fig:natural}.
+for each wear category are shown in \ref{fig:natural}.
 The Fourier transform data has most of its energy below 4 kHz.
 The higher frequency data has smaller variance compared to the
 lower frequency data.
@@ -248,8 +248,8 @@ and time domain data of each wear category for collected data.
 Before invoking any classifiers, objective differences in acoustic spectra across wear 
 categories can be shown by performing a classic two-sided Welch-Satterthwaite t-test on each frequency bin \cite{Tamhane2000}.
 The results of this test and the normalized frequency spectra magnitude distributions
-for each wear category are shown in Fig.~\ref{fig:sigs}.
-In the left column, the mean value and the standard error of the mean are shown for our collected data.
+for each wear category are shown in \ref{fig:sigs}.
+In the left column, the mean value and the standard error of the mean are shown for the collected data.
 In the right column, the results of a t-test for each bin for each pair of categories are shown.
 It is known that operators use acoustic signals to determine cutting conditions,
 and this figure demonstrates significant, $p < 0.001$, differences across tool wear categories
@@ -387,7 +387,7 @@ as recommended in \cite{Goutte2005}.
 Classifier performance was greater with longer window lengths and 
 increased sampling rates, or lower downsampling factors.
 
-The K-nearest neighbors classifier performance is shown in Fig.~\ref{fig:perf_KNN}.
+The K-nearest neighbors classifier performance is shown in \ref{fig:perf_KNN}.
 Using K=5 gave slightly better performance than other values, 
 but this method performed the worst overall.
 Increasing window length gave better performance for this method, and downsampling had little effect
@@ -402,10 +402,10 @@ The F1 score only increased a small amount when using the 0.2 second window comp
 \label{fig:perf_KNN}
 \end{figure}
 
-The support-vector machine classifier performance is shown in Fig.~\ref{fig:perf_SVM}.
+The support-vector machine classifier performance is shown in \ref{fig:perf_SVM}.
 This is a low hyperparameter method that performs very well and does so efficiently. 
 With this method, performance trends are better with longer window length and higher sampling rates, 
-or less downsampling, for our experiment. Increasing window length gave a better performance for 
+or less downsampling, for the experiment. Increasing window length gave a better performance for 
 the number of variables introduced compared to increasing sampling rates. 
 Using a window length of 0.2 seconds gave the best performance of for all downsampling levels, 
 and the performance was similar for samples with less downsampling.
@@ -418,7 +418,7 @@ and the performance was similar for samples with less downsampling.
 \label{fig:perf_SVM}
 \end{figure}
 
-The multi-layer perceptron classifier performance is shown in Fig.~\ref{fig:perf_MLP}.
+The multi-layer perceptron classifier performance is shown in \ref{fig:perf_MLP}.
 This method has the power to classify data very accurately for samples similar to its training data.
 Different network sizes are tested to achieve maximum performance.
 This method scores similarly to the support-vector machine, but uses more resources.
@@ -441,7 +441,7 @@ The mean F1 score and standard deviation for the tested multi-layer perceptron m
 Looking at the confusion matrices for the different types of classifiers generally showed
 that most of the confusion was between the \textit{moderate} and \textit{worn} categories of bits, suggesting that
 these two categories have responses that are more similar to each other than to the \textit{new} category.
-A sample confusion matrix for a SVM classifier experiment is shown in Table~\ref{tab:conf}, 
+A sample confusion matrix for a SVM classifier experiment is shown in \ref{tab:conf}, 
 it is representative of most of the other classifiers too. 
 The table shows data, normalized by true class size, for the concrete sample using a 70:30 test train split
 and with fast Fourier transform preprocessing of a 100 millisecond window.

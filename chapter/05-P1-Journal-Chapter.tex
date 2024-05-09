@@ -90,7 +90,7 @@ So far, results using capacitive load cells have not been found for
  material and tool wear classification in underground mining. 
 Advances in both capacitive sensing and vibration classification 
  have unearthed a variety of applications in other domains.
-Our sensor, shown in Fig.~\ref{fig:senseonpick}, can assist operators in assessing material type and tool wear
+Our sensor, shown in \ref{fig:senseonpick}, can assist operators in assessing material type and tool wear
  by measuring differences in vibrational responses between the different conditions.
 
 
@@ -119,7 +119,7 @@ The wear levels are \textit{new}, \textit{moderate}, and \textit{worn}, where \t
  represents a pick halfway through its useful life, and \textit{worn} is a tool at the end of its useful life.
 The tool tips are artificially worn to a spherical diameter using a lathe 
  to approximate an even wear pattern and for reproducibility.
-A closeup view of the tool tips and the values for their spherical diameters is shown in Fig. \ref{fig:tips}.
+A closeup view of the tool tips and the values for their spherical diameters is shown in \ref{fig:tips}.
 The low profile sensor sits between the sleeve and block.
 The sleeve has been machined down to a slip fit in the block to allow force transfer to the sensor.
 The sleeve and block are both retained by a large pin.
@@ -472,7 +472,7 @@ Likewise, the balance between sensor accuracy and bandwidth must be tuned to ach
 
 To tune the case geometry for the desired stiffness, appropriate values must be chosen for the
  thickness and height of the side walls.
-These values are shown as $\mathbf{h}, \mathbf{w_1}$ and $ \mathbf{w_2}$ in Fig.~\ref{fig:sensecut}.
+These values are shown as $\mathbf{h}, \mathbf{w_1}$ and $ \mathbf{w_2}$ in \ref{fig:sensecut}.
 The donut shaped sensor has a center filled with viscous polyimide. 
 The thickness and height of the side walls chiefly determines the spring constant of the sensor.
 The polyimide is much more compliant than the surrounding steel, so the overall case deformation is not 
@@ -533,7 +533,7 @@ The sensor was characterized using load frame testing.
 Five different load rates were applied to three separate sensors to achieve a max force of 200 kN 
  momentarily before ramping back down at an equal rate. 
 Linear sensors show symmetric behavior for such a test, 
- but the sensor measurements for this test, shown in Fig.~\ref{fig:triangleload}, 
+ but the sensor measurements for this test, shown in \ref{fig:triangleload}, 
  reveal that our sensor exhibits hysteresis and rate dependence for these loads.
 These effects can be expected from the previous literature regarding polyimide deformation
 \cite{Khan14, VALAVALA20071161, dharmadasa20, li21, he16, wang20, chang08, wei08, zhu20, dobrzynska12, Bodini19},
@@ -541,7 +541,7 @@ These effects can be expected from the previous literature regarding polyimide d
 It can be seen that, as the loading rate increases, the traces converge.
 This implies that the sensor can still be used to detect the changes in the high frequency components 
  of the response that are useful for vibration classification.
-The overall deformation of the sensor case during these same loads is shown in Fig.~\ref{fig:casedeformation},
+The overall deformation of the sensor case during these same loads is shown in \ref{fig:casedeformation},
  and the deformation is linear. 
 This confirms that the nonlinear deformation is happening in the polyimide
  and suggests that this case could be used to house other sensing technologies
@@ -597,7 +597,7 @@ The machine learning and classification code is available here:
 \url{https://github.com/Fworg64/limestone_experiment}.
 
 
-The Linear Cutting Machine, shown in Fig.~\ref{fig:lcmaction},
+The Linear Cutting Machine, shown in \ref{fig:lcmaction},
  uses hydraulic actuators to drag the sample against the cutting tool.
 A cutting speed of 10 inches per second was used, which is relatively slow 
  compared to the cutting speeds used in the field.
@@ -631,23 +631,23 @@ Using the method outlined in Section 2, the collected data is used to train and 
 The capacitive sensor data gave results similar to the linear sensor in tool wear classification.
 For material classification, the capacitive sensor generally performed better.
 The distribution of feature vectors, before being processed with the support-vector machine kernel,
- are shown for both sensors by material in Fig.~\ref{fig:matsigs} and by tool wear in Fig.~\ref{fig:wearsigs}. 
+ are shown for both sensors by material in \ref{fig:matsigs} and by tool wear in \ref{fig:wearsigs}. 
 From these distributions, it can be seen that the capacitive sensor is much more sensitive to the higher frequency 
  components of the interaction forces. 
 This is likely a result of its closer proximity to the cutting interface.
-Typical measurements from cutting experiments are shown in Fig.~\ref{fig:cutforces}. 
+Typical measurements from cutting experiments are shown in \ref{fig:cutforces}. 
 
 % Distributions of scores by window size, significance
 For each sensor and application, five window sizes were tested. 
 This gives ten pairs for comparison among each group of five, 
  so we choose $p<0.01$ as statistically significant for differences in performance.
-The distributions of F1 scores for the classifiers with different window sizes are shown in Fig.~\ref{fig:windows}.
+The distributions of F1 scores for the classifiers with different window sizes are shown in \ref{fig:windows}.
 For tool wear classification, performance was similar for all window sizes for both sensors.
 For material classification, the capacitive sensor gave measurements which could be more reliably classified.
 The differences in performance across window sizes are significant for material classification with either sensor.
 
 % Results 
-Classification scores broken down by technique for the 0.2 second window size are shown in Fig.~\ref{fig:methods}.
+Classification scores broken down by technique for the 0.2 second window size are shown in \ref{fig:methods}.
 Trends in relative method performance were the same across window sizes.
 It was found that normalization after transformation, and not before, gave the best performance for 
  the Fourier based methods.

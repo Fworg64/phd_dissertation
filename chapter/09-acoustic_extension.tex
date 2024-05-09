@@ -14,15 +14,22 @@ and increased cutting forces that accompany tool wear.
 The results of our study indicated that the unmodified Fourier spectra magnitude values
 provided the better classification results than attempting to transform the values further.
 For example, the square of these values, a.k.a. the power spectral density, 
-was tested as well as the square root of the values.
+was tested as well as the square root of the values. Discussion of these different preprocessing
+methods is given below, followed by a discussion of data size in this experiment.
+
+
+\subsection{Alternate Acoustic Preprocessing Methods}
+
+
 Plots of data distributions for the wear categories before normalization are shown in \ref{fig:basis}.
 Plots of the significant differences between wear categories for each type of preprocessing 
 is shown in \ref{fig:basis_compare}. Normalization has no effect on the significance of the differences.
+In general, the unmodified Fourier spectra gave the best performance.
 
 Other types of preprocessing tricks were applied in an effort 
 to maximize the fraction of dimensions which correlate with tool wear.
-Filtering in the frequency domain was applied to  smooth 
-the frequency response over the sampled domain.
+Filtering in the frequency domain was applied to smooth 
+the frequency response over the frequency domain.
 This way, bands of irrelevant frequencies can be brought closer to the
 values of neighboring bands that are significant. 
 Also, boost filters were applied to increase peaks that are
@@ -77,4 +84,26 @@ However, they do perform much better compared to using time domain data.
 }
 \label{fig:basis_compare}
 \end{figure}
+
+\subsection{Comments on Data Size}
+
+For this experiment, around 90 seconds of acoustic data was used. 
+To ensure sufficient power of the results, small samples had to be used. 
+It was found early in the study that long samples with some downsampling gave good results.
+The limits of the reliability of this method have not yet been found, but as sample length increases,
+recorded signals will capture more information for a reliable estimation of cutting parameters.
+
+More data should be collected to investigate using even longer window length for samples.
+This window length is only limited by the necessary rate of classification and acceptable delay.
+In general, the classification will be delayed by the length of the window. 
+The classification calculations are much shorter in computation time than the sample length, so this
+does not add much to the delay.
+Longer sample lengths stand to increase classification accuracy, and additional demand for computational
+resources in this case can be mitigated by downsampling the recorded signal.
+
+Another thing that large sample windows can help mitigate is undesired performance caused by outside interference
+on the audio signal. Performance under these conditions would need to be characterized for a wide number of 
+circumstances. One benefit the acoustic sensor has in this regard though is that almost every frequency
+bin value is correlated to a tool wear condition. This means that even if some frequencies are
+experiencing interference, there are likely many other frequencies that can still be used to make an accurate classification.
 

@@ -70,7 +70,7 @@ This device would assist operators by providing measurements of the rock cutting
 present at each instrumented pick, allowing them to make decisions from more remote locations.
 
 A proposed network topology for efficient use of the sensor
-in the underground mine, is shown in Fig.~\ref{fig:network_proposal}. 
+in the underground mine, is shown in \ref{fig:network_proposal}. 
 This figure shows multiple smart picks 
 connected via CAN bus, which has been recognized as meeting the requirements for 
 other underground coal mining applications \cite{Shu2010, Ma2021}. 
@@ -206,7 +206,7 @@ match the tooling.}
 \end{figure}
 
 Finished samples of the sensor design are shown
-in Fig.~\ref{fig:sensors_prototypes}.
+in \ref{fig:sensors_prototypes}.
 Two types of experiments are conducted with the sensor, 
 load frame testing and rock cut testing.
 Both tests use the FDC2114 from Texas Instruments to record the 
@@ -222,7 +222,7 @@ With this test, the sensor linearity can be measured and the noise
 can be characterized in a controlled environment. 
 The sensitivity to normal force is measured with a linear regression.
 One of the samples is tested twice to characterize repeatability.
-The setup is shown in Fig.~\ref{fig:loadframe}.
+The setup is shown in \ref{fig:loadframe}.
 
 \begin{figure}
 \centering
@@ -237,11 +237,11 @@ Forces in this test ramp up to 200 kN and back down at a controlled linear rate.
 \end{figure}
 
 For the rock cut testing, the linear cutting machine at Colorado School of Mines
-Earth Mechanics Institute, shown in Fig.~\ref{fig:lcm} is used. 
+Earth Mechanics Institute, shown in \ref{fig:lcm} is used. 
 Two samples of coal embedded in concrete were cut 
 using conical picks instrumented with one of the sensors.
 Wear and depth of cut are varied for the tests.
-The conditions for the test and the number of samples for each condition are shown in Table~\ref{tab:data}.
+The conditions for the test and the number of samples for each condition are shown in \ref{tab:data}.
 The cutting speed was 25.4 cm/s (10 in./s).
 %The conical picks were varied in wear from new condition to worn condition with a moderately worn condition in between.
 %The depth of penetrations tested were 1.0 and 1.5 inches.
@@ -329,8 +329,8 @@ testing that it is necessary to model both the air gap sensor, and a sensor with
 The model with the air gap explains the characterization experiment with good accuracy, while the
 model with the closed area explains the rock cutting experiment with good accuracy. 
 The closing of the air gap suggests that rock cutting produces large forces on the cutting tools.
-The character of the sensor deformation can be seen in Fig.~\ref{fig:sensors_prototypes}
-Model diagrams for both modes of sensor operation are shown in Fig.~\ref{fig:sensors_models}.
+The character of the sensor deformation can be seen in \ref{fig:sensors_prototypes}
+Model diagrams for both modes of sensor operation are shown in \ref{fig:sensors_models}.
 The first term on the right hand side of Eq.~\ref{eq:rhs1}, the sensitivity of frequency to sensor capacitance, 
 is the same for both of the sensor configurations. The other two terms are unique to each model.
 
@@ -367,7 +367,7 @@ When considering the closed area sensor, both $r_1$ and $r_2$ will deform, with 
 deformation happening in $r_1$ since it is less stiff in comparison to the much thinner $r_2$. 
 The air gap sensor is less stiff than the closed area sensor, as the polyimide is 
 much stiffer than the thin steel walls of the sensor.
-Nominal values for the design are shown in Table~\ref{tab:values}.
+Nominal values for the design are shown in \ref{tab:values}.
 Analytical models for both configurations are derived below,
  and empirical values for sensitivity are shown in the Results section.
 
@@ -519,7 +519,7 @@ For each of the four regression methods, it was found that
 the higher frequency inputs were not correlated to the regression target.
 So, the effect on performance of low pass filters with different cutoff frequencies 
 used on the input are also tested.
-A summary of the chosen regression methods and their size is shown in Table~\ref{tab:methods}.
+A summary of the chosen regression methods and their size is shown in \ref{tab:methods}.
 
 \begin{table}[b]
 \centering
@@ -629,7 +629,7 @@ The slope magnitude for the linear regression of the air gap characterization te
 coefficients from the linear model trained on the rock cutting data.
 The average of the crushed gap values is 0.1522 kN/kHz, which means that each kilonewton of force
 reduces the resonant frequency by roughly 6.57 kHz.
-The values for both models are shown in Table~\ref{tab:lin}. 
+The values for both models are shown in \ref{tab:lin}. 
 
 \begin{table}[b]
 %Linear coef: [0.04060787 0.40330157 0.05096381 0.11391963], Intercept: -1.448362916473192
@@ -657,7 +657,7 @@ The results from the load frame characterization of the sensor show that
 the response is noisy but linear over the tested range. 
 In the repeated test, the sensor had almost identical performance but 
 without the initial plastic deformation in the 2 kN/s test. 
-The strain of the sensor for each test, shown in Fig.~\ref{fig:sensor_load_frame_strain},
+The strain of the sensor for each test, shown in \ref{fig:sensor_load_frame_strain},
 was nearly identical after the initial plastic deformation.
 The plot shows significant deformation of one of the test sensors during its first loading cycle.
 After this first loading cycle, the device strain for each test sensor is similar.
@@ -666,14 +666,14 @@ consistently deforms with a strain of 0.14 at this peak.
 Considering a sensor height of 1.83 mm, the stiffness, $K_w$, is roughly 780 MN/m.
 
 The load frame force measurements and the sensor measurements 
-from the test for the air gap sensor are shown in Fig.~\ref{fig:sensor_load_frame}.
+from the test for the air gap sensor are shown in \ref{fig:sensor_load_frame}.
 The test suite is repeated for the prototype that is not used in the rock test
  and the measurements are consistent between the tests.
 There is some plastic deformation of the steel case during the initial loading of the sensor
 in the 2 kN/s case. After this, the sensor has a mostly symmetric response to loading and unloading.
 The two sensors have similar sensitivity, but different offsets after the plastic deformation phase.
 
-An XY plot of the traces is shown in Fig.~\ref{fig:sensor_load_frame_sensitivity}, 
+An XY plot of the traces is shown in \ref{fig:sensor_load_frame_sensitivity}, 
 which highlights the linear range and
 repeatability of this configuration. 
 The 2 kN/s tests are not representative due to their large, one-time swing in values 
@@ -724,8 +724,8 @@ For the rock cutting experiments, the linear and neural network models
  previously discussed in Section~\ref{sub:reg} are fit to the data.
 The large number of parameters in the physical model make these regression
 techniques a good fit for estimating the cutting force.
-Prediction results for a few samples with new picks are shown in Fig.~\ref{fig:sensor_rock_cut}.
-More prediction results using the worn tool are shown in Fig.~\ref{fig:sensor_rock_cut_worn}.
+Prediction results for a few samples with new picks are shown in \ref{fig:sensor_rock_cut}.
+More prediction results using the worn tool are shown in \ref{fig:sensor_rock_cut_worn}.
 
 The strain gauge measurements have large variance due to the rock chipping at high frequency.
 The regression target is highlighted in magenta. The different regression methods track the force
@@ -740,7 +740,7 @@ when cutting the same material.
 
 Using a low pass filter on the sensor measurements improves performance. 
 The mean absolute error for each classification method using the different low pass filters is shown in 
-Fig.~\ref{fig:MAE}. The $R^2$ scores are shown in Fig.~\ref{fig:adjr2}
+\ref{fig:MAE}. The $R^2$ scores are shown in \ref{fig:adjr2}
 Using a cutoff frequency of 10 Hz or 5 Hz gave the best results across methods.
 The neural network regression method with the 2nd order polynomial expansion performed the best overall.
 
