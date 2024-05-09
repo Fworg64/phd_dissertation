@@ -1,4 +1,4 @@
-Underground coal miners continue to be exposed to hazards on a routine basis.
+Underground miners continue to be exposed to hazards on a routine basis.
 The best way to mitigate this is removing the operator from the hazardous locations
 while increasing overall productivity.
 This work investigates methods for determining tool wear and material type
@@ -9,21 +9,20 @@ and when they get close to the cutting interface, they place themselves at risk.
 Vibration frequencies, acoustic emissions, and cutting forces are all shown to 
 vary with the tested cutting conditions.
 Three different sensor designs were tested and used: 
-a dynamic capacitive load cell to classify material type and tool wear conditions,
-an acoustic sensor that does that same,
-and a capacitive load cell which measures the cutting forces and works with a linear model.
-The capacitive load cell, when used with a small neural network regression and a 2nd order polynomial
+a capacitive load cell with non-linear dynamics used to classify material type and tool wear conditions,
+an acoustic sensor used to classify tool wear,
+and a capacitive load cell with linear dynamics used to measure the cutting forces.
+The capacitive load cell with linear dynamics, when used with a small neural network regression and a 2nd order polynomial
 expansion, is able to measure rock cutting forces with a mean absolute error less than 4 kilonewtons
 and an $R^2$ score greater than 0.8 under tested conditions.
 Performing material and tool wear classification is done
 with machine learning classification methods.
 The Support-Vector machine using fast Fourier spectra magnitude 
 of short samples of signal, around 0.2 seconds, performed the best.
-Rock cutting tests are performed using a linear cutting machine at the Earth Mechanics Institute on campus.
+Full scale rock cutting tests are performed using a linear cutting machine at the Earth Mechanics Institute 
+at the Colorado School of Mines campus.
 Analytical models for the capacitive sensors are developed as part of this research, and 
 they can be used to guide future designs. 
 This work discusses the sensitivity to input force of the designed sensors.
 These models also guide the choice of classification methods used to determine material type and tool wear,
 which are shown to perform well for the experimental conditions.
-
-
