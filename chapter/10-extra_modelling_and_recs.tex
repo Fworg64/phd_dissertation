@@ -1,4 +1,4 @@
-\chapter{Sensor Linearity and Implementation recommendations
+\subsection{Capacitive Sensor Linearity and Implementation Recommendations
 \label{chap:10}}
 
 To map the crushed gap sensor measurements to estimated forces, 
@@ -13,29 +13,61 @@ frequency response when the two measurements are compared.
 The electronics for the sensor also contribute high frequency noise to the measurement.
 For these reasons, the higher frequency components of the force are not directly correlated 
 between the two systems. 
+
 A plot of the transfer function between the measurements is shown in \ref{fig:sense_tf}.
+The regression target has been low pass filtered with a cutoff frequency of 10 Hz,
+which can be seen by the steep drop in magnitude at this point.
+The individual sensor channels have the same filter applied to limit high frequency input.
+The cross spectrum, $P_{yx}$, shows that there is good correlation between the low frequency
+components of the estimate and the target.
+The transfer function between the estimate and the target suggests that additional 
+filtering after the regression method could improve results.
+Post-processing requirements depend on the application, and 
+additional filtering after regression could be a useful technique for tuning performance.
 
 The final sensor prototypes are shown in \ref{fig:airgap}.
-When it comes to integrating this sensor with the target application,
-construction of the sensor contributes to overall linear performance.
-The steel case is assembled using the laser weld procedure described in Appendix \ref{app:laser}.
-Simulation for the capacitance of the air gap is described in Appendix \ref{app:sim}.
-Computer aided solving of the analytical model equations for the air gap and closed area sensors
-is shown in Appendix \ref{app:math}.
+The sensor case provides additional protection from the environment.
+The device is assembled via later welding.
+Future sensor designs could omit the steel case and integrate the sensor directly within
+the block or sleeve of the tool.
+This type of sensor measures cutting forces via the change in capacitance caused
+by the displacement of the top of the case when force is applied. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=5.5in]{ch10_tf.png}
+\caption{
+Power spectral density of sensor, target, and transfer function between them.
+}
+\label{fig:sense_tf}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{ch10_airgap_and_case.jpg}
+\caption{
+The air gap sensor membrane, left, and an assembled prototype, right.
+}
+\label{fig:airgap}
+\end{figure}
 
 The capacitive steel donut with viscous polyimide filling is a useful base design
 for many robotic applications. Robustness, linearity, and sensitivity are important 
-parameters for any sensor design. Ways to improve each of these categories is listed in \ref{tab:improve}.
+parameters for any sensor design. Positive and negative correlations between each 
+of these categories and key design paramters are listed in \ref{tab:improve}.
 To overcome the conflicting directions between sensitivity and the other design goals,
  use a thicker film and compress it down so that it becomes more thin and stiff.
-Based on the other results in this work, high frequency classification 
-should also be considered a valid method for
- determining material type and tool wear. 
-Directly embedding a piezo element within the tool could
-also serve to measure higher frequency vibrations which vary with cutting parameters.
-Future works may be able to integrate the sensing membrane with the cutting tool,
-using the tool to protect the sensor while it measures vibrations or cutting forces.
+This type of sensor can be used to measure rock cutting forces, make predictions on tool wear,
+and make classifications of rock type during rock cutting.
 
+When looking to increase the sensitivity of the capacitive load cell design, 
+most of the design parameters, shown in \ref{tab:improve},
+that can be considered, put sensitivity at odds with the other design goals of robustness and linearity.
+On the other hand, when looking to increase robustness and linearity, many design parameters 
+increase both of these qualities together. Considering these aspects of the designs highlights
+the two extremes for sensor designs in this application, sensitive and delicate designs or tough and insensitive designs.
+In a rock cutting application, the sensor should be on the tougher side or it stands to be consumed too rapidly,
+before it can provide enough useful measurements to offset its cost of inclusion in the operation.
 
 \begin{table}[]
 \centering
@@ -46,42 +78,25 @@ using the tool to protect the sensor while it measures vibrations or cutting for
 Parameter               & Robustness   & Linearity    & Sensitivity               \\ \hline
 Dielectric Thickness    & +            & +            & -   \\ \hline
 Dielectric Stiffness    & +            & +            & -   \\ \hline
-Dielectric Permittivity & No effect    & +            & +   \\ \hline
+Dielectric Permittivity & -            & +            & +   \\ \hline
 Case Walls Thickness    & +            & +            & -   \\ \hline
 Sensing Electrode Area  & +            & +            & -   \\ \hline
 \end{tabular}
 \end{table}
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=5.5in]{ch10_tf.png}
-\caption{
-Power spectral density of sensor, target, and transfer function between them.
-The regression target has been low pass filtered with a cutoff frequency of 10 Hz,
-which can be seen by the steep drop in magnitude at this point.
-The individual sensor channels have the same filter applied to limit high frequency input.
-The cross spectrum, $P_{yx}$, shows that there is good correlation between the low frequency
-components of the estimate and the target.
-The transfer function between the estimate and the target suggests that additional 
-filtering after the regression method could improve results.
-Post-processing requirements depend on the application, and 
-additional filtering after regression could be a useful technique for tuning performance.
-}
-\label{fig:sense_tf}
-\end{figure}
+When it comes to integrating this sensor with the target application,
+construction of the sensor contributes to overall linear performance.
+The steel case is assembled using the laser weld procedure described in Appendix \ref{app:laser}.
+Simulation for the capacitance of the air gap is described in Appendix \ref{app:sim}.
+Computer aided solving of the analytical model equations for the air gap and closed area sensors
+is shown in Appendix \ref{app:math}. 
 
-\begin{figure}[ht]
-\centering
-\includegraphics[width=0.5\textwidth]{ch10_airgap_and_case.jpg}
-\caption{
-The air gap sensor membrane, left, and an assembled prototype, right.
-The sensor case provides additional protection from the environment.
-The device is assembled via later welding.
-Future sensor designs could omit the steel case and integrate the sensor directly within
-the block or sleeve of the tool.
-This type of sensor measures cutting forces via the change in capacitance caused
-by the displacement of the top of the case when force is applied. 
-}
-\label{fig:airgap}
-\end{figure}
+When using this design as a template, the key parameters to consider are the stiffness of the case walls,
+the thickness of the dielectric material, and the resonant frequency of the sensor across the expected input range.
+The stiffness of the sensor case makes the sensor robust, allowing it to handle large input forces.
+The thickness of the dielectric determines the fine characteristics of the sensor deformation. 
+The resonant frequency of the sensor over the input range determines the bandwidth of the sensor.
+By carefully choosing each of these values for the application, a suitable sensor can be designed like 
+the one featured in this work.
+
 

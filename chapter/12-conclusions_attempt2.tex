@@ -1,0 +1,133 @@
+\chapter{Conclusions and Future Work
+\label{chap:11}}
+
+% Introduction: Big picture issues
+
+Underground mine safety can only be improved by the addition of technology which increases both safety and 
+productivity. By enabling real time measurement of rock cutting forces, the sensor proposed in this work
+could improve safety and productivity by allowing machine operators to make decisions in real time without delaying
+the machine operation. This will result in more efficient tool use and lead to reduced time lost from accidents.
+
+Technology is used to improve every aspect of mine operation when possible, evidenced by the large body of 
+research across many domains of mine operation \cite{LIU202412}.
+Much of the current research focusses on wireless transmission and localization systems \cite{9536741, RayChowdhury2021}.
+Other novel technology to improve miner safety and productivity even extends to smart helmets \cite{Sharma2018},
+used to augment miner senses with real time information from on board sensors.
+
+The ultimate aim of this research was to produce a force sensor capable of measuring rock cutting forces. 
+This was achieved using a capacitive load cell with mostly linear dynamics. It was necessary to iterate the design
+a few times to find a configuration that was linear enough. The sensor model was still aided by using nonlinear modeling.
+The sensor linearity could be improved by optimizing the film thickness and the number of electrodes.
+A very promising technology in the underground mine sector is chipless radio frequency identification, RFID, which uses changes
+in capacitance and environmental factors to alter the resonant frequency of a passive antenna \cite{10081221}.
+This type of technology would integrate well with the sensor proposed in this work to provide a very low-power solution.
+
+It has long been known that rock cutting forces could be used to infer rock material type or tool wear levels 
+if the material and tool condition was known. 
+One of the primary contributions of this work is validation of the hypothesis that tool wear and rock type can be 
+classified using objective differences in vibrational frequency excitation. 
+This work shows that the forces themselves are not strictly needed to make this type of classification. 
+Different rock types and tool wear conditions will excite characteristic frequencies in the cutting machinery and environment.
+This type of analysis has previously been applied to measurement while drilling, MWD, sytems \cite{LIU202412}, 
+but not for force measurements directly from the conical pick. 
+
+The \textit{a-priori} estimation of cutting forces from tool parameters and rock properties has been 
+investigated extensively, as an estimate of the expected cutting force is needed for initial tool design \cite{Li2018ATM, Morshedlou2023}.
+Other efforts to measure forces for conical picks have used custom blocks with strain gauges \cite{s23239521}, 
+or bulky experimental equipment in laboratory conditions \cite{WANG2018210}.
+This work is the first to use capacitive load cells for force sensing for conical picks. 
+These types of load cells are robust to outside interference, can tolerate large forces,
+require very little power to operate, and can be made for very low cost compared to the rest of the tooling and other solutions.
+Tools lose mass and efficiency as they wear \cite{Pawlik2022-cj}, so accurate tracking of forces during cutting requires a direct sensor.
+
+Broader impacts of this technology are increased safety for underground miners 
+and advancement of rock cutting load cell technology.
+Miner safety would be improved by allowing them to perform their role from a greater distance.
+Rock cutting load cell technology has been advanced by this study, 
+as no prior load cells using capacitive technology have been published for conical picks.
+These innovations are the result of years of methodical developments across many domains.
+
+\subsection{Summary of Methods}
+
+This work has contributed to the modeling and use cases for capacitive load cells. 
+In Chapter \ref{chap:P3}, equations for the
+closed gap sensor are developed, which show that the sensor sensitivity approaches infinity as the force increases.
+This relationship works well in the rock cutting domain, as the presence of large forces is interesting
+in both rock type and tool wear classification. 
+This relationship offsets the insensitivity of the tough sensor design, 
+allowing a robust and linear sensor to be sensitive as well.
+The dynamics of a capacitive sensor in this application will 
+naturally boost these peaks in force while reducing the sensitivity to smaller forces. This makes
+detection of the large forces easier.
+
+Based on the results in this work from acoustic tool wear classification, shown in Ch.~\ref{chap:P2}, 
+and the tool wear and rock material type classification, shown in Ch.~\ref{chap:P1}, high frequency classification 
+should also be considered a valid method for determining material type and tool wear. 
+The original goal of this research was to develop a load cell capable of measuring cutting forces.
+The first design did not meet this requirement, but it was found that the recorded measurements'
+frequency content still varied according to material type and tool wear conditions.
+The initial design was not adequately modeled by linear components, but still 
+had a consistent response in the frequency domain for different conditions.
+This type of sensor is a dynamic sensor, which means that its response
+is largely influenced by its dynamics. For the first sensor design,
+these dynamics filter and compress the vibrations while still providing enough information for classification.
+
+The sensor in this work was designed to fit a force input range of 0 to 200 kN.
+Over this range, it was desired to have at least 10 discrete values, such as increments of 20 kN.
+The bandwidth was limited by the capacitance to digital converter, 
+which read each channel at a rate of around 400 Hz. The nominal resonant frequency of the sensor 
+was around 2 MHz. The max strain for the design was set to 10\% of the length, this was to
+minimize fatigue on the case and to preserve linear model assumptions.
+
+\subsection{Summary of Results}
+
+It worked!
+
+\subsection{Discussion}
+
+This work investigated using frequency data for classification in rock cutting,
+which proved to be a functional means of identifying both tool wear and material type.
+
+Using the cutting tool to protect the sensor while it measures vibrations or cutting forces,
+the sensor was placed behind the sleeve for a balance of protecting the sensing element 
+and providing proximity to the cutting forces to be measured.
+Integrating the sensor with the conical pick would facilitate easy replacement of the sensor when the pick is replaced,
+but likely cause more sensors to be consumed due to the greater proximity to the cutting interface.
+Optimal placement of the sensor will require future testing and validation.
+
+\subsubsection{Recommendations}
+
+A simple way to improve the sensitivity of this sensor design would be to stack alternating electrodes and polyimide layers.
+Each additional layer increases the sensitivity by increasing the capacitance and reducing the overall stiffness.
+A suitable layer height for good deformation characteristics could be stacked to produce a squishier, but more sensitive sensor.
+
+Directly embedding a piezo element within the tool could
+also serve to measure higher frequency vibrations which vary with cutting parameters.
+Another use for piezo elements in the sensor would be local power generation for the sensor. 
+A sensor which could generate its own power from the large forces present would be able to 
+eliminate additional wiring from the design. Sensors that generate their own power would be able to 
+emit signal wirelessly using the power generated by on-board piezo crystals.
+
+To reduce costs for this design, one could integrate the steel case with the body of the cutting tool.
+It would be possible to create a channel for the sensing element in either the block or the sleeve, and then
+when the cutting system is assembled, these two components would act as an integrated case for the sensor.
+This type of design might increase overall shipping costs if the heavy tools must be sent around and modified before final use.
+For this reason, a separate sensor which is lightweight and easy to integrate on-site is desired.
+
+A drawback of the presented sensor design is the use of many integrated electronics. These devices are low cost and low power,
+but the margins for the sensing device are small when it comes to cost and power. A sensor design which is mostly analogue but
+still capable of wireless transmission of information would be more useful than one which requires additional power
+and translation equipment. Such a sensor would be the lowest cost design, as it would be a simple design.
+Refining the design to this point will take additional development, but is possible.
+
+\subsection{Conclusion}
+
+The impact of the sensor is limited by the distance of its transmission. 
+The further the information can reach, the more productivity can be increased for an underground mine.
+If the measurements are incorporated to the machine, the machine could have automatic emergency brakes 
+implemented to reduce accidental roof cutting. If the measurements are transmitted to operators, the operators
+can infer tool wear without stopping operation and also estimate material strength in real time.
+If the measurements are sent to an outside office, trends can be analyzed to determine when machine operators
+are the most efficient. Future work should make efforts to streamline the data pipeline starting at the sensor.
+
+

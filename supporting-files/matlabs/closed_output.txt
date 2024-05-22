@@ -1,0 +1,52 @@
+kt =
+ks + 1/(1/kpi1 + 1/kpi2)
+ 
+h =
+d1n + d2n
+ 
+d =
+F/(ks + 1/(1/kpi1 + 1/kpi2))
+
+d1 =
+F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi2/kpi1 + 1))
+ 
+d2 =
+F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi1/kpi2 + 1))
+ 
+ce1 =
+(A*e)/(d1n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi2/kpi1 + 1)))
+ 
+ce2 =
+(A*e)/(d2n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi1/kpi2 + 1)))
+ 
+cm =
+cb + (A*e)/(d1n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi2/kpi1 + 1))) + (A*e)/(d2n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi1/kpi2 + 1)))
+ 
+f =
+0.1592/(L*(cb + (A*e)/(d1n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi2/kpi1 + 1))) + (A*e)/(d2n - F/((ks + 1/(1/kpi1 + 1/kpi2))*(kpi1/kpi2 + 1)))))^0.5000
+ 
+f2 =
+0.1592/(L*(cb + (A*e)/(d1n - F/k1) + (A*e)/(d2n - F/k2)))^0.5000
+ 
+df2_dF =
+-(0.0796*L*((A*e)/(k1*(d1n - F/k1)^2) + (A*e)/(k2*(d2n - F/k2)^2)))/(L*(cb + (A*e)/(d1n - F/k1) + (A*e)/(d2n - F/k2)))^1.5000
+
+A =
+   3.7500e-04
+e =
+   2.8333e-11
+d1n =
+   1.5000e-05
+d2n =
+   2.3000e-05
+ks =
+   6.0000e+09
+kpi1 =
+   5.8000e+07
+kpi2 =
+   8.8261e+07
+L =
+   2.2000e-05
+cb =
+   1.8300e-10
+
