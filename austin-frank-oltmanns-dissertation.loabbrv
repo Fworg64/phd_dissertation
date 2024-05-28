@@ -4,15 +4,15 @@
 \protect \contentsline {abbreviation}{pico-Farad}{pF}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Inter-Intergrated Circuit}{I2C}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Universal Serial Bus}{USB}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{fast Fourier transform}{FFT}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Fast Fourier transform}{FFT}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Magnitude}{Mag.}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Full time equivalent}{FTE}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{National Institute of Occupational Safety and Health}{NIOSH}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{A-weighted decibel}{dBA}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{K-Nearest Neighbors}{KNN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Support-Vector Machine}{SVM}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{multi-layer perceptron}{MLP}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{radial basis function}{RBF}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Multi-layer Perceptron}{MLP}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Radial Basis Function}{RBF}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{United States of America}{U.S.A.}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Controller Area Netwrok}{CAN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Feed-Forward Neural Network}{FFNN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
@@ -29,9 +29,11 @@
 \protect \contentsline {abbreviation}{inches}{in.}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{Hertz}{Hz}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{kilo-Hertz}{kHz}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{mega-Hertz}{MHz}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Mega-Hertz}{MHz}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{kilo-Newtons}{kN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{mega-Newtons}{MN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
-\protect \contentsline {abbreviation}{giga-Newtons}{GN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Mega-Newtons}{MN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Giga-Newtons}{GN}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{United States Dollar}{USD}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
 \protect \contentsline {abbreviation}{milli-Watt}{mW}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Measurement While Drilling}{MWD}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
+\protect \contentsline {abbreviation}{Radio Frequency Identification}{RFID}{lstnumber.\relax Listing\protect \unhbox \voidb@x \penalty \@M \ {C}.5.{C}.52}
